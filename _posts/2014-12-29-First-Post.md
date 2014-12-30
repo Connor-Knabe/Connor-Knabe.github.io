@@ -3,6 +3,8 @@ layout: post
 title: First Blog Post
 ---
 
+Last edited: 12/30/14
+
 This blog is going to be about floating and software development.
 
 You may be wondering what floating is.  I will write a longer blog post about it in detail later.
@@ -11,5 +13,19 @@ Floating is the act of using a sensory deprivation/isolation tank in order to re
 
 The tank can be used to help people recover from workouts, relax, help with PTSD, addictions, and other mental illnesses.
 
-What a float tank looks like.
-![FloatTank]({{ site.baseurl }}/images/Sensory-Deprivation-Chamber-Would-You-Get-Into-One.jpg)
+There are various types of tanks some that are small that look like a bathtub with a roof over them to larger ones that are open and fill the size of a room.
+
+What a float tank looks like:
+![SensoryDeprivation]({{ site.baseurl }}/images/floating/Sensory-Deprivation-Chamber-Would-You-Get-Into-One.jpg)
+
+Open tank especially useful for people with claustrophobia
+![OpenFloat]({{ site.baseurl }}/images/floating/Open-Float-Tank-Neil-04-noglare.jpg)
+
+Some look futuristic
+![FloatSpa]({{ site.baseurl }}/images/floating/float-tank-spa.jpg)
+
+Others are big enough to stand up in
+![FloatRoom]({{ site.baseurl }}/images/floating/float-rooms.jpg)
+
+Another futuristic tank
+![FloatSpa]({{ site.baseurl }}/images/floating/float-isopod-floatation-tank-7.jpg)
