@@ -7,14 +7,37 @@
     <atom:link href="floatgeek.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>First Blog Post</title>
-        <description>&lt;p&gt;This blog is going to be about floating and software development&lt;/p&gt;
+        <title>Intro</title>
+        <description>&lt;h6 id=&quot;last-edited-123014&quot;&gt;Last edited: 12/30/14&lt;/h6&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/Sensory-Deprivation-Chamber-Would-You-Get-Into-One.jpg&quot; alt=&quot;FloatTank&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This blog is going to be about floating and software development.&lt;/p&gt;
+
+&lt;p&gt;You may be wondering what floating is.  I will write a longer blog post about it in detail later.&lt;/p&gt;
+
+&lt;p&gt;Floating is the act of using a sensory deprivation/isolation tank in order to remove yourself from all of your senses.&lt;/p&gt;
+
+&lt;p&gt;The tank can be used to help people recover from workouts, relax, help with PTSD, addictions, and other mental illnesses.&lt;/p&gt;
+
+&lt;p&gt;There are various types of tanks some that are small that look like a bathtub with a roof over them to larger ones that are open and fill the size of a room.&lt;/p&gt;
+
+&lt;p&gt;What a float tank looks like:
+&lt;img src=&quot;/images/floating/Sensory-Deprivation-Chamber-Would-You-Get-Into-One.jpg&quot; alt=&quot;SensoryDeprivation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Open tank especially useful for people with claustrophobia
+&lt;img src=&quot;/images/floating/Open-Float-Tank-Neil-04-noglare.jpg&quot; alt=&quot;OpenFloat&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some look futuristic
+&lt;img src=&quot;/images/floating/float-tank-spa.jpg&quot; alt=&quot;FloatSpa&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Others are big enough to stand up in
+&lt;img src=&quot;/images/floating/float-rooms.jpg&quot; alt=&quot;FloatRoom&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another futuristic tank
+&lt;img src=&quot;/images/floating/float-isopod-floatation-tank-7.jpg&quot; alt=&quot;FloatSpa&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Dec 2014 00:00:00 -0600</pubDate>
-        <link>floatgeek.com/First-Post/</link>
-        <guid isPermaLink="true">floatgeek.com/First-Post/</guid>
+        <link>floatgeek.com/Intro/</link>
+        <guid isPermaLink="true">floatgeek.com/Intro/</guid>
       </item>
     
   </channel>
