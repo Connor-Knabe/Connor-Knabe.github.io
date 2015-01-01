@@ -8,7 +8,7 @@
     
       <item>
         <title>Intro</title>
-        <description>&lt;p&gt;&lt;b&gt; Last edited: 12/30/14 &lt;/b&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;b&gt; Last edited: 1/1/15 &lt;/b&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;floating&quot;&gt;Floating&lt;/h2&gt;
 &lt;p&gt;This blog is going to be about floating and software development.&lt;/p&gt;
@@ -37,6 +37,12 @@ The tank can be used to help people recover from workouts, relax, help with PTSD
 &lt;img src=&quot;/images/floating/float-isopod-floatation-tank-7.jpg&quot; alt=&quot;FloatSpa&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;development&quot;&gt;Development&lt;/h2&gt;
+&lt;p&gt;The term “Software Development” has a lot of misconceptions associated with it.  People may hear this term and think about a nerdy kid in his mom’s basement programming a website.  Others may think of a scene from The Social Network when they were having a “Hackathon”.  When I tell people that I am a developer many of people will give me an ooh/ahh and explain how they have no idea how to code.  With this blog I would like to help debunk the myth that coding is hard.  If you know basic math and logic you can program.  It just takes time to learn these basic concepts but anyone can do it.  Development teaches you how to problem solve and to approach problems from a different perspective.  &lt;/p&gt;
+
+&lt;h4 id=&quot;quotes&quot;&gt;Quotes:&lt;/h4&gt;
+&lt;p&gt;“Everybody in this country should learn how to program a computer… because it teaches you how to think.” - Steve Jobs&lt;/p&gt;
+
+&lt;p&gt;“Talk is cheap. Show me the code.” ― Linus Torvalds&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Dec 2014 00:00:00 -0600</pubDate>
         <link>floatgeek.com/Intro/</link>
