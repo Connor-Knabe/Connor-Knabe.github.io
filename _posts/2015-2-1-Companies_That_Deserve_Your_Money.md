@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 5 Reasons why you should float
+title: Companies That Deserve Your Money
 ---
 <b> Last edited: 2/1/15 </b>
 
