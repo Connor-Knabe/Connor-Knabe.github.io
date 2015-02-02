@@ -1,52 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Float Geek</title>
-    <description>Floating and Software Development</description>
-    <link>floatgeek.com</link>
-    <atom:link href="floatgeek.com/feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>5 Reasons why you should float</title>
-        <description>&lt;p&gt;&lt;b&gt; Last edited: 1/2/15 &lt;/b&gt;&lt;/p&gt;
+	<channel>
+		<title>Float Geek</title>
+		<description>Floating and Software Development</description>
+		<link>http://floatgeek.com</link>
+		<atom:link href="http://floatgeek.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Companies That Deserve Your Money</title>
+				<description>&lt;p&gt;&lt;b&gt; Last edited: 2/1/15 &lt;/b&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;&lt;b&gt;Rdio&lt;/b&gt;&lt;/li&gt;
+        Rdio is a service that allows you to stream music for only $10 a month or $5 a month if you are a student.  The advantage of using this service compared to paying individually for songs would be that you have unlimited access to music and if you listen to over 10 new songs a month it easily could be worth it.  
+
+    &lt;li&gt;&lt;b&gt;Chipotle&lt;/b&gt;&lt;/li&gt;
+    Chipotle is not your typical Mexican restaurant.  They have a much different atmosphere than a typical restaurant.  Chipotle is very particular about where their ingredients are sourced and look for sustainable options and naturally fed meat.
+
+    &lt;li&gt;&lt;b&gt;Simple Banking&lt;/b&gt;&lt;/li&gt;
+    Simple is a bank that truly puts their customers first.  They have a built in budgeting system that can facilitate saving up for any type of purchase.  The bank is also known for having lower fees than a typical bank.  Simple is a bank you can be proud of!
+
+    &lt;li&gt;&lt;b&gt;DuckDuckGo.com&lt;/b&gt;&lt;/li&gt;
+    If your tired of worrying about who is snooping on your search engine queries look no further.  DuckDuckGo.com is a great website which doesn&#39;t track or retain information about what you search for.  Now one might not care about allowing others to view what data they look at but the main issue here is that bigger search engines put you in a filter bubble.  Here is a great TED talk about filter bubbles https://www.youtube.com/watch?v=B8ofWFx525s this explains how certain search engines will give you bias results based on your past history.  This may seem like a good thing but in reality it is not giving you an accurate picture of the world but that confirms your own beliefs.  This can be problematic and could hinder your growth as an informed person.
+
+
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sun, 01 Feb 2015 00:00:00 -0600</pubDate>
+				<link>http://floatgeek.com/2015/02/Companies_That_Deserve_Your_Money</link>
+				<guid isPermaLink="true">http://floatgeek.com/2015/02/Companies_That_Deserve_Your_Money</guid>
+			</item>
+		
+			<item>
+				<title>5 Reasons why you should float</title>
+				<description>&lt;p&gt;&lt;b&gt; Last edited: 1/2/15 &lt;/b&gt;&lt;/p&gt;
 
 &lt;ol&gt;
     &lt;li&gt;&lt;b&gt;The float tank can help us reflect on life.&lt;/b&gt;&lt;/li&gt;
     We are constantly connected to our computers, smartphones, and televisions throughout the day. How often do we have to be with ourselves to reflect on life?
     &lt;li&gt;&lt;b&gt;Allows you to approach problems from a different perspective.[1]&lt;/b&gt;&lt;/li&gt;
     Because the tank environment is unlike any other experience on earth it provides a great opportunity to totally focus on a problem at hand without distractions.  
-    &lt;li&gt;&lt;b&gt;You can learn things faster in the tank.[2]&lt;/b&gt;
-    &lt;br /&gt;
+    &lt;li&gt;&lt;b&gt;You can learn things faster in the tank.[2]&lt;/li&gt;&lt;/b&gt;
+    &lt;br&gt;
         As talked about in the The Book of Floating by Michael Hutchison there is a phenomena known as superlearning that can occur in the tank which allows you to learn things faster than outside of the tank.
-    &lt;br /&gt;
-    &lt;li&gt;&lt;b&gt;Float tanks can allow you to achieve a sense of well being[3]&lt;/b&gt;
-    &lt;br /&gt;
+    &lt;br&gt;
+    &lt;li&gt;&lt;b&gt;Float tanks can allow you to achieve a sense of well being[3]&lt;/li&gt;&lt;/b&gt;
+    &lt;br&gt;
         There have been studies that show float tanks can help you live a happier life.  This is probably due to the fact that you are spending time with yourself and this can allow you to deal with problems that may be bothering you.
-    &lt;li&gt;&lt;b&gt;Can reduce the hormone cortisol&lt;/b&gt;
-    &lt;br /&gt;
+    &lt;li&gt;&lt;b&gt;Can reduce the hormone cortisol&lt;/li&gt;&lt;/b&gt;
+    &lt;br&gt;
         Why is this beneficial? Well cortisol is known as a stress hormone which is released in response to stress.  If you can lower this hormone it may help you feel less stressed and more relaxed.
+&lt;/ol&gt;
 
-
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-[1]&quot;The Effects of REST and Hemispheric Synchronization Compared to the Effects of REST and Guided Imagery on the Enhancement of Creativity in Problem-Solving&quot; -  Baker D.A
-&lt;br /&gt;
-[2]&quot;The effects of flotation restricted environmental stimulation therapy on learning: subjective evaluation and EEG measurements&quot; - Taylor, T.
-&lt;br /&gt;
-[3]&quot;Case studies on fibromyalgia and burn-out depression using psychotherapy in combination with flotation-REST: Personality development and increased well-being.&quot; - Åsenlöf, K., Olsson, S., Bood, S. Å., &amp;amp; Norlander, T.
-&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+[1]&amp;quot;The Effects of REST and Hemispheric Synchronization Compared to the Effects of REST and Guided Imagery on the Enhancement of Creativity in Problem-Solving&amp;quot; -  Baker D.A
+&lt;br&gt;
+[2]&amp;quot;The effects of flotation restricted environmental stimulation therapy on learning: subjective evaluation and EEG measurements&amp;quot; - Taylor, T.
+&lt;br&gt;
+[3]&amp;quot;Case studies on fibromyalgia and burn-out depression using psychotherapy in combination with flotation-REST: Personality development and increased well-being.&amp;quot; - Åsenlöf, K., Olsson, S., Bood, S. Å., &amp;amp; Norlander, T.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 02 Jan 2015 00:00:00 -0600</pubDate>
-        <link>floatgeek.com/5_Reasons_To_Float/</link>
-        <guid isPermaLink="true">floatgeek.com/5_Reasons_To_Float/</guid>
-      </item>
-    
-      <item>
-        <title>Intro</title>
-        <description>&lt;p&gt;&lt;b&gt; Last edited: 1/1/15 &lt;/b&gt;&lt;/p&gt;
+				<pubDate>Fri, 02 Jan 2015 00:00:00 -0600</pubDate>
+				<link>http://floatgeek.com/2015/01/5_Reasons_To_Float</link>
+				<guid isPermaLink="true">http://floatgeek.com/2015/01/5_Reasons_To_Float</guid>
+			</item>
+		
+			<item>
+				<title>Intro</title>
+				<description>&lt;p&gt;&lt;b&gt; Last edited: 1/1/15 &lt;/b&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;floating&quot;&gt;Floating&lt;/h2&gt;
+
 &lt;p&gt;This blog is going to be about floating and software development.&lt;/p&gt;
 
 &lt;p&gt;Floating is the act of using a sensory deprivation/isolation tank in order to remove yourself from all of your senses.
@@ -55,35 +84,38 @@ The tank can be used to help people recover from workouts, relax, help with PTSD
 &lt;p&gt;There are various types of tanks some that are small that look like a bathtub with a roof over them to larger ones that are open and fill the size of a room.&lt;/p&gt;
 
 &lt;h3 id=&quot;how-it-works&quot;&gt;How it works&lt;/h3&gt;
+
 &lt;p&gt;The float tank is filled with around 800-1000lbs of Epsom salt which allows the user to float without any effort.  The density of the water is greater than the dead sea which can allow you to completely relax when lying in it.  The temperature of the water is also heated to the same temperature of the skin so you cannot feel where the water ends and the air begins.  Also there is no light and ideally no sound.  Being deprived of all of your senses can put your body into an extremely relaxed state.&lt;/p&gt;
 
-&lt;p&gt;What a float tank looks like:
-&lt;img src=&quot;/images/floating/Sensory-Deprivation-Chamber-Would-You-Get-Into-One.jpg&quot; alt=&quot;SensoryDeprivation&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;What a float tank looks like:&lt;br&gt;
+&lt;img src=&quot;/images/floating/Sensory-Deprivation-Chamber-Would-You-Get-Into-One.jpg&quot; alt=&quot;SensoryDeprivation&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;Open tank especially useful for people with claustrophobia
-&lt;img src=&quot;/images/floating/Open-Float-Tank-Neil-04-noglare.jpg&quot; alt=&quot;OpenFloat&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Open tank especially useful for people with claustrophobia&lt;br&gt;
+&lt;img src=&quot;/images/floating/Open-Float-Tank-Neil-04-noglare.jpg&quot; alt=&quot;OpenFloat&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;Some look futuristic&lt;br /&gt;
-&lt;img src=&quot;/images/floating/float-tank-spa.jpg&quot; alt=&quot;FloatSpa&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Some look futuristic&lt;br&gt;&lt;br&gt;
+&lt;img src=&quot;/images/floating/float-tank-spa.jpg&quot; alt=&quot;FloatSpa&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;Others are big enough to stand up in
-&lt;img src=&quot;/images/floating/float-rooms.jpg&quot; alt=&quot;FloatRoom&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Others are big enough to stand up in&lt;br&gt;
+&lt;img src=&quot;/images/floating/float-rooms.jpg&quot; alt=&quot;FloatRoom&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;Another futuristic tank
-&lt;img src=&quot;/images/floating/float-isopod-floatation-tank-7.jpg&quot; alt=&quot;FloatSpa&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Another futuristic tank&lt;br&gt;
+&lt;img src=&quot;/images/floating/float-isopod-floatation-tank-7.jpg&quot; alt=&quot;FloatSpa&quot;&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;development&quot;&gt;Development&lt;/h2&gt;
-&lt;p&gt;The term “Software Development” has a lot of misconceptions associated with it.  People may hear this term and think about a nerdy kid in his mom’s basement programming a website.  Others may think of a scene from The Social Network when they were having a “Hackathon”.  When I tell people that I am a developer many of people will give me an ooh/ahh and explain how they have no idea how to code.  With this blog I would like to help debunk the myth that coding is hard.  If you know basic math and logic you can program.  It just takes time to learn these basic concepts but anyone can do it.  Development teaches you how to problem solve and to approach problems from a different perspective.  &lt;/p&gt;
 
-&lt;h4 id=&quot;quotes&quot;&gt;Quotes:&lt;/h4&gt;
-&lt;p&gt;“Everybody in this country should learn how to program a computer… because it teaches you how to think.” - Steve Jobs&lt;/p&gt;
+&lt;p&gt;The term &amp;quot;Software Development&amp;quot; has a lot of misconceptions associated with it.  People may hear this term and think about a nerdy kid in his mom&amp;#39;s basement programming a website.  Others may think of a scene from The Social Network when they were having a &amp;quot;Hackathon&amp;quot;.  When I tell people that I am a developer many of people will give me an ooh/ahh and explain how they have no idea how to code.  With this blog I would like to help debunk the myth that coding is hard.  If you know basic math and logic you can program.  It just takes time to learn these basic concepts but anyone can do it.  Development teaches you how to problem solve and to approach problems from a different perspective.  &lt;/p&gt;
+
+&lt;h4 id=&quot;quotes:&quot;&gt;Quotes:&lt;/h4&gt;
+
+&lt;p&gt;&amp;quot;Everybody in this country should learn how to program a computer... because it teaches you how to think.&amp;quot; - Steve Jobs&lt;/p&gt;
 
 &lt;p&gt;“Talk is cheap. Show me the code.” ― Linus Torvalds&lt;/p&gt;
 </description>
-        <pubDate>Mon, 29 Dec 2014 00:00:00 -0600</pubDate>
-        <link>floatgeek.com/Intro/</link>
-        <guid isPermaLink="true">floatgeek.com/Intro/</guid>
-      </item>
-    
-  </channel>
+				<pubDate>Mon, 29 Dec 2014 00:00:00 -0600</pubDate>
+				<link>http://floatgeek.com/2014/12/Intro</link>
+				<guid isPermaLink="true">http://floatgeek.com/2014/12/Intro</guid>
+			</item>
+		
+	</channel>
 </rss>
