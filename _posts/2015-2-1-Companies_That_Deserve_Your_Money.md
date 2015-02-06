@@ -21,4 +21,8 @@ title: Companies That Deserve Your Money
     <li><b>DuckDuckGo.com</b></li>
     If your tired of worrying about who is snooping on your search engine queries look no further.  DuckDuckGo.com is a great website which doesn't track or retain information about what you search for.  Now one might not care about allowing others to view what data they look at but the main issue here is that bigger search engines put you in a filter bubble.  Here is a great TED talk about filter bubbles https://www.youtube.com/watch?v=B8ofWFx525s this explains how certain search engines will give you bias results based on your past history.  This may seem like a good thing but in reality it is not giving you an accurate picture of the world but that confirms your own beliefs.  This can be problematic and could hinder your growth as an informed person.
 
+    <li><b>Betterment.com</b></li>
+    Betterment is a great tool for investors that don't want to pay high fees for getting involved in the mutual fund industry.  They use low cost index funds and bonds that allow them to charge incredibly low fees.  They charge between .15% and .35% depending on how much money you have invested with them.  I highly recommend this service and use it myself.
+
+
 </ol>
