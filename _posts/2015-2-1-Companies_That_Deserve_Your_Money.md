@@ -1,3 +1,4 @@
+
 ---
 layout: post
 title: Companies That Deserve Your Money
@@ -22,7 +23,7 @@ Chipotle is not your typical Mexican restaurant.  They have a much different atm
 <br>
 Simple is a bank that truly puts their customers first.  They have a built in budgeting system that can facilitate saving up for any type of purchase.  The bank is also known for having lower fees than a typical bank.  Simple is a bank you can be proud of!
 <br><br>
-![DuckDuckGo]({{ site.baseurl }}/images/logos/DuckDuckGo-Logo.jpg)
+![DuckDuckGo]({{ site.baseurl }}/images/logos/duckduckgo-logo.jpg)
 <br>
 If your tired of worrying about who is snooping on your search engine queries look no further.  DuckDuckGo.com is a great website which doesn't track or retain information about what you search for.  Now one might not care about allowing others to view what data they look at but the main issue here is that bigger search engines put you in a filter bubble.  Here is a great TED talk about filter bubbles https://www.youtube.com/watch?v=B8ofWFx525s this explains how certain search engines will give you bias results based on your past history.  This may seem like a good thing but in reality it is not giving you an accurate picture of the world but that confirms your own beliefs.  This can be problematic and could hinder your growth as an informed person.
 <br><br>
