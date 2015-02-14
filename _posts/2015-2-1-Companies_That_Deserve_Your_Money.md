@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Companies That Deserve Your Money
