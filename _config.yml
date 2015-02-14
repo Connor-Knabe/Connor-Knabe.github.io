@@ -22,7 +22,7 @@ gaaccount: 'UA-59724979-1'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
 disqus: 'floatgeek'
-comments: false
+comments: true
 
 permalink: /:year/:month/:title
 paginate: 3
