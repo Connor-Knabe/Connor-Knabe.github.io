@@ -24,3 +24,5 @@ First off you are probably wondering what I mean by a fully automated float tank
         <li>Then you shower/float/shower (music will play in your tank when the time is up)</li>
         <li>After the float your free to leave and enjoy the post float glow</li>
     </ol>
+
+     Now the major difference between these two types of float tank centers is that one has a person present during floats.  The main reason for having an automated tank center would be to cut back on the costs of paying a person to run the front desk.  As a result of saving money the costs of each individual float could be drastically reduced.  For this automated float tank center I believe the best pricing model would be subscription based.  This would benefit both the business and the individual user because each float could be cheaper since they are buying bulk and the business would have a constant stream of revenue.
