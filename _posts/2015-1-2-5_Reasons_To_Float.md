@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 5 Reasons why you should float
+comments: true
 ---
 <b> Last edited: 1/2/15 </b>
 

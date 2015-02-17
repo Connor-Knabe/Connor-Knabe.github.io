@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Companies That Deserve Your Money
+comments: true
 ---
 <b> Last edited: 2/4/15 </b>
 
