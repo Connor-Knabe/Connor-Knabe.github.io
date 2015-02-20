@@ -12,7 +12,7 @@ First off you are probably wondering what I mean by a fully automated float tank
     <li>Talk to the person at the front desk</li>
     <li>Typically they will explain how the process works(which might include taking a shower before/after, using ear plugs, and not getting water in your eye)</li>
     <li>Enter the room you are going to float in</li>
-    <li>Then you shower/float/shower(the person will knock on the tank or you will hear music when float is over)<li>
+    <li>Then you shower/float/shower(the person will knock on the tank or you will hear music when float is over)</li>
     <li>You pay the person at the front desk</li>
     <li>After you've paid you can relax in the waiting room or leave and enjoy the post float glow</li>
 </ol>
