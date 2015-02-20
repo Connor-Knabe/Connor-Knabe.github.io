@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Automated Float Tank Center
+comments: true
 ---
 <b> Last edited: 2/20/15 </b>
 
