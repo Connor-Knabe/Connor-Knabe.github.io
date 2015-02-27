@@ -12,14 +12,11 @@ comments: true
     <li><b>Allows you to approach problems from a different perspective.[1]</b></li>
     Because the tank environment is unlike any other experience on earth it provides a great opportunity to totally focus on a problem at hand without distractions.  
     <li><b>You can learn things faster in the tank.[2]</li></b>
-    <br>
         As talked about in the The Book of Floating by Michael Hutchison there is a phenomena known as superlearning that can occur in the tank which allows you to learn things faster than outside of the tank.
     <br>
     <li><b>Float tanks can allow you to achieve a sense of well being[3]</li></b>
-    <br>
         There have been studies that show float tanks can help you live a happier life.  This is probably due to the fact that you are spending time with yourself and this can allow you to deal with problems that may be bothering you.
     <li><b>Can reduce the hormone cortisol</li></b>
-    <br>
         Why is this beneficial? Well cortisol is known as a stress hormone which is released in response to stress.  If you can lower this hormone it may help you feel less stressed and more relaxed.
 </ol>
 
