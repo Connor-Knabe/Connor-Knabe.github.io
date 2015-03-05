@@ -5,7 +5,7 @@ comments: true
 ---
 <b> Last edited: 2/20/15 </b>
 
-First off, you are probably wondering what I mean by a fully automated float tank center.  Let's start by looking at what a typical flotation center looks like.  If you are unfamiliar with a float tank center imagine a tanning salon but instead of tanning beds there are float tanks in each room. If you are curious about what a float tank looks like check out the blog post<a href="http://www.floatgeek.com/2014/12/Intro/" target="blank">here</a>.  Most of the float centers I've been to consist of a front desk where a person will help sign you in and will explain the process of how to use the tank.  The process would go something like this:
+First off, you are probably wondering what I mean by a fully automated float tank center.  Let's start by looking at what a typical flotation center looks like.  If you are unfamiliar with a float tank center imagine a tanning salon but instead of tanning beds there are float tanks in each room. If you are curious about what a float tank looks like check out the blog post <a href="http://www.floatgeek.com/2014/12/Intro/" target="blank">here</a>.  Most of the float centers I've been to consist of a front desk where a person will help sign you in and will explain the process of how to use the tank.  The process would go something like this:
 
 <ol>
     <li>Walk into float center(usually after having made an appointment)</li>
