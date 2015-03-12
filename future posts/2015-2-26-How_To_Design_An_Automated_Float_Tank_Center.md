@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How To Design An Automated Float Tank Center
+title: 3 Parts of An Automated Float Tank Center
 comments: true
 ---
 <b> Last edited: 2/26/15 </b>
@@ -47,4 +47,6 @@ Certain problems can appear at this stage of the process:
     <li>What if the floater has health complications in the tank?</li>
 </ol>
 
-To combat some of these problems.........
+
+
+To combat some of these problems there will need to be fail-safes in place.  Let's take the example of the floater arriving late for their appointment.  In this case the floater would need to arrive at least 15 minutes late and the door would not allow them to enter.  This would keep the process moving smoothly because if a floater arrives late it could push back the floats for other people.  
