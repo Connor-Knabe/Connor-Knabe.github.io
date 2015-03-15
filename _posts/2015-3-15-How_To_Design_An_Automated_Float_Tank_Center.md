@@ -59,4 +59,4 @@ The third problem is a bit tricky because without someone being on site it might
 In between float sessions it is necessary to run the tank's filtration system in order to clean all of the water of bad bacteria and pathogens that may have accumulated after a person's float.  This system will be implemented by using a motion detector to sense when a person has gotten out of the tank and has started their post float shower.  Something to keep in mind the system would have to verify that that floater's time has been used up in the event that they were planning on going back to continue floating.  
 
 <h3>Summary</h3>
-To sum things up there is a lot of technical aspects that go into creating an automated float tank center.  Clearly this system needs to be well thought out ahead of time and designed carefully with fail-safes in place to help deal with any problems that might occur.
+To sum things up there are a lot of technical aspects that go into creating an automated float tank center.  Clearly this system needs to be well thought out ahead of time and designed carefully with fail-safes in place to help deal with any problems that might occur.
