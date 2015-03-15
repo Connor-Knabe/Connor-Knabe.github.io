@@ -6,7 +6,6 @@ comments: true
 <b> Last edited: 3/15/15 </b>
 
 <h3>Various components to the system</h3>
-This post may get a bit technical so if some of this information seems to be a bit dry to you feel free to skip around.  
 The reason for this post is to speak in more detail about what will be required to create a fully automated float center. Some of the components that will need to be implemented will include Arduinos(microcontrollers), access cards(to get into building), a database(storing user info), Stripe/Paypal(credit card processor), and networking to tie the whole system into the internet.  
 
 We will break down the whole system into 3 different systems. These systems are:
