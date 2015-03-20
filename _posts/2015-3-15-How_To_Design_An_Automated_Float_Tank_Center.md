@@ -3,7 +3,6 @@ layout: post
 title: 3 Parts of An Automated Float Tank Center
 comments: true
 ---
-<b> Last edited: 3/15/15 </b>
 
 The reason for this post is to speak in more detail about what will be required to create a fully automated float center. Some of the components that will need to be implemented will include Arduinos(microcontrollers), access cards(to get into building), a database(storing user info), Stripe/Paypal(credit card processor), and networking to tie the whole system into the internet.  
 

@@ -3,9 +3,6 @@ layout: post
 title: 5 Reasons why you should float
 comments: true
 ---
-<b> Last edited: 1/2/15 </b>
-
-
 <ol>
     <li><b>The float tank can help us reflect on life.</b></li>
     We are constantly connected to our computers, smartphones, and televisions throughout the day. How often do we have to be with ourselves to reflect on life?

@@ -3,9 +3,6 @@ layout: post
 title: Companies That Deserve Your Money
 comments: true
 ---
-<b> Last edited: 2/20/15 </b>
-
-
 <br><br>
 
 
