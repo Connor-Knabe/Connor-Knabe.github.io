@@ -27,3 +27,8 @@ Here is what the Escape Pod looks like.
 There are some advantages of buying a higher end tank of course like the filtration system typically is of much higher quality than a cheaper tank and that is a big part of the cost.  If you are only using the tank for yourself and a few friends and family members an extensive filtration system is not as important.  
 
 In the case of my setup I will have another filtration system besides the standard one that comes with the Zen Float Tent.  The reason being is that I know many people who are interested in floating and want to make sure the water is very pure for them.
+
+
+Custom filtration system:
+
+<a href="http://www.amazon.com/Intex-1500-Gallon-Filter-Pump-120-Volt/dp/B005QIYM6E/ref=sr_1_1?srs=2594064011&ie=UTF8&qid=1431293710&sr=8-1&keywords=Intex+1500+Pool+filter+pump" target="blank"><img class="logo" src="{{ site.baseurl }}/images/tank/filter.jpg" /></a>
