@@ -32,3 +32,9 @@ In the case of my setup I will have another filtration system besides the standa
 Custom filtration system:
 
 <a href="http://www.amazon.com/Intex-1500-Gallon-Filter-Pump-120-Volt/dp/B005QIYM6E/ref=sr_1_1?srs=2594064011&ie=UTF8&qid=1431293710&sr=8-1&keywords=Intex+1500+Pool+filter+pump" target="blank"><img class="logo" src="{{ site.baseurl }}/images/tank/filter.jpg" /></a>
+
+
+Sound isolation is a typical problem with float tanks especially low vibrational sounds such as people walking or cars driving by.  
+
+To solve this issue I plan on purchasing a neoprene rubber anti-vibration pad to help absorb these sounds.
+<a href="http://www.amazon.com/Shop-Fox-W1322-Anti-Vibration-24-Inch/dp/B000OQTV2I/ref=sr_1_1/191-8040367-2256009?ie=UTF8&qid=1431379730&sr=8-1&keywords=neoprene+sheet" target="blank"><img class="logo" src="{{ site.baseurl }}/images/tank/"vibrationpad.jpg" /></a>
