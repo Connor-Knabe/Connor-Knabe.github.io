@@ -7,22 +7,87 @@
 		<atom:link href="http://floatgeek.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Automated Float Tank Center</title>
-				<description>&lt;p&gt;&lt;b&gt; Last edited: 2/20/15 &lt;/b&gt;&lt;/p&gt;
+				<title>3 Parts of An Automated Float Tank Center</title>
+				<description>&lt;p&gt;The reason for this post is to speak in more detail about what will be required to create a fully automated float center. Some of the components that will need to be implemented will include Arduinos(microcontrollers), access cards(to get into building), a database(storing user info), Stripe/Paypal(credit card processor), and networking to tie the whole system into the internet.  &lt;/p&gt;
 
-&lt;p&gt;First off you are probably wondering what I mean by a fully automated float tank center.  Lets start by looking at what a typical flotation center looks like.  If you are unfamiliar with a float tank center imagine a tanning salon but instead of tanning beds there are float tanks in each room.  Most of the float centers I&amp;#39;ve been to consist of a front desk where a person will help sign you in and will explain the process of how to use the tank.  The process would go something like this:&lt;/p&gt;
+&lt;h3&gt;Various components to the system&lt;/h3&gt;
+
+&lt;p&gt;We will break down the whole system into 3 different systems. These systems are:
+&lt;ol&gt;
+    &lt;li&gt;Scheduling/Billing System&lt;/li&gt;
+    &lt;li&gt;Building security&lt;/li&gt;
+    &lt;li&gt;Filtration/clean up&lt;/li&gt;
+&lt;/ol&gt;&lt;/p&gt;
+
+&lt;h3&gt;Scheduling/Billing System&lt;/h3&gt;
+
+&lt;p&gt;This is the system that will be designed around a website that will allow floaters to sign up on the website and schedule floats.&lt;br&gt;
+There are already many versions of this type of software developed however one needs to be custom designed to fit in with the automated float center. Some examples include:
+&lt;ol&gt;
+    &lt;li&gt;&lt;a href=&quot;https://floathelm.com/&quot; target=&quot;blank&quot;&gt;FloatHelm&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.frontdeskhq.com/&quot; target=&quot;blank&quot;&gt;FrontDesk&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://zenplanner.com/&quot; target=&quot;blank&quot;&gt;ZenPlanner&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.mindbodyonline.com/&quot; target=&quot;blank&quot;&gt;MindBodyOnline&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+Scheduling all starts with the customer wanting to book at float online.  He will go to the website and there will be a button that will pull up the scheduling application.  From there they can pick the time they want to float and then pay using a credit card.  This system will need to be tied into the building security system which will permit the user to gain access using their access card or PIN number when they show up to float.&lt;/p&gt;
+
+&lt;p&gt;This process might look like this:&lt;br&gt;
+&lt;ol&gt;
+    &lt;li&gt;User books/pays for float online&lt;/li&gt;
+    &lt;li&gt;Access card is activated for the time they have scheduled&lt;/li&gt;
+    &lt;li&gt;They show up and their access card allows them to enter their specified float room&lt;/li&gt;
+&lt;/ol&gt;&lt;/p&gt;
+
+&lt;h3&gt;Building security&lt;/h3&gt;
+
+&lt;p&gt;In order to maintain security for the building and the customers who use this facility there must be strict access into the building only permitted if that user has scheduled a float.
+The reason for strict access is that we only want floaters who are permitted into the facility at their designated float time,  if this is not the case then people may be tempted to steal floats or to disrupt the peaceful waiting room which could become overcrowded.  The access control software would be able to keep track of how long users stay at the float tank center including time during, before, and after their float.  These metrics would be a lot easier to obtain if the only permitted people into the building have been authorized to float.  These metrics could be used to help cut back on unnecessary time spent between float sessions and to help provide an overall better experience for the floater.&lt;/p&gt;
+
+&lt;p&gt;This aspect of the float center would operate similar to a 24/7 tanning salon except that users only have a certain time window in which they can gain access to the facility.  This system would need an access card reader or PIN pad on the front door and on each of the float tank room doors.  When the user arrives they will already know which room they are floating in via text message or email, so they can go into the facility and head to the room they have booked for floating.  Once the user enters their room they will take a shower and then enter the tank.  A sensor will be placed on the door of the room which will detect when it was opened and will know to start a timer which will play music in the tank when the float time is up.  &lt;/p&gt;
+
+&lt;p&gt;Certain problems can appear at this stage of the process:
+&lt;ol&gt;
+    &lt;li&gt;What if the floater arrives late for their float?&lt;/li&gt;
+    &lt;li&gt;How do you prevent a floater from staying longer in the tank?&lt;/li&gt;
+    &lt;li&gt;What if the floater has health complications in the tank?&lt;/li&gt;
+&lt;/ol&gt;&lt;/p&gt;
+
+&lt;p&gt;To combat some of these problems there will need to be fail-safes in place.  Let&amp;#39;s take the example of the floater arriving late for their appointment.  If the floater arrives more than 15 minutes late the front door would not allow them to enter.  This would keep the process moving smoothly because if a floater arrives late it could push back the floats for other people.  &lt;/p&gt;
+
+&lt;p&gt;In the event that a floater stays in the tank longer than scheduled, there will be various ways to &amp;quot;encourage&amp;quot; them to get out of the tank. When the time is up there first might be some music that begins to play in their float tank.  Then if they still have not gotten out (motion sensor to detect this) a light could come on and then start flashing if they continue to stay in the tank.  &lt;/p&gt;
+
+&lt;p&gt;The third problem is a bit tricky because without someone being on site it might be hard to know if someone is having problems in the tank.  This issue could be compared to a swimming pool that has no lifeguard on duty where there would be a disclaimer that in the event something bad happens there may be no one to help you.  Besides this disclaimer another useful option would be to place an &amp;quot;emergency&amp;quot; button inside the tank so if the floater is having issues they can hit the button and it will dial 911 and they could talk to them via a speaker in the tank.  &lt;/p&gt;
+
+&lt;h3&gt;Filtration/clean up&lt;/h3&gt;
+
+&lt;p&gt;In between float sessions it is necessary to run the tank&amp;#39;s filtration system in order to clean all of the water of bad bacteria and pathogens that may have accumulated after a person&amp;#39;s float.  This system will be implemented by using a motion detector to sense when a person has gotten out of the tank and has started their post float shower.  Something to keep in mind the system would have to verify that that floater&amp;#39;s time has been used up in the event that they were planning on going back to continue floating.  &lt;/p&gt;
+
+&lt;p&gt;Typically the floater will use a towel, ear plugs, and maybe Q-tips which they will need to dispose of after their float is over.  For this type of float center there would be a trash can and a laundry basket in order to keep the room clean.  Also it is critical that there is a large stack of towels laid out so that the every floater will have fresh towels throughout the day.  At the end of the day there will need to be a person who comes in an does laundry and takes out the trash.  There could be an incentive where a floater gets one float at half price if they do some chores around the center and help clean up.&lt;/p&gt;
+
+&lt;h3&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;To sum things up there are a lot of technical aspects that go into creating an automated float tank center.  Clearly this system needs to be well thought out ahead of time and designed carefully with fail-safes in place to help deal with any problems that might occur.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 15 Mar 2015 00:00:00 -0500</pubDate>
+				<link>http://floatgeek.com/2015/03/How_To_Design_An_Automated_Float_Tank_Center%20copy</link>
+				<guid isPermaLink="true">http://floatgeek.com/2015/03/How_To_Design_An_Automated_Float_Tank_Center%20copy</guid>
+			</item>
+		
+			<item>
+				<title>Automated Float Tank Center</title>
+				<description>&lt;p&gt;First off, you are probably wondering what I mean by a fully automated float tank center.  Let&amp;#39;s start by looking at what a typical flotation center looks like.  If you are unfamiliar with a float tank center imagine a tanning salon but instead of tanning beds there are float tanks in each room. If you are curious about what a float tank looks like check out the blog post &lt;a href=&quot;http://www.floatgeek.com/2014/12/Intro/&quot; target=&quot;blank&quot;&gt;here&lt;/a&gt;.  Most of the float centers I&amp;#39;ve been to consist of a front desk where a person will help sign you in and will explain the process of how to use the tank.  The process would go something like this:&lt;/p&gt;
 
 &lt;ol&gt;
-    &lt;li&gt;Walk into float center(usually after having made an appointment)&lt;/li&gt;
+    &lt;li&gt;Walk into float center (usually after having made an appointment)&lt;/li&gt;
     &lt;li&gt;Talk to the person at the front desk&lt;/li&gt;
-    &lt;li&gt;Typically they will explain how the process works(which might include taking a shower before/after, using ear plugs, and not getting water in your eye)&lt;/li&gt;
+    &lt;li&gt;Typically they will explain how the process works (which might include taking a shower before/after, using ear plugs, and not getting water in your eye)&lt;/li&gt;
     &lt;li&gt;Enter the room you are going to float in&lt;/li&gt;
-    &lt;li&gt;Then you shower/float/shower(the person will knock on the tank or you will hear music when float is over)&lt;/li&gt;
+    &lt;li&gt;Then you shower/float/shower (the person will knock on the tank or you will hear music when float is over)&lt;/li&gt;
     &lt;li&gt;You pay the person at the front desk&lt;/li&gt;
-    &lt;li&gt;After you&#39;ve paid you can relax in the waiting room or leave and enjoy the post float glow&lt;/li&gt;
+    &lt;li&gt;After you&#39;ve paid, you can relax in the waiting room or leave and enjoy the post float glow&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Having a fully automated float center could substantially cut back on the overhead expenses of paying a person to run the front desk.  The process would essentially be the same except for speaking with a person you would go to the room you booked online.  Keep in mind this system is designed for people who have experience floating so they won&amp;#39;t need someone to explain details.  This process might go something like this.
+&lt;p&gt;Having a fully automated float center could substantially cut back on the overhead expenses of paying a person to run the front desk.  The process would essentially be the same, except for speaking with a person you would go to the room you booked online.  Keep in mind, this system is designed for people who have experience floating so they won&amp;#39;t need someone to explain details.  This process might go something like this:
 &lt;ol&gt;
     &lt;li&gt;Book a float online and pay with a credit card&lt;/li&gt;
     &lt;li&gt;Visit the float center with an access card or a 4 digit PIN that will allow you to get into the building&lt;/li&gt;
@@ -31,7 +96,7 @@
     &lt;li&gt;After the float your free to leave and enjoy the post float glow&lt;/li&gt;
 &lt;/ol&gt;&lt;/p&gt;
 
-&lt;p&gt;Now the major difference between these two types of float tank centers is that one has a person present during floats.  Having an automated float center eliminates this extra cost which results in giving the customer access to cheaper floats.  For this automated float tank center I believe the best pricing model would be subscription based. I could see this extremely useful for a floating cooperative business so that after each person floats they might add a bit more salt into the tank, wipe the tank down, and put their dirty towel into a laundry basket. This could be a very sustainable business since a majority of the cost for running a float tank center comes from paying a staff to be there to check people in.  Something to keep in mind is that this is a very high level overview of what I see in my ideal float center.  In future posts I will break it down into exactly how the system will be setup.  &lt;/p&gt;
+&lt;p&gt;Now the major difference between these two types of float tank centers is that one has a person present during floats.  Having an automated float center eliminates this extra cost which results in giving the customer access to cheaper floats.  For this automated float tank center I believe the best pricing model would be subscription based. I could see this being extremely useful for a floating cooperative business so that after each person floats they might add a bit more salt into the tank, wipe the tank down, and put their dirty towel into a laundry basket. This could be a very sustainable business since a majority of the cost for running a float tank center comes from paying a staff to be there to check people in.  Something to keep in mind is that this is a very high level overview of what I see in my ideal float center.  In future posts I will break it down into exactly how the system will be setup.  &lt;/p&gt;
 </description>
 				<pubDate>Fri, 20 Feb 2015 00:00:00 -0600</pubDate>
 				<link>http://floatgeek.com/2015/02/Automated_Float_Tank_Center</link>
@@ -40,21 +105,19 @@
 		
 			<item>
 				<title>Companies That Deserve Your Money</title>
-				<description>&lt;p&gt;&lt;b&gt; Last edited: 2/20/15 &lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+				<description>&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://coach.me&quot; target=&quot;blank&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logos/coachme.png&quot; /&gt;&lt;/a&gt;
 &lt;br&gt;
-    Coach.me is a website and mobile application that helps you reach your goals.  The idea is you can sign up for various goals such as (no alcohol, no cigarettes, meditation etc) and you can keep track of the days you complete your habit.  This is such a powerful tool that can really help you achieve whatever you are trying to accomplish.  I highly recommend this and have been using it since November 2012.
+    Coach.me is a website and mobile application that helps you reach your goals.  The idea is you can sign up for various goals such as (no alcohol, no cigarettes, meditation, etc.) and you can keep track of the days you complete your habit.  This is such a powerful tool that can really help you achieve whatever you are trying to accomplish.  I highly recommend this and have been using it since November 2012.
 &lt;br&gt;&lt;br&gt;
 &lt;a href=&quot;http://rdio.com&quot; target=&quot;blank&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logos/rdio-logo-300x132.png&quot; /&gt;&lt;/a&gt;
 &lt;br&gt;
-    Rdio is a service that allows you to stream music for only $10 a month or $5 a month if you are a student.  The advantage of using this service compared to paying individually for songs would be that you have unlimited access to music and if you listen to over 10 new songs a month it easily could be worth it.&lt;br&gt;
+    Rdio is a service that allows you to stream music for only $10 a month or $5 a month if you are a student.  The advantage of using this service compared to paying individually for songs would be that you have unlimited access to music.  Also, if you listen to over 10 new songs a month it easily could be worth it.&lt;br&gt;
 &lt;br&gt;&lt;br&gt;
 &lt;a href=&quot;http://chipotle.com&quot; target=&quot;blank&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logos/chipotle_logo_horizontal_inv.gif&quot; /&gt;&lt;/a&gt;
 &lt;br&gt;
-Chipotle is not your typical Mexican restaurant.  They have a much different atmosphere than a typical restaurant.  Chipotle is very particular about where their ingredients are sourced and look for sustainable options and naturally fed meat.
+Chipotle is not your typical Mexican restaurant.  They have a very different atmosphere than a typical restaurant.  Chipotle is very particular about where their ingredients are sourced, and look for sustainable options and naturally fed meat.
 &lt;br&gt;&lt;br&gt;
 &lt;a href=&quot;https://simple.com&quot; target=&quot;blank&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logos/simple-bank-branding-2.jpg&quot; /&gt;&lt;/a&gt;
 &lt;br&gt;
@@ -63,7 +126,7 @@ Simple is a bank that truly puts their customers first.  They have a built in bu
 
 &lt;p&gt;&lt;a href=&quot;https://duckduckgo.com&quot; target=&quot;blank&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logos/duckduckgo-logo.jpg&quot; /&gt;&lt;/a&gt;
 &lt;br&gt;
-If your tired of worrying about who is snooping on your search engine queries look no further.  DuckDuckGo.com is a great website which doesn&amp;#39;t track or retain information about what you search for.  Now one might not care about allowing others to view what data they look at but the main issue here is that bigger search engines put you in a filter bubble.  Here is a great TED talk about filter bubbles which explains how certain search engines will give you bias results based on your past history.  This may seem like a good thing but in reality it is not giving you an accurate picture of the world but that confirms your own beliefs.&lt;/p&gt;
+If your tired of worrying about who is snooping on your search engine queries look no further.  DuckDuckGo.com is a great website which doesn&amp;#39;t track or retain information about what you search for.  Now, one might not care about allowing others to view what data they look at but the main issue here is that bigger search engines put you in a filter bubble.  Here is a great TED talk about filter bubbles that explains how certain search engines will give you bias results based on your past history.  This may seem like a good thing, but in reality it is not giving you an accurate picture of the world, but that confirms your own beliefs.&lt;/p&gt;
 
 &lt;div class=&quot;auto-resizable-iframe&quot;&gt;
    &lt;div&gt;
@@ -87,20 +150,18 @@ Betterment is a great tool for investors that don&amp;#39;t want to pay high fee
 		
 			<item>
 				<title>5 Reasons why you should float</title>
-				<description>&lt;p&gt;&lt;b&gt; Last edited: 1/2/15 &lt;/b&gt;&lt;/p&gt;
-
-&lt;ol&gt;
+				<description>&lt;ol&gt;
     &lt;li&gt;&lt;b&gt;The float tank can help us reflect on life.&lt;/b&gt;&lt;/li&gt;
     We are constantly connected to our computers, smartphones, and televisions throughout the day. How often do we have to be with ourselves to reflect on life?
     &lt;li&gt;&lt;b&gt;Allows you to approach problems from a different perspective.[1]&lt;/b&gt;&lt;/li&gt;
-    Because the tank environment is unlike any other experience on earth it provides a great opportunity to totally focus on a problem at hand without distractions.  
+    Because the tank environment is unlike any other experience on earth, it provides a great opportunity to totally focus on a problem at hand without distractions.  
     &lt;li&gt;&lt;b&gt;You can learn things faster in the tank.[2]&lt;/li&gt;&lt;/b&gt;
-        As talked about in the The Book of Floating by Michael Hutchison there is a phenomena known as superlearning that can occur in the tank which allows you to learn things faster than outside of the tank.
+        As talked about in the &lt;i&gt;The Book of Floating&lt;/i&gt; by Michael Hutchison there is a phenomena known as superlearning, which allows you to learn things faster than outside of the tank.
     &lt;br&gt;
     &lt;li&gt;&lt;b&gt;Float tanks can allow you to achieve a sense of well being[3]&lt;/li&gt;&lt;/b&gt;
         There have been studies that show float tanks can help you live a happier life.  This is probably due to the fact that you are spending time with yourself and this can allow you to deal with problems that may be bothering you.
     &lt;li&gt;&lt;b&gt;Can reduce the hormone cortisol&lt;/li&gt;&lt;/b&gt;
-        Why is this beneficial? Well cortisol is known as a stress hormone which is released in response to stress.  If you can lower this hormone it may help you feel less stressed and more relaxed.
+        Why is this beneficial? Well, cortisol is known as a stress hormone which is released in response to stress.  If you can lower this hormone it may help you feel less stressed and more relaxed.
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br&gt;
@@ -119,25 +180,23 @@ Betterment is a great tool for investors that don&amp;#39;t want to pay high fee
 		
 			<item>
 				<title>Short Intro To This Blog</title>
-				<description>&lt;p&gt;&lt;b&gt; Last edited: 1/1/15 &lt;/b&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;floating&quot;&gt;Floating&lt;/h2&gt;
+				<description>&lt;h2 id=&quot;floating&quot;&gt;Floating&lt;/h2&gt;
 
 &lt;p&gt;This blog is going to be about floating and software development.&lt;/p&gt;
 
 &lt;p&gt;Floating is the act of using a sensory deprivation/isolation tank in order to remove yourself from all of your senses.
 The tank can be used to help people recover from workouts, relax, help with PTSD, addictions, and other mental illnesses.&lt;/p&gt;
 
-&lt;p&gt;There are various types of tanks some that are small that look like a bathtub with a roof over them to larger ones that are open and fill the size of a room.&lt;/p&gt;
+&lt;p&gt;There are various types of tanks, some of which are small and look like a bathtub with a roof over them, while others are larger, open and fill the size of a room.&lt;/p&gt;
 
 &lt;h3 id=&quot;how-it-works&quot;&gt;How it works&lt;/h3&gt;
 
-&lt;p&gt;The float tank is filled with around 800-1000lbs of Epsom salt which allows the user to float without any effort.  The density of the water is greater than the dead sea which can allow you to completely relax when lying in it.  The temperature of the water is also heated to the same temperature of the skin so you cannot feel where the water ends and the air begins.  Also there is no light and ideally no sound.  Being deprived of all of your senses can put your body into an extremely relaxed state.&lt;/p&gt;
+&lt;p&gt;The float tank is filled with around 800-1,000 lbs of Epsom salt which allows the user to float without any effort.  The density of the water is greater than the dead sea which can allow you to completely relax when lying in it.  The temperature of the water is also heated to the same temperature of the skin so you cannot feel where the water ends and the air begins.  Also, there is no light and ideally no sound.  Being deprived of all of your senses can put your body into an extremely relaxed state.&lt;/p&gt;
 
 &lt;p&gt;What a float tank looks like:&lt;br&gt;
 &lt;img src=&quot;/images/floating/Sensory-Deprivation-Chamber-Would-You-Get-Into-One.jpg&quot; alt=&quot;SensoryDeprivation&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;Open tank especially useful for people with claustrophobia&lt;br&gt;
+&lt;p&gt;Open tank, especially useful for people with claustrophobia&lt;br&gt;
 &lt;img src=&quot;/images/floating/Open-Float-Tank-Neil-04-noglare.jpg&quot; alt=&quot;OpenFloat&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Some look futuristic&lt;br&gt;&lt;br&gt;
@@ -151,7 +210,7 @@ The tank can be used to help people recover from workouts, relax, help with PTSD
 
 &lt;h2 id=&quot;development&quot;&gt;Development&lt;/h2&gt;
 
-&lt;p&gt;The term &amp;quot;Software Development&amp;quot; has a lot of misconceptions associated with it.  People may hear this term and think about a nerdy kid in his mom&amp;#39;s basement programming a website.  Others may think of a scene from The Social Network when they were having a &amp;quot;Hackathon&amp;quot;.  When I tell people that I am a developer many of people will give me an ooh/ahh and explain how they have no idea how to code.  With this blog I would like to help debunk the myth that coding is hard.  If you know basic math and logic you can program.  It just takes time to learn these basic concepts but anyone can do it.  Development teaches you how to problem solve and to approach problems from a different perspective.  &lt;/p&gt;
+&lt;p&gt;The term &amp;quot;software development&amp;quot; has a lot of misconceptions associated with it.  People may hear this term and think about a nerdy kid in his mom&amp;#39;s basement programming a website.  Others may think of a scene from &lt;i&gt;The Social Network&lt;/i&gt; when they were having a &amp;quot;Hackathon&amp;quot;.  When I tell people that I am a developer many of people will give me an &amp;quot;ooh/ahh&amp;quot; and explain how they have no idea how to code.  With this blog I would like to help debunk the myth that coding is hard.  If you know basic math and logic you can program.  It just takes time to learn these basic concepts, but anyone can do it.  Development teaches you how to problem solve and to approach problems from a different perspective.  &lt;/p&gt;
 
 &lt;h4 id=&quot;quotes:&quot;&gt;Quotes:&lt;/h4&gt;
 
