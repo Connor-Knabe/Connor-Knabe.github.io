@@ -6,7 +6,7 @@ comments: true
 
 This is the Zen Float Tent. I have decided after a long debate to buy this and set it up in my home.
 
-<a href="http://zenfloatco.com" target="blank"><img class="logo" src="{{ site.baseurl }}/images/tank/zenfloattent.jpeg" /></a>
+<a href="http://zenfloatco.com" target="blank"><img class="logo" src="{{ site.baseurl }}/images/tank/rsz_zenfloattent.jpeg" /></a>
 
 This idea of getting a float tank has been bouncing around in my mind for a couple of years now.  I had thought about the Escape Pod Tank and the Samadhi tank but just couldn't justify the cost.
 
@@ -22,7 +22,7 @@ Three reasons why to choose the Zen Float Tent:
 Most tanks out there very expensive usually $8,000 or more.  The Escape Pod is an exception to this being around $6,000 for the residential version.  This makes the barrier of entry for owning a float tank in your own home pretty difficult unless you have money to blow.  
 
 Here is what the Escape Pod looks like.
-<a href="http://escapepodtank.com" target="blank"><img class="logo" src="{{ site.baseurl }}/images/tank/escapepod.jpg" /></a>
+<a href="http://escapepodtank.com" target="blank"><img class="logo" src="{{ site.baseurl }}/images/tank/rsz_escapepod.jpg" /></a>
 
 There are some advantages of buying a higher end tank of course like the filtration system typically is of much higher quality than a cheaper tank and that is a big part of the cost.  If you are only using the tank for yourself and a few friends and family members an extensive filtration system is not as important.  
 
