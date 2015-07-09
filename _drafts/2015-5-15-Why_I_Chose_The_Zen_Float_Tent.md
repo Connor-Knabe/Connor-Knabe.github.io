@@ -6,7 +6,7 @@ comments: true
 
 This is the Zen Float Tent. I have decided after a long debate to buy this and set it up in my home.
 
-<a href="http://zenfloatco.com" target="blank"><img class="logo" src="{{ site.baseurl }}/images/tank/rsz_zenfloattent.jpeg" /></a>
+<a href="http://zenfloatco.com" target="blank"><img class="logo" src="{{ site.baseurl }}/images/tank/rsz_zenfloattent.jpg" /></a>
 
 This idea of getting a float tank has been bouncing around in my mind for a couple of years now.  I had thought about the Escape Pod Tank and the Samadhi tank but just couldn't justify the cost.
 
