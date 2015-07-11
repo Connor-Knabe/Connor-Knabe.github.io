@@ -30,7 +30,8 @@ Typically with a commercial grade tank they have higher end filters that clean t
 <h4>Custom filtration system:</h4>
 
 Possible additional filter
-<a href="http://www.amazon.com/Intex-1500-Gallon-Filter-Pump-120-Volt/dp/B005QIYM6E/ref=sr_1_1?srs=2594064011&ie=UTF8&qid=1431293710&sr=8-1&keywords=Intex+1500+Pool+filter+pump" target="blank"><img src="{{ site.baseurl }}/images/tank/filter.jpg" /></a>
+
+<a href="http://www.amazon.com/Intex-1500-Gallon-Filter-Pump-120-Volt/dp/B005QIYM6E/ref=sr_1_1?srs=2594064011&ie=UTF8&qid=1431293710&sr=8-1&keywords=Intex+1500+Pool+filter+pump" target="blank"><img src="{{ site.baseurl }}/images/tank/rsz_filter.jpg" /></a>
 
 Along with this tank I plan on using 35% hydrogen peroxide to help sanitize the water. H202 + UV has been studied as an effective way to clean/disinfect the water. See the EPA post about it <a href="http://iaspub.epa.gov/tdb/pages/treatment/treatmentOverview.do?treatmentProcessId=-300168699"/>here.</a> There also have been many studies done on the combination of UV + H202 in disinfecting water which can be found on<a href="https://scholar.google.com/scholar?start=10&q=h202+and+uv+sanitizing+water&hl=en&as_sdt=0,26"/> Google Scholar.</a>
 If your really interested in how this works UV + H202 forms <a href="https://en.wikipedia.org/wiki/Hydroxyl_radical"/>hydroxyl radicals</a>which are often referred to as the "detergents" of the atmosphere because they react with many pollutants, often acting as the first step to their removal.  This makes sense that UV + H202 can disinfect water effectively.
@@ -55,6 +56,5 @@ To solve this issue I plan on purchasing a neoprene rubber anti-vibration pad to
 <a href="http://www.amazon.com/Shop-Fox-W1322-Anti-Vibration-24-Inch/dp/B000OQTV2I/ref=sr_1_1/191-8040367-2256009?ie=UTF8&qid=1431379730&sr=8-1&keywords=neoprene+sheet" target="blank"><img src="{{ site.baseurl }}/images/tank/vibrationPad.jpeg" /></a>
 
 Finally there is the issue of the tank leaking if some sharp object gets into the tank and tears the vinyl.  For this I plan on purchasing an industrial spill berm to catch water if the tent leaks.  
-
 
 <a href="http://www.aireindustrial.net/spill-berms/spill-containment-berm.asp" target="blank"><img src="{{ site.baseurl }}/images/tank/spillberm.jpg" /></a>
