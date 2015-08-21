@@ -30,12 +30,12 @@ Another great talk was by Emily Noren, a young woman that had anorexia, who disc
 There was a great talk by Nick from <a href="http://truerest.com/">True REST</a> and Andy from <a href="http://www.floathouse.ca/">Float House</a> which are two large franchises the former started in Arizona and the latter Canada.  They were explaining how float centers shouldn't devalue the floats by continuously offering discounts like Groupon, Social Shopper, and Living Social.  They were explaining how the industry is taking off and float centers are popping up rapidly.  For example in 2009 in the USA there were around 15-20 float centers with 3+ tanks and in Canada there was just 1 center.  In 2015 there are now 271 active float centers in the USA and in Canada there are 56 active float centers.  Floating seems to be spreading faster than ever and I don't see it slowing down anytime soon.  Especially based on the fact that there were about 500 people at the conference this year.  
 
 <h3>Glenn and Lee Perry</h3>
-<a href="http://www.samadhitank.com/" target="blank"><img src="{{ site.baseurl }}/images/2015conference/IMG_6643.jpg" /></a>
+<a href="http://www.samadhitank.com/" target="blank"><img src="{{ site.baseurl }}/images/2015conference/IMG_6643.JPG" /></a>
 Glenn and Lee Perry were at this years conference again.  Glenn and Lee were two of the first residential float tank manufactures back in the 1970s with John Lilly creating the first tank outside of the research labs. They have a company called <a href="http://samadhitank.com/">Samadhi Tank Co</a> where they sell durable float tanks some of which have lasted over 25 years.  Their talk was mostly focused on why float centers should start selling float tanks.  The reason behind this is that not everyone who wants to float will want to do it in a public place.  As always the Perry's talk was very inspirational and you can really see how much passion they have to keep this industry moving forward.  
 
 
 <h3>Float On</h3>
-<a href="http://floathq.com" target="blank"><img src="{{ site.baseurl }}/images/2015conference/IMG_6652.jpg" /></a>
+<a href="http://floathq.com" target="blank"><img src="{{ site.baseurl }}/images/2015conference/IMG_6652.JPG" /></a>
 Graham and Ashkahn from <a href="http://floathq.com">Float On</a> always seem to have an incredibly energetic talk that seems to keep everyone engaged.  This year they talked about how the Washington monument took over 100 years to be built and how there was a lot of planning involved instead of work actually being done.  I think the purpose of this talk was to really inspire future float tank manufactures and center founders to stop worrying and planning and start doing.  Kind of like the saying goes "one in the hand two in the bush".  You can always correct mistakes later on and it is impossible to predict everything that will go wrong, especially with a float center.  
 
 <h3>Kevin Johnson from Zero Gravity Institue</h3>
@@ -45,7 +45,7 @@ Kevin Johnson had an amazing talk last year about how to market your float busin
 
 
 <h3>Crash from Float Labs</h3>
-<a href="http://thefloatlab.com/" target="blank"><img src="{{ site.baseurl }}/images/2015conference/IMG_6664.jpg" /></a>
+<a href="http://thefloatlab.com/" target="blank"><img src="{{ site.baseurl }}/images/2015conference/IMG_6664.JPG" /></a>
 Last but not least Crash from <a href="http://thefloatlab.com">Float Lab</a> spoke this year about why we need to protect our industry with getting our float tanks NSF certified.  Last year was a bit controversial because some people misunderstood and thought that because he initiated the NSF standard for float tanks that he was trying to flush out competition by getting expensive tests done.  I've come to think this is not the case but instead he just wants this industry to be safe and to not have to worry about health departments shutting down float tank centers from the lack of NSF certifications.  Crash really seems to care about this industry and doesn't care what other people think of him especially if he is doing what he thinks is best.
 
 
