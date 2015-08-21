@@ -3,7 +3,7 @@ layout: post
 title: Highlights From the 2015 Float Conference
 comments: true
 ---
-<a href="http://floatconference.com/" target="blank"><img src="{{ site.baseurl }}/images/2015conference/floatcon.jpg" /></a>
+<a href="http://floatconference.com/" target="blank"><img src="{{ site.baseurl }}/images/2015conference/floatcon.png" /></a>
 
 <h2>What is the Float Conference?</h2>
 The 2015 Float Conference took place last weekend in Portland Oregon.  A conference where people interested in float tanks go including: researchers, float tank manufactures, salt companies, float center employees/owners, float enthusiasts, NSF employees, health department regulators, and more. The conference is a place for everyone in the industry to get together and to have meaningful discussions about the direction we want the floating industry to move.  Also the conference has been a place for researchers to discuss their past research on the benefits of floating and Justin Feinstein and his team from LIBR (Loretta Institue for Brain Research) have recently started sharing their findings of their brand new research.  We are in exciting times for the float industry as more and more tank manufactures pop up, new float centers open every year, and more people know about floating than ever before.  
@@ -13,7 +13,7 @@ The 2015 Float Conference took place last weekend in Portland Oregon.  A confere
 It's difficult to pick out certain talks that will be mentioned here because every talk at the conference was really phenomenal and informative.  Ashkahn from Float On (floathq.com) really has done a great job getting these speakers together and lined up.  The amount of hours put into this conference was tremendous Ashkahn showed that himself alone spent over 1,000 hours working on the conference and in total it was closer to 2,000 for everyone involved.
 
 <h3>LIBR research</h3>
-<a href="" target="blank"><img src="{{ site.baseurl }}/images/2015conference/IMG_6631.jpg" /></a>
+<a href="http://www.laureateinstitute.org/justin-feinstein.html" target="blank"><img src="{{ site.baseurl }}/images/2015conference/IMG_6631.jpg" /></a>
 (This study was referenced in a talk by Justin Feinstein.  Those who have floated clearly know this is not the case in the tank)
 
 
@@ -45,5 +45,9 @@ Kevin Johnson had an amazing talk last year about how to market your float busin
 
 
 <h3>Crash from Float Labs</h3>
-<a href="" target="blank"><img src="{{ site.baseurl }}/images/2015conference/IMG_6664.jpg" /></a>
+<a href="http://thefloatlab.com/" target="blank"><img src="{{ site.baseurl }}/images/2015conference/IMG_6664.jpg" /></a>
 Last but not least Crash spoke this year about why we need to protect our industry with getting our float tanks NSF certified.  Last year was a bit controversial because some people misunderstood and thought that because he initiated the NSF standard for float tanks that he was trying to flush out competition by getting expensive tests done.  I've come to think this is not the case but instead he just wants this industry to be safe and to not have to worry about health departments shutting down float tank centers from the lack of NSF certifications.  
+
+
+<h2>Summary</h2>
+Both years I've been the float conference have been amazing experiences.  I would recommend this conference for anyone who likes floating or the float culture.  I plan on going back next year August 20th-21st 2016 and would love to see more people out there! Every year it seems like more and more people attend and it's really great to see the same people each year.  There is really something special about this industry that revolves around a sense of community and good will for others.  More info can be found on the float conference's website  <a href="http://floatconference.com">here</a>
