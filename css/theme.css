@@ -30,6 +30,7 @@ img {
 }
 
 .img50 {
+	margin:10px;
 	height: auto; 
     width: auto; 
     max-width: 300px; 
