@@ -54,8 +54,52 @@
 </div>
 
 <div class="sidebar well">
+    <h1>Newsletter</h1>
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+    	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+    	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+    <form action="//floatgeek.us11.list-manage.com/subscribe/post?u=23d4e2d4dc565ca74304ccf58&amp;id=171c92715f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+    	<h2>Subscribe to our mailing list</h2>
+    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+    <div class="mc-field-group">
+    	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+    </label>
+    	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+    </div>
+    <div class="mc-field-group">
+    	<label for="mce-FNAME">First Name  <span class="asterisk">*</span>
+    </label>
+    	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+    </div>
+    <div class="mc-field-group">
+    	<label for="mce-LNAME">Last Name </label>
+    	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+    </div>
+    	<div id="mce-responses" class="clear">
+    		<div class="response" id="mce-error-response" style="display:none"></div>
+    		<div class="response" id="mce-success-response" style="display:none"></div>
+    	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_23d4e2d4dc565ca74304ccf58_171c92715f" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+    </form>
+    </div>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    <!--End mc_embed_signup-->
+
+</div>
+
+<div class="sidebar well">
     <h1>Recent Posts</h1>
     <ul>
+        
+          <li><a href="/2015/09/2015-9-11-Thoughts_About_the_Zen_Float_Tent">Thoughts About the Zen Float Tent</a></li>
         
           <li><a href="/2015/08/Highlights_From_the_2015_Float_Conference">Highlights From the 2015 Float Conference</a></li>
         
@@ -64,8 +108,6 @@
           <li><a href="/2015/03/How_To_Design_An_Automated_Float_Tank_Center%20copy">3 Parts of An Automated Float Tank Center</a></li>
         
           <li><a href="/2015/02/Automated_Float_Tank_Center">Automated Float Tank Center</a></li>
-        
-          <li><a href="/2015/02/Companies_That_Deserve_Your_Money">Companies That Deserve Your Money</a></li>
         
     </ul>
 </div>
@@ -86,6 +128,77 @@
         </div>
         <div class="col-md-9">
             
+<div class="article">
+    <div class="well">
+        <h1><a href="/2015/03/How_To_Design_An_Automated_Float_Tank_Center%20copy">Mar 15, 2015 - 3 Parts of An Automated Float Tank Center</a></h1>
+        
+          <p class="author"><a href="/2015/03/How_To_Design_An_Automated_Float_Tank_Center%20copy/#disqus_thread">Comments</a></p>
+        
+        <div class="content">
+            <p>The reason for this post is to speak in more detail about what will be required to create a fully automated float center. Some of the components that will need to be implemented will include Arduinos(microcontrollers), access cards(to get into building), a database(storing user info), Stripe/Paypal(credit card processor), and networking to tie the whole system into the internet.  </p>
+
+<h3>Various components to the system</h3>
+
+<p>We will break down the whole system into 3 different systems. These systems are:
+<ol>
+    <li>Scheduling/Billing System</li>
+    <li>Building security</li>
+    <li>Filtration/clean up</li>
+</ol></p>
+
+<h3>Scheduling/Billing System</h3>
+
+<p>This is the system that will be designed around a website that will allow floaters to sign up on the website and schedule floats.<br>
+There are already many versions of this type of software developed however one needs to be custom designed to fit in with the automated float center. Some examples include:
+<ol>
+    <li><a href="https://floathelm.com/" target="blank">FloatHelm</a></li>
+    <li><a href="http://www.frontdeskhq.com/" target="blank">FrontDesk</a></li>
+    <li><a href="http://zenplanner.com/" target="blank">ZenPlanner</a></li>
+    <li><a href="https://www.mindbodyonline.com/" target="blank">MindBodyOnline</a></li>
+</ol>
+Scheduling all starts with the customer wanting to book at float online.  He will go to the website and there will be a button that will pull up the scheduling application.  From there they can pick the time they want to float and then pay using a credit card.  This system will need to be tied into the building security system which will permit the user to gain access using their access card or PIN number when they show up to float.</p>
+
+<p>This process might look like this:<br>
+<ol>
+    <li>User books/pays for float online</li>
+    <li>Access card is activated for the time they have scheduled</li>
+    <li>They show up and their access card allows them to enter their specified float room</li>
+</ol></p>
+
+<h3>Building security</h3>
+
+<p>In order to maintain security for the building and the customers who use this facility there must be strict access into the building only permitted if that user has scheduled a float.
+The reason for strict access is that we only want floaters who are permitted into the facility at their designated float time,  if this is not the case then people may be tempted to steal floats or to disrupt the peaceful waiting room which could become overcrowded.  The access control software would be able to keep track of how long users stay at the float tank center including time during, before, and after their float.  These metrics would be a lot easier to obtain if the only permitted people into the building have been authorized to float.  These metrics could be used to help cut back on unnecessary time spent between float sessions and to help provide an overall better experience for the floater.</p>
+
+<p>This aspect of the float center would operate similar to a 24/7 tanning salon except that users only have a certain time window in which they can gain access to the facility.  This system would need an access card reader or PIN pad on the front door and on each of the float tank room doors.  When the user arrives they will already know which room they are floating in via text message or email, so they can go into the facility and head to the room they have booked for floating.  Once the user enters their room they will take a shower and then enter the tank.  A sensor will be placed on the door of the room which will detect when it was opened and will know to start a timer which will play music in the tank when the float time is up.  </p>
+
+<p>Certain problems can appear at this stage of the process:
+<ol>
+    <li>What if the floater arrives late for their float?</li>
+    <li>How do you prevent a floater from staying longer in the tank?</li>
+    <li>What if the floater has health complications in the tank?</li>
+</ol></p>
+
+<p>To combat some of these problems there will need to be fail-safes in place.  Let&#39;s take the example of the floater arriving late for their appointment.  If the floater arrives more than 15 minutes late the front door would not allow them to enter.  This would keep the process moving smoothly because if a floater arrives late it could push back the floats for other people.  </p>
+
+<p>In the event that a floater stays in the tank longer than scheduled, there will be various ways to &quot;encourage&quot; them to get out of the tank. When the time is up there first might be some music that begins to play in their float tank.  Then if they still have not gotten out (motion sensor to detect this) a light could come on and then start flashing if they continue to stay in the tank.  </p>
+
+<p>The third problem is a bit tricky because without someone being on site it might be hard to know if someone is having problems in the tank.  This issue could be compared to a swimming pool that has no lifeguard on duty where there would be a disclaimer that in the event something bad happens there may be no one to help you.  Besides this disclaimer another useful option would be to place an &quot;emergency&quot; button inside the tank so if the floater is having issues they can hit the button and it will dial 911 and they could talk to them via a speaker in the tank.  </p>
+
+<h3>Filtration/clean up</h3>
+
+<p>In between float sessions it is necessary to run the tank&#39;s filtration system in order to clean all of the water of bad bacteria and pathogens that may have accumulated after a person&#39;s float.  This system will be implemented by using a motion detector to sense when a person has gotten out of the tank and has started their post float shower.  Something to keep in mind the system would have to verify that that floater&#39;s time has been used up in the event that they were planning on going back to continue floating.  </p>
+
+<p>Typically the floater will use a towel, ear plugs, and maybe Q-tips which they will need to dispose of after their float is over.  For this type of float center there would be a trash can and a laundry basket in order to keep the room clean.  Also it is critical that there is a large stack of towels laid out so that the every floater will have fresh towels throughout the day.  At the end of the day there will need to be a person who comes in an does laundry and takes out the trash.  There could be an incentive where a floater gets one float at half price if they do some chores around the center and help clean up.</p>
+
+<h3>Summary</h3>
+
+<p>To sum things up there are a lot of technical aspects that go into creating an automated float tank center.  Clearly this system needs to be well thought out ahead of time and designed carefully with fail-safes in place to help deal with any problems that might occur.</p>
+
+        </div>
+    </div>
+</div>
+
 <div class="article">
     <div class="well">
         <h1><a href="/2015/02/Automated_Float_Tank_Center">Feb 20, 2015 - Automated Float Tank Center</a></h1>
@@ -164,40 +277,6 @@ If your tired of worrying about who is snooping on your search engine queries lo
 <a href="https://betterment.com/invite/connorknabe" target="blank"><img class="logo" src="/images/logos/betterment_283_224_v2_0.jpg" /></a>
 <br>
 Betterment is a great tool for investors that don&#39;t want to pay high fees for getting involved in the mutual fund industry.  They use low cost index funds and bonds that allow them to charge incredibly low fees.  They charge between .15% and .35% depending on how much money you have invested with them.  I highly recommend this service and use it myself.</p>
-
-        </div>
-    </div>
-</div>
-
-<div class="article">
-    <div class="well">
-        <h1><a href="/2015/01/5_Reasons_To_Float">Jan 2, 2015 - 5 Reasons why you should float</a></h1>
-        
-          <p class="author"><a href="/2015/01/5_Reasons_To_Float/#disqus_thread">Comments</a></p>
-        
-        <div class="content">
-            <ol>
-    <li><b>The float tank can help us reflect on life.</b></li>
-    We are constantly connected to our computers, smartphones, and televisions throughout the day. How often do we have to be with ourselves to reflect on life?
-    <li><b>Allows you to approach problems from a different perspective.[1]</b></li>
-    Because the tank environment is unlike any other experience on earth, it provides a great opportunity to totally focus on a problem at hand without distractions.  
-    <li><b>You can learn things faster in the tank.[2]</li></b>
-        As talked about in the <i>The Book of Floating</i> by Michael Hutchison there is a phenomena known as superlearning, which allows you to learn things faster than outside of the tank.
-    <br>
-    <li><b>Float tanks can allow you to achieve a sense of well being[3]</li></b>
-        There have been studies that show float tanks can help you live a happier life.  This is probably due to the fact that you are spending time with yourself and this can allow you to deal with problems that may be bothering you.
-    <li><b>Can reduce the hormone cortisol</li></b>
-        Why is this beneficial? Well, cortisol is known as a stress hormone which is released in response to stress.  If you can lower this hormone it may help you feel less stressed and more relaxed.
-</ol>
-
-<p><br>
-<br>
-<br>
-[1]&quot;The Effects of REST and Hemispheric Synchronization Compared to the Effects of REST and Guided Imagery on the Enhancement of Creativity in Problem-Solving&quot; -  Baker D.A
-<br>
-[2]&quot;The effects of flotation restricted environmental stimulation therapy on learning: subjective evaluation and EEG measurements&quot; - Taylor, T.
-<br>
-[3]&quot;Case studies on fibromyalgia and burn-out depression using psychotherapy in combination with flotation-REST: Personality development and increased well-being.&quot; - Åsenlöf, K., Olsson, S., Bood, S. Å., &amp; Norlander, T.</p>
 
         </div>
     </div>
