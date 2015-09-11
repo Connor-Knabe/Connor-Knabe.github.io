@@ -27,8 +27,15 @@
 
 img { 
     max-width: 100%; 
-
 }
+
+.img50 {
+	height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+
 body {
     padding-top: 60px;
     padding-bottom: 60px;
