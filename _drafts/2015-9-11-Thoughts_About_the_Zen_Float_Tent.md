@@ -68,15 +68,8 @@ After the berm was setup it was time to install the tent which you can see the p
 <h3>Epsom Salt</h3>
 Finally it was time for the Epsom salt which I purchased from <a href="sfsalt.com/epsom-salt-for-floatation-tanks">Sf Salt Co</a>. They have really good prices on bulk Epsom salt and they also were at the <a href="{{ site.baseurl }}/2015/08/Highlights_From_the_2015_Float_Conference">Float Conference</a> this year.  I ended up purchasing 1,100 lbs from them which arrived on a pallet in individual 50lb bags.  As of this blog post I have around 635lbs of Epsom salt and about 115 gallons of water in the tent.
 
-<video width="100%"  height="100%" id="sampleMovie" src="/images/Thoughts_About_ZFT/IMG_6833.mp4" autoplay></video>
+<video class="img50" controls id="sampleMovie" src="/images/Thoughts_About_ZFT/IMG_6833.mp4" autoplay></video>
 
-
-<video width="560" height="340" controls>
-2
-  <source src="/images/Thoughts_About_ZFT/IMG_6833.mp4" type="video/quicktime">
-3
-4
-</video>
 
 
 
