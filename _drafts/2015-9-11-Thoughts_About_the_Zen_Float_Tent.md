@@ -7,8 +7,7 @@ comments: true
 
 
 
-<a href="/images/Thoughts_About_ZFT/zft.jpg" data-lightbox="image-1" data-title="My caption">Image #1</a>
-
+<a href="/images/Thoughts_About_ZFT/zft.jpg" data-lightbox="ZFT" data-title="My caption">Zen Float Tent</a>
 
 
 <h2>The journey to getting a Zen Float Tent</h2>
