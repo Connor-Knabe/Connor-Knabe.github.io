@@ -44,7 +44,7 @@ img {
     max-height: 500px;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 400px) {
   .vid50 {
     max-height: 350px;
   }
