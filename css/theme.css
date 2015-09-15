@@ -30,22 +30,24 @@ img {
 }
 
 .img50 {
-    margin:10px;
+    margin-bottom:10px;
     height: auto;
     width: auto;
     max-height: 300px;
 }
-@media screen and (max-width: 600px) {
-  .vid50 {
-    max-height: 350px;
-  }
-}
+
 .vid50 {
     margin:10px;
     height: auto;
     width: auto;
     max-width: 500px;
     max-height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .vid50 {
+    max-height: 350px;
+  }
 }
 
 body {
