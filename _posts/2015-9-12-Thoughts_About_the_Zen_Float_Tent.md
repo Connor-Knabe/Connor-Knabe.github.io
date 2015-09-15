@@ -68,7 +68,7 @@ After the berm was setup it was time to install the tent which you can see the p
 
 <video class="vid50" controls id="sampleMovie" src="/images/Thoughts_About_ZFT/IMG_6953.mp4" ></video>
 <h3>Epsom Salt</h3>
-Finally it was time for the Epsom salt which I purchased from <a href="sfsalt.com/epsom-salt-for-floatation-tanks">Sf Salt Co</a>. They have really good prices on bulk Epsom salt and they also were at the <a href="{{ site.baseurl }}/2015/08/Highlights_From_the_2015_Float_Conference">Float Conference</a> this year.  I ended up purchasing 1,100 lbs from them which arrived on a pallet in individual 50lb bags.  As of this blog post I have around 635lbs of Epsom salt and about 115 gallons of water in the tent.
+Finally it was time for the Epsom salt which I purchased from <a href="http://sfsalt.com/epsom-salt-for-floatation-tanks">Sf Salt Co</a>. They have really good prices on bulk Epsom salt and they also were at the <a href="{{ site.baseurl }}/2015/08/Highlights_From_the_2015_Float_Conference">Float Conference</a> this year.  I ended up purchasing 1,100 lbs from them which arrived on a pallet in individual 50lb bags.  As of this blog post I have around 635lbs of Epsom salt and about 115 gallons of water in the tent.
 
 <h3>Custom Filtration System</h3>
 I also decided to make a custom filtration system that would supplement the tent's standard filter system.  I purchased an Intex pool pump from Amazon and bought some PVC piping that would fit into the Intex system.  When it was all said and done the pump worked great and is run for 30+ minutes after each float.  This is to help ensure the water stays clean and can help speed up the time it takes to heat up the water.
