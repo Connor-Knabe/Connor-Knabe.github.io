@@ -35,7 +35,7 @@ img {
     width: auto;
     max-height: 300px;
 }
-@media screen (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .vid50 {
     max-height: 350px;
   }
