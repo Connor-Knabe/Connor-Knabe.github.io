@@ -3,9 +3,10 @@ layout: post
 title: Thoughts About the Zen Float Tent
 comments: true
 ---
-<a href="http://zenfloatco.com/" target="blank"><img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/zft.jpg" /></a>
 
-
+<a href="images/Thoughts_About_ZFT/zft.jpg" data-lightbox="gallery1" title="Boards">
+    <img class="img50" src="images/Thoughts_About_ZFT/zft.jpg">
+</a>
 
 <a href="/images/Thoughts_About_ZFT/zft.jpg" data-lightbox="ZFT" data-title="My caption">Zen Float Tent</a>
 
