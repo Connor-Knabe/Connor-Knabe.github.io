@@ -3,11 +3,12 @@ layout: post
 title: Thoughts About the Zen Float Tent
 comments: true
 ---
-<a href="http://zenfloatco.com/" target="blank"><img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/zft.jpg" /></a>
 
+<a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/zft.jpg" data-lightbox="gallery0" title="Zen Float Tent">
+    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/zft.jpg">
+</a>
 
-
-<a href="/images/Thoughts_About_ZFT/zft.jpg" data-lightbox="ZFT" data-title="My caption">Zen Float Tent</a>
+<a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/zft.jpg" data-lightbox="ZFT" data-title="My caption">Zen Float Tent</a>
 
 
 <h2>The journey to getting a Zen Float Tent</h2>
@@ -55,20 +56,23 @@ Surprisingly the Zen Float Tent was not terribly difficult to setup.  My situati
 <h4>Click photo to enlarge</h4>
 <br>
 
-<video class="vid50" controls id="sampleMovie" src="/images/Thoughts_About_ZFT/IMG_6833.mp4" ></video>
+<video class="vid50" controls preload="none" id="Vid3" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6833.mp4" ></video>
+
+
+
 <h3>Platform</h3>
 The process started with the base which consisted of six 12"x2" pieces of wood from Lowe's.  This would help with absorbing some sound and distribute the weight across the floor.  On top of the wood platform there is a thin piece of plywood to make a smooth surface.  On top of the plywood are three 6'x4' pieces of sound absorbing rubber purchased from <a href="http://www.acousticalsurfaces.com/acoust_flooring/nuetra_phone.htm">Acoustical Surfaces</a>.  This is to ensure that the tent is completely soundproof especially from vibrations traveling through the floor.  The main sounds that seem to travel into the tank are vibrational such as door slams and people walking. When the base was complete it covered 12 feet by 6 feet which fits perfectly in the room (even allowing space for a yoga mat).
 
-<video class="vid50" controls id="sampleMovie" src="/images/Thoughts_About_ZFT/IMG_6840.mp4" ></video>
+<video class="vid50" controls  preload="none" id="Vid1" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6840.mp4" ></video>
 <h3>Spill Berm</h3>
 Then the spill berm was setup on top of this platform.  The spill berm was designed for industrial spills including harmful chemical spills.  This seemed to be the perfect device to catch any excess water or if the tent leaked.  I had a white (epsom salt is harder to see on white) custom made spill berm that was 11'x5' that will ensure plenty of space for the 8'x4' tent.  Also having this much space allowed me to make the tent go across the wood beams diagonally to keep the weight distributed across multiple beams (5-6 beams instead of 4).
 
 <h3>Water</h3>
 After the berm was setup it was time to install the tent which you can see the process in the photos above.  This was a fairly easy process which consisted of placing metal rods into the vinyl and then connecting the pieces.  After all the rods were in place I started filling the tent with reverse osmosis water.  You might wonder why I filled the tent with reverse osmosis water and not just tap water.  I did this because there can be some heavy metals such as iron in the water supply and also chlorine and other chemicals which I don't want in the tent.  
 
-<video class="vid50" controls id="sampleMovie" src="/images/Thoughts_About_ZFT/IMG_6953.mp4" ></video>
+<video class="vid50" controls preload="none" id="Vid2" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6953.mp4" ></video>
 <h3>Epsom Salt</h3>
-Finally it was time for the Epsom salt which I purchased from <a href="sfsalt.com/epsom-salt-for-floatation-tanks">Sf Salt Co</a>. They have really good prices on bulk Epsom salt and they also were at the <a href="{{ site.baseurl }}/2015/08/Highlights_From_the_2015_Float_Conference">Float Conference</a> this year.  I ended up purchasing 1,100 lbs from them which arrived on a pallet in individual 50lb bags.  As of this blog post I have around 635lbs of Epsom salt and about 115 gallons of water in the tent.
+Finally it was time for the Epsom salt which I purchased from <a href="http://sfsalt.com/epsom-salt-for-floatation-tanks">Sf Salt Co</a>. They have really good prices on bulk Epsom salt and they also were at the <a href="{{ site.baseurl }}/2015/08/Highlights_From_the_2015_Float_Conference">Float Conference</a> this year.  I ended up purchasing 1,100 lbs from them which arrived on a pallet in individual 50lb bags.  As of this blog post I have around 635lbs of Epsom salt and about 115 gallons of water in the tent.
 
 <h3>Custom Filtration System</h3>
 I also decided to make a custom filtration system that would supplement the tent's standard filter system.  I purchased an Intex pool pump from Amazon and bought some PVC piping that would fit into the Intex system.  When it was all said and done the pump worked great and is run for 30+ minutes after each float.  This is to help ensure the water stays clean and can help speed up the time it takes to heat up the water.

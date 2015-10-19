@@ -30,19 +30,24 @@ img {
 }
 
 .img50 {
-	margin:10px;
-	height: auto;
+    margin-bottom:10px;
+    height: auto;
     width: auto;
-    max-width: 300px;
     max-height: 300px;
 }
 
 .vid50 {
-	margin:10px;
-	height: auto;
+    margin:10px;
+    height: auto;
     width: auto;
     max-width: 500px;
     max-height: 500px;
+}
+
+@media (max-width: 400px) {
+  .vid50 {
+    max-height: 350px;
+  }
 }
 
 body {
