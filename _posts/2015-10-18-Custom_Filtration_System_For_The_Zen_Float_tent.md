@@ -4,7 +4,7 @@ title: Custom Filtration System For The Zen Float tent
 comments: true
 ---
 <a href="{{ site.baseurl }}/images/custom_filter/IMG_7073.jpg" data-lightbox="gallery2" title="Pump view">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7073.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/rsz_IMG_7073.jpg">
 </a>
 
 I've recently written a blog post about my initial thoughts of the Zen Float Tent <a href="{{ site.baseurl }}/2015/09/Thoughts_About_the_Zen_Float_Tent">here</a>.  Like I have mentioned in this post I setup a custom filtration system to support the pump that came with the tent.  This post is dedicated to help you setup your own custom filtration system for the Zen Float Tent.
@@ -32,37 +32,37 @@ For a complete list of the parts needed for this tutorial please fill out the fo
 
 
 <a href="{{ site.baseurl }}/images/custom_filter/IMG_7046.jpg" data-lightbox="gallery2" title="Tube">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7046.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/rsz_IMG_7046.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/custom_filter/IMG_7059.jpg" data-lightbox="gallery2" title="Parts">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7059.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/rsz_IMG_7059.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/custom_filter/IMG_7060.jpg" data-lightbox="gallery2" title="Rubber insert">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7060.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/rsz_IMG_7060.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/custom_filter/IMG_7062.jpg" data-lightbox="gallery2" title="Size Converter">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7062.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/rsz_IMG_7062.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/custom_filter/IMG_7063.jpg" data-lightbox="gallery2" title="Tube">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7063.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/rsz_IMG_7063.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/custom_filter/IMG_7064.jpg" data-lightbox="gallery2" title="Cutting PVC">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7064.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/rsz_IMG_7064.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/custom_filter/IMG_7066.jpg" data-lightbox="gallery2" title="Connecting PVC">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7066.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/rsz_IMG_7066.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/custom_filter/IMG_7067.jpg" data-lightbox="gallery2" title="Connecting PVC #2">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7067.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/rsz_IMG_7067.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/custom_filter/IMG_7068.jpg" data-lightbox="gallery2" title="Angle of pipe view">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7068.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/rsz_IMG_7068.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/custom_filter/IMG_7071.jpg" data-lightbox="gallery2" title="Hooking it into tent">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7071.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/rsz_IMG_7071.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/custom_filter/IMG_7072.jpg" data-lightbox="gallery2" title="Finishing touches">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7072.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/rsz_IMG_7072.jpg">
 </a>
 
 
