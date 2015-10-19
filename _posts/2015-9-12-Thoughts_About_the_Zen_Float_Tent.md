@@ -18,40 +18,40 @@ I've recently purchased a Zen Float Tent.  Like I have mentioned in my previous 
 Surprisingly the Zen Float Tent was not terribly difficult to setup.  My situation was a bit unique because I custom build a base and a filtration system for the tent but overall it took about a weekend to get it all up and running. There are some great YouTube videos online that show you how to set it up and the instruction manual was informative.
 
 <a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6809.jpg" data-lightbox="gallery1" title="Boards">
-    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6809.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/rsz_IMG_6809.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6831.jpg" data-lightbox="gallery1" title="Cutting plywood">
     <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6831.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6838.jpg" data-lightbox="gallery1" title="Rubber soundproofing">
-    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6838.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/rsz_IMG_6838.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6842.jpg" data-lightbox="gallery1" title="Spill berm">
-    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6842.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/rsz_IMG_6842.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6961.jpg" data-lightbox="gallery1" title="Getting reverse osmosis water from store">
-    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6961.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/rsz_IMG_6961.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6983.jpg" data-lightbox="gallery1" title="Filling with water">
-    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6983.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/rsz_IMG_6983.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6877.jpg" data-lightbox="gallery1" title="Full of water">
-    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6877.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/rsz_IMG_6877.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6942.jpg" data-lightbox="gallery1" title="Filling with salt">
-    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_6942.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/rsz_IMG_6942.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_7068.jpg" data-lightbox="gallery1" title="Custom PVC">
-    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_7068.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/rsz_IMG_7068.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_7071.jpg" data-lightbox="gallery1" title="Custom pipe">
-    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_7071.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/rsz_IMG_7071.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_7073.jpg" data-lightbox="gallery1" title="Pool pump">
-    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_7073.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/rsz_IMG_7073.jpg">
 </a>
 <a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_7008.jpg" data-lightbox="gallery1" title="Complete tent">
-    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/IMG_7008.jpg">
+    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/rsz_IMG_7008.jpg">
 </a>
 <h4>Click photo to enlarge</h4>
 <br>
