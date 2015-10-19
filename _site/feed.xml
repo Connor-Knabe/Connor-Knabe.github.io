@@ -16,7 +16,24 @@
 
 &lt;h2&gt;Parts list&lt;/h2&gt;
 
-&lt;p&gt;For a complete list of the parts needed for this tutorial please click this link (which will allow you to sign up for the newsletter and receive the parts document)&lt;/p&gt;
+&lt;p&gt;For a complete list of the parts needed for this tutorial please fill out the form below (which will allow you to sign up for the newsletter and receive the parts document)&lt;/p&gt;
+
+&lt;p&gt;&lt;link href=&quot;//cdn-images.mailchimp.com/embedcode/slim-081711.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+    #mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; }
+    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+&lt;/style&gt;
+&lt;div id=&quot;mc_embed_signup&quot;&gt;
+&lt;form action=&quot;//floatgeek.us11.list-manage.com/subscribe/post?u=23d4e2d4dc565ca74304ccf58&amp;amp;id=3fe45437f2&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate&gt;
+    &lt;div id=&quot;mc_embed_signup_scroll&quot;&gt;
+    &lt;label for=&quot;mce-EMAIL&quot;&gt;Subscribe to our mailing list&lt;/label&gt;
+    &lt;input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;email&quot; id=&quot;mce-EMAIL&quot; placeholder=&quot;email address&quot; required&gt;
+    &lt;div style=&quot;position: absolute; left: -5000px;&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;b_23d4e2d4dc565ca74304ccf58_3fe45437f2&quot; tabindex=&quot;-1&quot; value=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;clear&quot;&gt;&lt;input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/images/custom_filter/img_7046.jpg&quot; data-lightbox=&quot;gallery2&quot; title=&quot;Tube&quot;&gt;
     &lt;img class=&quot;img50&quot; src=&quot;/images/custom_filter/img_7046.jpg&quot;&gt;
@@ -80,7 +97,7 @@ It might be useful to put the Intex pump inside of a rubber container to help ca
 
 &lt;p&gt;Good luck customizing your Zen Float Tent!  Leave comments below if you have any questions!&lt;/p&gt;
 </description>
-				<pubDate>Sun, 18 Oct 2015 18:08:35 -0700</pubDate>
+				<pubDate>Sun, 18 Oct 2015 19:24:45 -0700</pubDate>
 				<link>http://floatgeek.com/2015/10/2015-10-15-Custom_Filtration_System_For_The_Zen_Float_tent</link>
 				<guid isPermaLink="true">http://floatgeek.com/2015/10/2015-10-15-Custom_Filtration_System_For_The_Zen_Float_tent</guid>
 			</item>

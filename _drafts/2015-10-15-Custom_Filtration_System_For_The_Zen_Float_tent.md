@@ -12,26 +12,23 @@ I've recently written a blog post about my initial thoughts of the Zen Float Ten
 
 <h2>Parts list</h2>
 For a complete list of the parts needed for this tutorial please fill out the form below (which will allow you to sign up for the newsletter and receive the parts document)
-<!-- Begin MailChimp Signup Form -->
+
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+    #mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; }
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="mc_embed_signup">
 <form action="//floatgeek.us11.list-manage.com/subscribe/post?u=23d4e2d4dc565ca74304ccf58&amp;id=3fe45437f2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL"></label>
+	<label for="mce-EMAIL">Subscribe to our mailing list</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;"><input type="text" name="b_23d4e2d4dc565ca74304ccf58_3fe45437f2" tabindex="-1" value=""></div>
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
 </div>
-
-<!--End mc_embed_signup-->
 
 
 <a href="{{ site.baseurl }}/images/custom_filter/img_7046.jpg" data-lightbox="gallery2" title="Tube">
