@@ -31,41 +31,41 @@ For a complete list of the parts needed for this tutorial please fill out the fo
 </div>
 
 
-<a href="{{ site.baseurl }}/images/custom_filter/img_7046.jpg" data-lightbox="gallery2" title="Tube">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/img_7046.jpg">
+<a href="{{ site.baseurl }}/images/custom_filter/IMG_7046.jpg" data-lightbox="gallery2" title="Tube">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7046.jpg">
 </a>
-<a href="{{ site.baseurl }}/images/custom_filter/img_7059.jpg" data-lightbox="gallery2" title="Parts">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/img_7059.jpg">
+<a href="{{ site.baseurl }}/images/custom_filter/IMG_7059.jpg" data-lightbox="gallery2" title="Parts">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7059.jpg">
 </a>
-<a href="{{ site.baseurl }}/images/custom_filter/img_7060.jpg" data-lightbox="gallery2" title="Rubber insert">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/img_7060.jpg">
+<a href="{{ site.baseurl }}/images/custom_filter/IMG_7060.jpg" data-lightbox="gallery2" title="Rubber insert">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7060.jpg">
 </a>
-<a href="{{ site.baseurl }}/images/custom_filter/img_7062.jpg" data-lightbox="gallery2" title="Size Converter">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/img_7062.jpg">
+<a href="{{ site.baseurl }}/images/custom_filter/IMG_7062.jpg" data-lightbox="gallery2" title="Size Converter">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7062.jpg">
 </a>
-<a href="{{ site.baseurl }}/images/custom_filter/img_7063.jpg" data-lightbox="gallery2" title="Tube">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/img_7063.jpg">
+<a href="{{ site.baseurl }}/images/custom_filter/IMG_7063.jpg" data-lightbox="gallery2" title="Tube">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7063.jpg">
 </a>
-<a href="{{ site.baseurl }}/images/custom_filter/img_7064.jpg" data-lightbox="gallery2" title="Cutting PVC">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/img_7064.jpg">
+<a href="{{ site.baseurl }}/images/custom_filter/IMG_7064.jpg" data-lightbox="gallery2" title="Cutting PVC">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7064.jpg">
 </a>
-<a href="{{ site.baseurl }}/images/custom_filter/img_7066.jpg" data-lightbox="gallery2" title="Connecting PVC">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/img_7066.jpg">
+<a href="{{ site.baseurl }}/images/custom_filter/IMG_7066.jpg" data-lightbox="gallery2" title="Connecting PVC">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7066.jpg">
 </a>
-<a href="{{ site.baseurl }}/images/custom_filter/img_7067.jpg" data-lightbox="gallery2" title="Connecting PVC #2">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/img_7067.jpg">
+<a href="{{ site.baseurl }}/images/custom_filter/IMG_7067.jpg" data-lightbox="gallery2" title="Connecting PVC #2">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7067.jpg">
 </a>
-<a href="{{ site.baseurl }}/images/custom_filter/img_7068.jpg" data-lightbox="gallery2" title="Angle of pipe view">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/img_7068.jpg">
+<a href="{{ site.baseurl }}/images/custom_filter/IMG_7068.jpg" data-lightbox="gallery2" title="Angle of pipe view">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7068.jpg">
 </a>
-<a href="{{ site.baseurl }}/images/custom_filter/img_7071.jpg" data-lightbox="gallery2" title="Hooking it into tent">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/img_7071.jpg">
+<a href="{{ site.baseurl }}/images/custom_filter/IMG_7071.jpg" data-lightbox="gallery2" title="Hooking it into tent">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7071.jpg">
 </a>
-<a href="{{ site.baseurl }}/images/custom_filter/img_7072.jpg" data-lightbox="gallery2" title="Finishing touches">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/img_7072.jpg">
+<a href="{{ site.baseurl }}/images/custom_filter/IMG_7072.jpg" data-lightbox="gallery2" title="Finishing touches">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7072.jpg">
 </a>
-<a href="{{ site.baseurl }}/images/custom_filter/img_7073.jpg" data-lightbox="gallery2" title="Pump view">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/img_7073.jpg">
+<a href="{{ site.baseurl }}/images/custom_filter/IMG_7073.jpg" data-lightbox="gallery2" title="Pump view">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7073.jpg">
 </a>
 
 <h4>Click photo to enlarge</h4>
@@ -76,8 +76,8 @@ All of these parts can be purchased from Lowe's for under $100 (not including th
 
 You will need to calculate how long you would like the PVC tubes to be in order to go inside of the tent and what angles you would like.  Depending on how you want the tubes to enter the tent and if you are using a spill berm or not this may vary.  I would recommend using a tape measure before you start cutting to get a sense of how long the tubes will need to be.  The images above will give you a good idea of how I decided to get my PVC piping into the tent and notice the multiple angles (to prevent light leaks).  
 
-<a href="{{ site.baseurl }}/images/custom_filter/img_7068.jpg" data-lightbox="gallery2" title="Angled pipe">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/img_7068.jpg">
+<a href="{{ site.baseurl }}/images/custom_filter/IMG_7068.jpg" data-lightbox="gallery2" title="Angled pipe">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7068.jpg">
 </a>
 <br>
 Keep in mind that you may want to put a small angle in the tube that pumps the water back into the tent (see image above). This will make the water ripple which can help prevent biofilm from building up on the surface of the water.  Also make sure that your intake tube is not touching the tents bottom and also submerged under water.  
