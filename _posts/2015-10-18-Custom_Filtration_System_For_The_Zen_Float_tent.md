@@ -3,8 +3,8 @@ layout: post
 title: Custom Filtration System For The Zen Float tent
 comments: true
 ---
-<a href="{{ site.baseurl }}/images/Thoughts_About_ZFT/zft.jpg" data-lightbox="ZFT" title="ZFT">
-    <img class="img50" src="{{ site.baseurl }}/images/Thoughts_About_ZFT/zft.jpg">
+<a href="{{ site.baseurl }}/images/custom_filter/IMG_7073.jpg" data-lightbox="gallery2" title="Pump view">
+    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7073.jpg">
 </a>
 
 I've recently written a blog post about my initial thoughts of the Zen Float Tent <a href="{{ site.baseurl }}/2015/09/Thoughts_About_the_Zen_Float_Tent">here</a>.  Like I have mentioned in this post I setup a custom filtration system to support the pump that came with the tent.  This post is dedicated to help you setup your own custom filtration system for the Zen Float Tent.
@@ -64,9 +64,7 @@ For a complete list of the parts needed for this tutorial please fill out the fo
 <a href="{{ site.baseurl }}/images/custom_filter/IMG_7072.jpg" data-lightbox="gallery2" title="Finishing touches">
     <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7072.jpg">
 </a>
-<a href="{{ site.baseurl }}/images/custom_filter/IMG_7073.jpg" data-lightbox="gallery2" title="Pump view">
-    <img class="img50" src="{{ site.baseurl }}/images/custom_filter/IMG_7073.jpg">
-</a>
+
 
 <h4>Click photo to enlarge</h4>
 <br>
