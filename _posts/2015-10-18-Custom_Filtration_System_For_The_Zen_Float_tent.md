@@ -15,7 +15,7 @@ For a complete list of the parts needed for this tutorial please fill out the fo
 
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-    #mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; }
+    #mc_embed_signup1{ clear:left; font:14px Helvetica,Arial,sans-serif; }
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
