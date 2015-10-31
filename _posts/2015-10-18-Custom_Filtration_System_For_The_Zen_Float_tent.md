@@ -70,7 +70,7 @@ For a complete list of the parts needed for this tutorial please fill out the fo
 <br>
 
 <h3>Type of filter</h3>
-For this specific setup I used an Intex pump which can be purchased from <a href="http://www.amazon.com/gp/product/B005QIYM6E?keywords=intex&qid=1446321354&ref_=sr_ph&sr=1">Amazon</a>. 
+For this specific setup I used an Intex pump which can be purchased from <a href="http://www.amazon.com/gp/product/B005QIYM6E?keywords=intex&qid=1446321354&ref_=sr_ph&sr=1">Amazon</a>.
 
 <h3>Setting the piping up</h3>
 All of these parts can be purchased from Lowe's for under $100 (not including the pump).  Once you have all of the parts it is best to start with the tubing that came with the Intex pump and hook in the adapter which will screw on snugly (Image 3-4). You will need a rubber grommet to seal the gap between the adapter and the Intex tube(Image 3).  This will prevent the water from leaking out.  Once that connection is secure you can figure out where you would like your tubes to enter the tent.  For my setup I had the PVC tubes enter the tent from the back close to the pump that came with the tent.  This makes it easy to access since it is near a corner of the tent.
