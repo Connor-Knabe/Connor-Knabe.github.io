@@ -1,4 +1,8 @@
 # Jekyll configuration
+# External gems
+gems:
+  - jekyll-paginate
+
 
 name: Float Geek
 description: Floating and Software Development
