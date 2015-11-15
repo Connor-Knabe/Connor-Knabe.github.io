@@ -4,7 +4,7 @@ title: Float Geeks Podcast
 comments: true
 ---
 
-<h2>The Float Geeks Podcast</h2>
+<h2>Float Geeks Podcast</h2>
 
 <a href="http://floatgeeks.io" target="blank"><img class="img50" src="{{ site.baseurl }}/images/floatgeeks/floatgeeks_logo.jpg" /></a>
 
