@@ -5,11 +5,12 @@ comments: true
 ---
 <br><br>
 
+<h2></h2>
 
-This is a list of my favorite companies from 2015 that I really appreciate.
+<h5>This is a list of my favorite companies from 2015 that I really appreciate.</h5>
 
-
-<a href="http://www.zenfloatco.com?tap_a=5195-1d77bb&tap_s=10751-455ee4&tm_banner=sidebar" target="_BLANK" rel="nofollow"><img class="logo logo2" src="https://static.tapfiliate.com/56391821ec220.png?a=5195-1d77bb&s=10751-455ee4" border=0></a>
+<br><br><br>
+<a href="http://www.zenfloatco.com?tap_a=5195-1d77bb&tap_s=10751-455ee4&tm_banner=sidebar" target="blank"><img class="logo logo2" src="https://static.tapfiliate.com/56391821ec220.png?a=5195-1d77bb&s=10751-455ee4" /></a>
 <br>
     Zen Float Company is the amazing company that created the Zen Float Tent.  They raised $295,000 on
     <a href="https://www.kickstarter.com/projects/1070936311/zen-float-tent-first-affordable-isolation-tank-for" target="blank">Kickstarter</a> to get production going for their first version of the tent.  The Zen Float Tent has been an extremely useful tool for myself and my roommates for relaxation, recovery from workouts, introspection, clarity, etc. The best part about having one of these is that we can float anytime in the comfort of our own home. I like this company so much that I've even started sponsoring them.  <br><b>Note</b>: clicking the image above will take you to their site and I get a portion of the sale :)
