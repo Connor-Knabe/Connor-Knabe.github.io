@@ -53,7 +53,7 @@ Glenn and Lee Perry were at this years conference again.  Glenn and Lee were two
 </a><br>
 Graham and Ashkahn from <a href="http://floathq.com">Float On</a> always seem to have an incredibly energetic talk that seems to keep everyone engaged.  This year they talked about how the Washington monument took over 100 years to be built and how there was a lot of planning involved instead of work actually being done.  I think the purpose of this talk was to really inspire future float tank manufactures and center founders to stop worrying and planning and start doing.  Kind of like the saying goes "one in the hand two in the bush".  You can always correct mistakes later on and it is impossible to predict everything that will go wrong, especially with a float center.  
 
-<h3>Kevin Johnson from <a href-"http://www.zerogravityinstitute.com/">Zero Gravity Institue</a></h3>
+<h3>Kevin Johnson from <a href="http://www.zerogravityinstitute.com/">Zero Gravity Institue</a></h3>
 <a href="{{ site.baseurl }}/images/2015conference/IMG_6655.JPG" data-lightbox="FloatCon15e" title="Kevin Johnson">
     <img class="img50" src="{{ site.baseurl }}/images/2015conference/rsz_IMG_6655.jpg">
 </a><br>

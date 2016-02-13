@@ -16,9 +16,6 @@ Also we are on <a href="https://itunes.apple.com/us/podcast/float-geeks/id105885
 
 Here is the first episode to give you a taste of what to expect in the future.
 
+<br><br>
 
-
-
-<br>
 <iframe scrolling="no" frameborder="0" style="width:100%;max-width:450px;height:180px;border:0;overflow:hidden;" width="400" height="180" src="http://app.stitcher.com/splayer/f/77331/41173026?el=0&refid=stpr"></iframe>
-<br>
