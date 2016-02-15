@@ -37,7 +37,7 @@ Trello is an amazing software tool that can help you utilize <a href="https://en
 <a href="https://twilio.com" target="blank"><img class="logo logo2" src="{{ site.baseurl }}/images/logos/twilio.png" /></a>
 <br>
     Twilio is a developers best friend if they need to send affordable text messages or voice calls over the internet.  Twilio is an API used by developers at companies including: Uber, Box, Intuit, Hulu, Ebay, and more!  Twilio is also used for two-factor authentication, appointment reminders, sales leads, and more.  If you're ever needing to send out texts or do any sort of communication involving software and phones I would highly recommend choosing Twilio.
-<br><br>
+<br><br><br>
 
 <b>Summary:</b>
 <br>
