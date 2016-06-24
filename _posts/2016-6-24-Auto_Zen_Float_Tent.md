@@ -76,7 +76,12 @@ This is the container that holds the hydrogen peroxide.
 This is a water sensor that will send a text message and turn off pumps if water is detected.
 <br><br>
 
-
+<div class = "flex-video">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VkAHd2tJ1xE" frameborder="0" allowfullscreen></iframe>
+</div>
+<h3>GFCI Alert</h3>
+This program sends a text message alert when the GFCI outlet trips. This is good because most of the equipment (heater, pump, lights) should be hooked up to a GFCI outlet in a float room.
+<br><br>
 
 <h2>Summary</h2>
 I see a bright future for the internet of things in the float community.  I think it will allow more quality customer interaction and less things to have to maintain manually.  At the end of the day it is the customers who really matter and taking some of the work away from the tanks and dedicating that time to more positive customer interactions seems to make sense.  I think software like this will make float centers even more of an enjoyable place to work and be.  
