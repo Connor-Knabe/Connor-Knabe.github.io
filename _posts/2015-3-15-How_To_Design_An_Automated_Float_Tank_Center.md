@@ -20,8 +20,8 @@ This is the system that will be designed around a website that will allow floate
 There are already many versions of this type of software developed however one needs to be custom designed to fit in with the automated float center. Some examples include:
 <ol>
     <li><a href="https://floathelm.com/" target="blank">FloatHelm</a></li>
-    <li><a href="http://www.frontdeskhq.com/" target="blank">FrontDesk</a></li>
-    <li><a href="http://zenplanner.com/" target="blank">ZenPlanner</a></li>
+    <li><a href="https://www.frontdeskhq.com/" target="blank">FrontDesk</a></li>
+    <li><a href="https://zenplanner.com/" target="blank">ZenPlanner</a></li>
     <li><a href="https://www.mindbodyonline.com/" target="blank">MindBodyOnline</a></li>
 </ol>
 Scheduling all starts with the customer wanting to book at float online.  He will go to the website and there will be a button that will pull up the scheduling application.  From there they can pick the time they want to float and then pay using a credit card.  This system will need to be tied into the building security system which will permit the user to gain access using their access card or PIN number when they show up to float.

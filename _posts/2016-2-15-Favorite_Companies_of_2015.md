@@ -10,7 +10,7 @@ comments: true
 <h5>This is a list of my favorite companies from 2015 that I really appreciate.</h5>
 
 <br><br><br>
-<a href="http://www.zenfloatco.com?tap_a=5195-1d77bb&tap_s=10751-455ee4&tm_banner=sidebar" target="blank"><img class="logo logo2" src="https://static.tapfiliate.com/56391821ec220.png?a=5195-1d77bb&s=10751-455ee4" /></a>
+<a href="https://www.zenfloatco.com?tap_a=5195-1d77bb&tap_s=10751-455ee4&tm_banner=sidebar" target="blank"><img class="logo logo2" src="https://static.tapfiliate.com/56391821ec220.png?a=5195-1d77bb&s=10751-455ee4" /></a>
 <br>
     Zen Float Company is the amazing company that created the Zen Float Tent.  They raised $295,000 on
     <a href="https://www.kickstarter.com/projects/1070936311/zen-float-tent-first-affordable-isolation-tank-for" target="blank">Kickstarter</a> to get production going for their first version of the tent.  The Zen Float Tent has been an extremely useful tool for myself and my roommates for relaxation, recovery from workouts, introspection, clarity, etc. The best part about having one of these is that we can float anytime in the comfort of our own home. I like this company so much that I've even started sponsoring them.  <br><b>Note</b>: clicking the image above will take you to their site and I get a portion of the sale :)
@@ -23,7 +23,7 @@ comments: true
 <br><br>
 
 
-<a href="http://trello.com" target="blank"><img class="logo logo2" src="{{ site.baseurl }}/images/logos/trello.png" /></a>
+<a href="https://trello.com" target="blank"><img class="logo logo2" src="{{ site.baseurl }}/images/logos/trello.png" /></a>
 <br>
 Trello is an amazing software tool that can help you utilize <a href="https://en.wikipedia.org/wiki/Kanban" target="blank">kanban</a> which is a scheduling system for lean production.  This can be applied to software development, home improvement projects, starting a business, etc.  I've been using Trello for over a year now and it has been extremely useful especially for side coding projects I work on.  If you are a person who loves todo lists and checking things off Trello would be worth a shot.  It can really help you stay on top of your work and collaborate with others on projects.
 <br><br>

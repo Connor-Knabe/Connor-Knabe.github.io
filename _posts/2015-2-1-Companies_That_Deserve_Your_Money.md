@@ -7,15 +7,15 @@ comments: true
 
 
 
-<a href="http://coach.me" target="blank"><img class="logo" src="{{ site.baseurl }}/images/logos/coachme.png" /></a>
+<a href="https://coach.me" target="blank"><img class="logo" src="{{ site.baseurl }}/images/logos/coachme.png" /></a>
 <br>
     Coach.me is a website and mobile application that helps you reach your goals.  The idea is you can sign up for various goals such as (no alcohol, no cigarettes, meditation, etc.) and you can keep track of the days you complete your habit.  This is such a powerful tool that can really help you achieve whatever you are trying to accomplish.  I highly recommend this and have been using it since November 2012.
 <br><br>
-<a href="http://rdio.com" target="blank"><img class="logo" src="{{ site.baseurl }}/images/logos/rdio-logo-300x132.png" /></a>
+<a href="https://rdio.com" target="blank"><img class="logo" src="{{ site.baseurl }}/images/logos/rdio-logo-300x132.png" /></a>
 <br>
     Rdio is a service that allows you to stream music for only $10 a month or $5 a month if you are a student.  The advantage of using this service compared to paying individually for songs would be that you have unlimited access to music.  Also, if you listen to over 10 new songs a month it easily could be worth it.  
 <br><br>
-<a href="http://chipotle.com" target="blank"><img class="logo" src="{{ site.baseurl }}/images/logos/chipotle_logo_horizontal_inv.gif" /></a>
+<a href="https://chipotle.com" target="blank"><img class="logo" src="{{ site.baseurl }}/images/logos/chipotle_logo_horizontal_inv.gif" /></a>
 <br>
 Chipotle is not your typical Mexican restaurant.  They have a very different atmosphere than a typical restaurant.  Chipotle is very particular about where their ingredients are sourced, and look for sustainable options and naturally fed meat.
 <br><br>
