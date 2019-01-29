@@ -4,9 +4,9 @@ title: What I've been up to lately
 comments: true
 ---
 
-So it's been quite some time since I've last posted. I've been spending most of my free time working on side projects (code) and the float business. I don't plan to start posting reguarily again but I would like to share what are the projects I've been working on over these last few years. <br><br>
+It's been quite some time since I've last posted. I've been spending most of my free time working on side projects and the float business. I don't plan to start posting reguarily again but I would like to share some of the projects I've been working on over these last few years.<br><br>
 
-<h2>Holka-Garage (Github Link)</h2>
+<h2>Holka-Garage (<a href="https://github.com/Connor-Knabe/holka-garage">GitHub</a>)</h2>
 This one was a lot of fun to implement.  It all started with a couple of problems that I was having. One problem that my wife and I both shared was a concern that we left the garage open while at work or over night.  Another was that my garage door opener signal was very weak and I would have to be in my driveway to even open the garage.  You might be thinking well why not just get a longer antenna but that'd only solve one probelm and wouldn't be nearly as enjoyable,  the same goes for buying a smart garage door opener.  This annoyance led me to creating software/hardware that would allow me to open my garage from any distance from my home.
 
 <h2>Alexa/IFTTT Controlled Fireplace</h2>

@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/connorknabe
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://floatgeek.com
+  * I am connorknabe (https://keybase.io/connorknabe) on keybase.
+  * I have a public key with fingerprint 9F17 8119 C0F8 8DBD F3DD  AC52 4285 D861 7216 B8D7
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101004d255a954a2cf9d6d015ab138759259dd22b6dcb8a73d21f5b60731bcc95c60a",
+      "fingerprint": "9f178119c0f88dbdf3ddac524285d8617216b8d7",
+      "host": "keybase.io",
+      "key_id": "4285d8617216b8d7",
+      "kid": "0101004d255a954a2cf9d6d015ab138759259dd22b6dcb8a73d21f5b60731bcc95c60a",
+      "uid": "c8c2dbb1e8563b9504fd066626641000",
+      "username": "connorknabe"
+    },
+    "service": {
+      "hostname": "floatgeek.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1507207427,
+  "expire_in": 157680000,
+  "prev": "d75da047083e86262453393a68e9345c5722b14098a3d86ebfb459b336472976",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.74
+Comment: https://keybase.io/crypto
+
+yMIoAnicrVJfSBRBHL7L1LoMiyIS+sdC0J/rmNnd2Z29MM0KgiR8SZCUa2dn9tzO
+dq+71fO6grKHeikUlSwlosCsF4kyjJTKNEOfkkgyycgMKkKqhxCKmpV66zHmYZj5
+fd/3+74fv8GlWb6Av7V9CVj/8XWpf/TRpVpfxYvNWRmBODQthDNCjM1frIaypBuJ
+WVQICwDyA2QqIqRrSNZFw9SoQgFEOoESVpEmIo1SUSQKNQjWVYmK0EREAaoEiWFo
+yFCALgQF07KjLBFPWLbLZTUTqhhCzQAmxpRQU6JUN5AoixhRrEBVhArBVOXEaifp
+Mbg5oidZyHL4H39E5u39A/+ffdfOyxnYECkhkGGkSERDQDYpUBRFVBSZ9wEeMMkS
+tn6EeWjHtp1EzNYJE04EBV6oswzmzdYL8wdk1ji6G2UsFjKcI5wfTziuYzg1vFTt
+uvGwx3TTcQ+aYiTyRyRCLJvyUXJCHUskLccWwpAjDdfyVCECqghUWVSDAquPWwkW
+sTwEUhXMbQKvDavjklRFVAeyCrDEMI8hykiSNElXMNMkGRlI5aOBMtCwLvEBM2IS
+GWlEkhRZFTVVEbxYR21HCPNOrh7lkkkrautubYJnHnhYudDnD/hyshd4K+YLLF72
+d/FmqnN/rjodJcMFt+hIcKaz6PiG1Ja58qaPI6nMlUyOsLy070DP+AgYXFQx92HT
+/hvD50o6oN38sDwV2um2Fgd73g35ThX03zzY1zB2uOhQtz9/NntF7o5f6ee9A/n3
+307uG3my9cK6z+cLSvaGv1dNfT3W+3h850+9dqIpvf3OcCq8+XJLntN+cq5hV+F0
+W6B8sqo5OlNkranAY5dYsQBLKu/d3pN3LCpcDaTqk7sPfj57V87rI21lZ5qn38w+
+fdRC+1d+CdUND65tfBl8xVa3Dfk75JaS940nc8qsnMIHnc7Exh+zu32fLDj+rKv+
+4vXJEPyWfJ+5de0s7izsChZ0j05t+w3ImT13
+=RRtt
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/connorknabe
+
+==================================================================
