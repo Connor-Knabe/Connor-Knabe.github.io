@@ -7,6 +7,50 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>What I've been up to lately</title>
+				<description>&lt;p&gt;It’s been quite some time since I’ve last posted. I’ve been spending most of my free time working on side projects and the float business. I don’t plan to start posting regularly again but I would like to share some of the projects I’ve been working on over these last few years.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Holka-Garage (&lt;a href=&quot;https://github.com/Connor-Knabe/holka-garage&quot;&gt;Code on GitHub&lt;/a&gt;)&lt;/h2&gt;
+&lt;p&gt;This one was a lot of fun to implement.  It all started with a couple of problems that I was having. One problem that my wife and I both shared was a concern that we left the garage open while at work or over night.  Another was that my garage door opener signal was very weak and I would have to be in my driveway to even open the garage.  You might be thinking well why not just get a longer antenna but that’d only solve one probelm and wouldn’t be nearly as enjoyable,  the same goes for buying a smart garage door opener.  This annoyance led me to creating software/hardware that would allow me to open my garage from any distance from my home.&lt;/p&gt;
+
+&lt;h2&gt;Alexa/IFTTT Controlled Fireplace&lt;/h2&gt;
+&lt;p&gt;Fireplace that turns on/off using a Particle Photon, Relay board, Alexa, and IFTTT.&lt;/p&gt;
+
+&lt;div class=&quot;flex-video&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/TwfoPlLxzqA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Clarity No Show Alert&lt;/h2&gt;
+&lt;p&gt;Application written in Node.js using Nightmare.js which will alert if there are float appointments booked but no one is clocked in.  This is written on top of the FloatHelm booking/scheduling software we use.&lt;/p&gt;
+
+&lt;h2&gt;Helm member automation&lt;/h2&gt;
+&lt;p&gt;Adds tasks to FloatHelm when a member needs a free gift card float (part of our membership program).  This takes the manual process of going and checking every day to see which members have floated 10 times.  Eventually this will automatically generate the gift card and email it off to that member.&lt;/p&gt;
+
+&lt;h2&gt;Hue energy usage (&lt;a href=&quot;https://github.com/Connor-Knabe/hue-energy-usage&quot;&gt;Code on GitHub&lt;/a&gt;)&lt;/h2&gt;
+&lt;p&gt;Tracks energy usage for Philips Hue light bulbs around our house.  Reports total costs, yearly, and monthly&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img50&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/heu.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Nest energy usage&lt;/h2&gt;
+
+&lt;h2&gt;Holka-Proxy&lt;/h2&gt;
+
+&lt;h2&gt;Clarity-Waiver&lt;/h2&gt;
+
+&lt;h2&gt;Coach.me Automation&lt;/h2&gt;
+
+&lt;h2&gt;Simple-bank-helper&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Want to talk about this further drop me a line here: &lt;a href=&quot;mailto:&amp;#102;&amp;#108;&amp;#111;&amp;#97;&amp;#116;&amp;#103;&amp;#101;&amp;#101;&amp;#107;&amp;#51;&amp;#51;&amp;#43;&amp;#98;&amp;#108;&amp;#111;&amp;#103;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;floatgeek33+wibutl@gmail.com&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Fri, 01 Feb 2019 11:33:23 -0600</pubDate>
+				<link>http://localhost:4000/2019/02/What_I've_Been_Up_To_Lately</link>
+				<guid isPermaLink="true">http://localhost:4000/2019/02/What_I've_Been_Up_To_Lately</guid>
+			</item>
+		
+			<item>
 				<title>Auto Zen Float Tent</title>
 				<description>&lt;p&gt;I’ve had this idea of an automated float center for some time now.  If you’d like to know more about this see my articles titled &lt;a href=&quot;/2015/02/automated-float-tank-center&quot; target=&quot;blank&quot;&gt;Automated Float Tank Center&lt;/a&gt; and &lt;a href=&quot;/2015/03/how-to-design-an-automated-float-tank-center&quot; target=&quot;blank&quot;&gt;How to Design An Automated Float Tank Center&lt;/a&gt;.  Since I’ve started working on building a float center of my own called &lt;a href=&quot;https://clarityfloats.com/&quot; target=&quot;blank&quot;&gt;Clarity Float Spa&lt;/a&gt; my mindset on a fully automated float center has started to shift.  I’ve come to realize that having a human element seems to be crucial to a successful float center.  The post float discussion is extremely important, especially for those floatees who just had a profound life changing experience in the tank.  So instead of going for a fully automated center I’ve started creating hardware and software to make running a float center easier. That being said I still think there is a place for a fully automated float tank center but it is not something I am pursuing at this time.
 &lt;br /&gt;&lt;br /&gt;
@@ -546,48 +590,6 @@ The reason for strict access is that we only want floaters who are permitted int
 				<pubDate>Fri, 20 Feb 2015 00:00:00 -0600</pubDate>
 				<link>http://localhost:4000/2015/02/Automated_Float_Tank_Center</link>
 				<guid isPermaLink="true">http://localhost:4000/2015/02/Automated_Float_Tank_Center</guid>
-			</item>
-		
-			<item>
-				<title>Companies That Deserve Your Money</title>
-				<description>&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://coach.me&quot; target=&quot;blank&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logos/coachme.png&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;
-    Coach.me is a website and mobile application that helps you reach your goals.  The idea is you can sign up for various goals such as (no alcohol, no cigarettes, meditation, etc.) and you can keep track of the days you complete your habit.  This is such a powerful tool that can really help you achieve whatever you are trying to accomplish.  I highly recommend this and have been using it since November 2012.
-&lt;br /&gt;&lt;br /&gt;
-&lt;a href=&quot;https://rdio.com&quot; target=&quot;blank&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logos/rdio-logo-300x132.png&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;
-    Rdio is a service that allows you to stream music for only $10 a month or $5 a month if you are a student.  The advantage of using this service compared to paying individually for songs would be that you have unlimited access to music.  Also, if you listen to over 10 new songs a month it easily could be worth it.&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;a href=&quot;https://chipotle.com&quot; target=&quot;blank&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logos/chipotle_logo_horizontal_inv.gif&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;
-Chipotle is not your typical Mexican restaurant.  They have a very different atmosphere than a typical restaurant.  Chipotle is very particular about where their ingredients are sourced, and look for sustainable options and naturally fed meat.
-&lt;br /&gt;&lt;br /&gt;
-&lt;a href=&quot;https://simple.com&quot; target=&quot;blank&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logos/simple-bank-branding-2.jpg&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;
-Simple is a bank that truly puts their customers first.  They have a built in budgeting system that can facilitate saving up for any type of purchase.  The bank is also known for having lower fees than a typical bank.  Simple is a bank you can be proud of!
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://duckduckgo.com&quot; target=&quot;blank&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logos/duckduckgo-logo.jpg&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;
-If your tired of worrying about who is snooping on your search engine queries look no further.  DuckDuckGo.com is a great website which doesn’t track or retain information about what you search for.  Now, one might not care about allowing others to view what data they look at but the main issue here is that bigger search engines put you in a filter bubble.  Here is a great TED talk about filter bubbles that explains how certain search engines will give you bias results based on your past history.  This may seem like a good thing, but in reality it is not giving you an accurate picture of the world, but that confirms your own beliefs.&lt;/p&gt;
-
-&lt;div class=&quot;auto-resizable-iframe&quot;&gt;
-   &lt;div&gt;
-       &lt;iframe frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/B8ofWFx525s&quot;&gt;
-       &lt;/iframe&gt;
-   &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;a href=&quot;https://betterment.com/invite/connorknabe&quot; target=&quot;blank&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;/images/logos/betterment_283_224_v2_0.jpg&quot; /&gt;&lt;/a&gt;
-&lt;br /&gt;
-Betterment is a great tool for investors that don’t want to pay high fees for getting involved in the mutual fund industry.  They use low cost index funds and bonds that allow them to charge incredibly low fees.  They charge between .15% and .35% depending on how much money you have invested with them.  I highly recommend this service and use it myself.&lt;/p&gt;
-</description>
-				<pubDate>Sun, 01 Feb 2015 00:00:00 -0600</pubDate>
-				<link>http://localhost:4000/2015/02/Companies_That_Deserve_Your_Money</link>
-				<guid isPermaLink="true">http://localhost:4000/2015/02/Companies_That_Deserve_Your_Money</guid>
 			</item>
 		
 	</channel>
