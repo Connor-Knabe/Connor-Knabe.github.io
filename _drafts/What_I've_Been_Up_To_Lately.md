@@ -11,6 +11,17 @@ It's been quite some time since I've last posted. I've been spending most of my 
 This one was a lot of fun to implement.  It all started with a couple of problems that I was having. One problem that my wife and I both shared was a concern that we left the garage open while at work or over night.  Another was that my garage door opener signal was very weak and I would have to be in my driveway to even open the garage.  You might be thinking well why not just get a longer antenna but that'd only solve one probelm and wouldn't be nearly as enjoyable,  the same goes for buying a smart garage door opener.  This annoyance led me to creating software/hardware that would allow me to open my garage from any distance from my home.
 
 
+<h4>Open via GPS</h4>
+<div class = "flex-video">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/w_uE6Tte2oI" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<h4>Open via button</h4>
+<div class = "flex-video">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bP_ioBE5NLI" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
 <h2>Alexa/IFTTT Controlled Fireplace</h2>
 Fireplace that turns on/off using a Particle Photon, Relay board, Alexa, and IFTTT.
 
