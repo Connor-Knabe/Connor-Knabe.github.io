@@ -8,10 +8,20 @@
 		
 			<item>
 				<title>What I've been up to lately</title>
-				<description>&lt;p&gt;It’s been quite some time since I’ve last posted. I’ve been spending most of my free time working on side projects and the float business. I don’t plan to start posting regularly again but I would like to share some of the projects I’ve been working on over these last few years.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+				<description>&lt;p&gt;It’s been quite some time since I’ve last posted. I’ve been spending most of my free time working on side projects and the float business. I don’t plan to start posting regularly again but I would like to share some of the projects I’ve been working on over the last few years.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Holka-Garage (&lt;a href=&quot;https://github.com/Connor-Knabe/holka-garage&quot;&gt;Code on GitHub&lt;/a&gt;)&lt;/h2&gt;
 &lt;p&gt;This one was a lot of fun to implement.  It all started with a couple of problems that I was having. One problem that my wife and I both shared was a concern that we left the garage open while at work or over night.  Another was that my garage door opener signal was very weak and I would have to be in my driveway to even open the garage.  You might be thinking well why not just get a longer antenna but that’d only solve one probelm and wouldn’t be nearly as enjoyable,  the same goes for buying a smart garage door opener.  This annoyance led me to creating software/hardware that would allow me to open my garage from any distance from my home.&lt;/p&gt;
+
+&lt;h4&gt;Open via GPS&lt;/h4&gt;
+&lt;div class=&quot;flex-video&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/w_uE6Tte2oI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h4&gt;Open via button&lt;/h4&gt;
+&lt;div class=&quot;flex-video&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/bP_ioBE5NLI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;h2&gt;Alexa/IFTTT Controlled Fireplace&lt;/h2&gt;
 &lt;p&gt;Fireplace that turns on/off using a Particle Photon, Relay board, Alexa, and IFTTT.&lt;/p&gt;
@@ -21,31 +31,43 @@
 &lt;/div&gt;
 
 &lt;h2&gt;Clarity No Show Alert&lt;/h2&gt;
-&lt;p&gt;Application written in Node.js using Nightmare.js which will alert if there are float appointments booked but no one is clocked in.  This is written on top of the FloatHelm booking/scheduling software we use.&lt;/p&gt;
+&lt;p&gt;Application written in Node.js using Nightmare.js that will alert if there are float appointments booked but no one is clocked in.  This is written on top of the FloatHelm booking/scheduling software we use.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img75&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/noShowSystem.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Helm member automation&lt;/h2&gt;
 &lt;p&gt;Adds tasks to FloatHelm when a member needs a free gift card float (part of our membership program).  This takes the manual process of going and checking every day to see which members have floated 10 times.  Eventually this will automatically generate the gift card and email it off to that member.&lt;/p&gt;
 
 &lt;h2&gt;Hue energy usage (&lt;a href=&quot;https://github.com/Connor-Knabe/hue-energy-usage&quot;&gt;Code on GitHub&lt;/a&gt;)&lt;/h2&gt;
-&lt;p&gt;Tracks energy usage for Philips Hue light bulbs around our house.  Reports total costs, yearly, and monthly&lt;/p&gt;
+&lt;p&gt;Tracks energy usage for Philips Hue light bulbs around our house.  Reports total costs, yearly, and monthly.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;img50&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/heu.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;img75&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/heu.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Nest energy usage&lt;/h2&gt;
+&lt;p&gt;Monitors energy usage and gives me an estimate on how much money will be spent on heating/cooling month to month.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img75&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/nestEnergyUsage1.png&quot; /&gt;
+&lt;img class=&quot;img75&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/nestEnergyUsage2.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Holka-Proxy&lt;/h2&gt;
+&lt;p&gt;A reverse proxy server that handles incoming external requests and routes them securely over SSL to services running on a Ubuntu server.&lt;/p&gt;
 
 &lt;h2&gt;Clarity-Waiver&lt;/h2&gt;
+&lt;p&gt;A service that hooks into SmartWaiver’s API that syncs data to MailChimp and Google Sheets when a waiver is filled out. Written in Node.js&lt;/p&gt;
 
 &lt;h2&gt;Coach.me Automation&lt;/h2&gt;
+&lt;p&gt;Auto completes habits that are routine using Nightmare.js&lt;/p&gt;
 
-&lt;h2&gt;Simple-bank-helper&lt;/h2&gt;
+&lt;h2&gt;Simple-bank-helper (&lt;a href=&quot;https://github.com/Connor-Knabe/simple-bank-helper&quot;&gt;Code on GitHub&lt;/a&gt;)&lt;/h2&gt;
+&lt;p&gt;Little Node.js program that helps me determine where my money has been spent month to month based on goals that I have setup with Simple Bank.  Simple does this but I custom made this script to give me more accurate numbers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img50&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/simpleBankHelper.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Want to talk about this further drop me a line here: &lt;a href=&quot;mailto:&amp;#102;&amp;#108;&amp;#111;&amp;#97;&amp;#116;&amp;#103;&amp;#101;&amp;#101;&amp;#107;&amp;#51;&amp;#51;&amp;#43;&amp;#98;&amp;#108;&amp;#111;&amp;#103;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;floatgeek33+wibutl@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Want to talk about what I’ve been working on drop me a line here: &lt;a href=&quot;mailto:&amp;#102;&amp;#108;&amp;#111;&amp;#97;&amp;#116;&amp;#103;&amp;#101;&amp;#101;&amp;#107;&amp;#51;&amp;#51;&amp;#43;&amp;#98;&amp;#108;&amp;#111;&amp;#103;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;floatgeek33+wibutl@gmail.com&lt;/a&gt;&lt;/p&gt;
 </description>
-				<pubDate>Fri, 01 Feb 2019 11:33:23 -0600</pubDate>
+				<pubDate>Thu, 14 Feb 2019 07:11:33 -0600</pubDate>
 				<link>http://localhost:4000/2019/02/What_I've_Been_Up_To_Lately</link>
 				<guid isPermaLink="true">http://localhost:4000/2019/02/What_I've_Been_Up_To_Lately</guid>
 			</item>
