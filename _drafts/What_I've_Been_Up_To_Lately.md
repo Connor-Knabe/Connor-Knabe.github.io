@@ -40,23 +40,23 @@ I really appreciate limiting my electrical usage around my home.  Not only does 
 <img class="img75" src="{{ site.baseurl }}/images/posts/what_ive_been_up_to_lately/heu.png" />
 
 <h2>Nest energy usage</h2> 
-Monitors energy usage and gives me an estimate on how much money will be spent on heating/cooling month to month.
+Air conditioners are one of the most energy hungry appliances in a home or an apartment.  Along the same lines as why I track my light bulb energy usage I wanted to do the same for my AC and Furnace.  I previously had a Honeywell Smart thermostat which was great however it did not have a good API that I could use to pull data from it.  This is what prompted me to purchase a Nest Gen 3 thermostat was because the API and documentation were excellent and would allow me to gather the data I needed to solve this problem.  The program I wrote monitors energy usage and gives me an estimate on how much money will be spent on heating/cooling month to month.
 
 <img class="img75" src="{{ site.baseurl }}/images/posts/what_ive_been_up_to_lately/nestEnergyUsage1.png" />
 <img class="img75" src="{{ site.baseurl }}/images/posts/what_ive_been_up_to_lately/nestEnergyUsage2.png" />
 
 <h2>Holka-Proxy</h2>
+I have many different programs and services hosted on my DigitalOcean box
 A reverse proxy server that handles incoming external requests and routes them securely over SSL to services running on an Ubuntu server.
 
 <h2>Clarity-Waiver</h2>
-A service that hooks into SmartWaiver's API that syncs data to MailChimp and Google Sheets when a waiver is filled out. Written in Node.js
+At Clarity Float Spa in the past we would send out hand written letters to customers after their first float.  This process was difficult to track what letters were written and by whom.  To make this easier I hooked into our waiver's API (SmartWaiver) using Node.js that then would sync data over to a Google Sheet in order for us to keep track of which letters were written. This allowed us to make the process much easier and required much less manual work to accomplish.
 
 <h2>Coach.me Automation</h2>
-Auto completes habits that are routine using Nightmare.js
+I'm a huge fan of the website <a href="https://Coach.me">https://Coach.me</a> it has helped me accomplish many self improvement goals that I set for myself and ultimately I believe has made myself a better person.  There are many habits that I do daily (like meditation) that I would manually have to click every morning.  I do like to keep track of this in the event I do fall out of a meditation habit.  So instead of removing this habit from the app I wrote a little script using Nightmare.js that logs in every morning and checks off my daily habits automatically.
 
 <h2>Simple-bank-helper (<a href="https://github.com/Connor-Knabe/simple-bank-helper">Code on GitHub</a>)</h2>
-Little Node.js program that helps me determine where my money has been spent month to month based on goals that I have setup with Simple Bank.  Simple does this but I custom made this script to give me more accurate numbers.
-
+I was wondering how much money I was spending month to month based on my current budget that was set up with my bank <a href="https://www.simple.com/">https://simple.com/</a>.  The way I had my budget setup make it difficult to calculate these numbers unless you went back manually and looked to see month to month what the expenses were in each of the <a href="https://www.simple.com/features/goals">goals</a> I had created for that month's budget.  One thing you might be wondering is why not use <a href="https://www.simple.com/features/expenses">expenses</a>?  At the time expenses had not come out yet (they came out a few months after I wrote this program actually). The program was written in Node.js and would help me determine where my money has been spent month to month.  
 <img class="img50" src="{{ site.baseurl }}/images/posts/what_ive_been_up_to_lately/simpleBankHelper.png" />
 
 <br><br>
