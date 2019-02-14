@@ -46,8 +46,7 @@ Air conditioners are one of the most energy hungry appliances in a home or an ap
 <img class="img75" src="{{ site.baseurl }}/images/posts/what_ive_been_up_to_lately/nestEnergyUsage2.png" />
 
 <h2>Holka-Proxy</h2>
-I have many different programs and services hosted on my DigitalOcean box
-A reverse proxy server that handles incoming external requests and routes them securely over SSL to services running on an Ubuntu server.
+I have many different programs and services hosted on my <a href="https://m.do.co/c/cf0b0981d05d">DigitalOcean</a> box.  In order to help keep all of the programs secure using SSL I created a reverse proxy. This program handles incoming external requests and routes them securely over SSL to services running on my Ubuntu server.
 
 <h2>Clarity-Waiver</h2>
 At Clarity Float Spa in the past we would send out hand written letters to customers after their first float.  This process was difficult to track what letters were written and by whom.  To make this easier I hooked into our waiver's API (SmartWaiver) using Node.js that then would sync data over to a Google Sheet in order for us to keep track of which letters were written. This allowed us to make the process much easier and required much less manual work to accomplish.
