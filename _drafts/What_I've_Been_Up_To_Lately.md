@@ -7,7 +7,7 @@ comments: true
 It's been quite some time since I've last posted. I've been spending most of my free time working on side projects and the float business. I don't plan to start posting regularly again but I would like to share some of the projects I've been working on over the last few years.<br><br>
 
 <h2>Holka-Garage (<a href="https://github.com/Connor-Knabe/holka-garage">Code on GitHub</a>)</h2>
-This one was a lot of fun to implement.  It all started with a couple of problems that I was having. One problem that my wife and I both shared was a concern that we left the garage open while at work or over night.  Another was that my garage door opener signal was very weak and I would have to be in my driveway to even open the garage.  You might be thinking well why not just get a longer antenna but that'd only solve one probelm and wouldn't be nearly as enjoyable,  the same goes for buying a smart garage door opener.  This annoyance led me to creating software/hardware that would allow me to open my garage from any distance from my home.
+This one was a lot of fun to implement.  It all started with a couple of problems that I was having. One problem that my wife and I both shared was a concern that we left the garage open while at work or over night.  Another was that my garage door opener signal was very weak and I would have to be in my driveway to even open the garage.  You might be thinking well why not just get a longer antenna, but that'd only solve one probelm and wouldn't be nearly as enjoyable; the same goes for buying a smart garage door opener. This annoyance led me to creating software/hardware that would allow me to open my garage any distance from my home.
 
 <h4>Open via GPS</h4>
 <div class = "flex-video">
@@ -27,12 +27,12 @@ Fireplace that turns on/off using a Particle Photon, Relay board, Alexa, and IFT
 </div>
 
 <h2>Clarity No Show Alert</h2>
-Application written in Node.js using Nightmare.js which will alert if there are float appointments booked but no one is clocked in.  This is written on top of the FloatHelm booking/scheduling software we use.
+Application written in Node.js using Nightmare.js which will alert if there are float appointments booked but no one is clocked in.  This is written on top of the FloatHelm booking and scheduling software we use.
 
 <img class="img50" src="{{ site.baseurl }}/images/posts/what_ive_been_up_to_lately/noShowSystem.png" />
 
-<h2>Helm member automation</h2>
-Adds tasks to FloatHelm when a member needs a free gift card float (part of our membership program).  This takes the manual process of going and checking every day to see which members have floated 10 times.  Eventually this will automatically generate the gift card and email it off to that member.
+<h2>FloatHelm member automation</h2>
+Adds tasks to FloatHelm for when a member needs a free gift card float (part of our membership program).  This takes the manual process of going and checking every day to see which members have floated 10 times.  Eventually this will automatically generate the gift card and email it off to that member.
 
 <h2>Hue energy usage (<a href="https://github.com/Connor-Knabe/hue-energy-usage">Code on GitHub</a>)</h2>
 Tracks energy usage for Philips Hue light bulbs around our house.  Reports total costs, yearly, and monthly.
@@ -43,7 +43,7 @@ Tracks energy usage for Philips Hue light bulbs around our house.  Reports total
 Monitors energy usage and gives me an estimate on how much money will be spent on heating/cooling month to month.
 
 <h2>Holka-Proxy</h2>
-A reverse proxy server that handles incoming external requests and routes them securely over SSL to services running on a Ubuntu server.
+A reverse proxy server that handles incoming external requests and routes them securely over SSL to services running on an Ubuntu server.
 
 <h2>Clarity-Waiver</h2>
 A service that hooks into SmartWaiver's API that syncs data to MailChimp and Google Sheets when a waiver is filled out. Written in Node.js
@@ -56,4 +56,4 @@ Little Node.js program that helps me determine where my money has been spent mon
 
 <br><br>
 
-Want to talk about what I've been working on drop me a line here: <a href="mailto:&#102;&#108;&#111;&#97;&#116;&#103;&#101;&#101;&#107;&#51;&#51;&#43;&#98;&#108;&#111;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">floatgeek33+wibutl@gmail.com</a>
+If you want to talk or ask about what I've been working on drop me a line here: <a href="mailto:&#102;&#108;&#111;&#97;&#116;&#103;&#101;&#101;&#107;&#51;&#51;&#43;&#98;&#108;&#111;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">floatgeek33+wibutl@gmail.com</a>
