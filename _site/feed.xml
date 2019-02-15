@@ -11,7 +11,7 @@
 				<description>&lt;p&gt;It’s been quite some time since I’ve last posted. I’ve been spending most of my free time working on side projects and the float business. I don’t plan to start posting regularly again but I would like to share some of the projects I’ve been working on over the last few years.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Holka-Garage (&lt;a href=&quot;https://github.com/Connor-Knabe/holka-garage&quot;&gt;Code on GitHub&lt;/a&gt;)&lt;/h2&gt;
-&lt;p&gt;This one was a lot of fun to implement.  It all started with a couple of problems that I was having. One problem that my wife and I both shared was a concern that we left the garage open while at work or over night.  Another was that my garage door opener signal was very weak and I would have to be in my driveway to even open the garage.  You might be thinking well why not just get a longer antenna but that’d only solve one probelm and wouldn’t be nearly as enjoyable,  the same goes for buying a smart garage door opener.  This annoyance led me to creating software/hardware that would allow me to open my garage from any distance from my home.&lt;/p&gt;
+&lt;p&gt;This one was a lot of fun to implement!  It all started with a couple of problems that I was having. One problem that my wife and I both shared was a concern that we left the garage open while at work or overnight.  Another was that my garage door opener signal was very weak and I would have to be in my driveway to even open the garage.  You might be thinking well why not just get a longer antenna but that’d only solve one problem and wouldn’t be nearly as enjoyable,  the same goes for buying a smart garage door opener.  This annoyance led me to creating software/hardware that would allow me to open my garage from any distance from my home.&lt;/p&gt;
 
 &lt;h4&gt;Open via GPS&lt;/h4&gt;
 &lt;div class=&quot;flex-video&quot;&gt;
@@ -31,43 +31,42 @@
 &lt;/div&gt;
 
 &lt;h2&gt;Clarity No Show Alert&lt;/h2&gt;
-&lt;p&gt;Application written in Node.js using Nightmare.js that will alert if there are float appointments booked but no one is clocked in.  This is written on top of the FloatHelm booking/scheduling software we use.&lt;/p&gt;
+&lt;p&gt;One concern I’ve had when owning a business that is run by a team of people is what happens if someone forgets their shift and has to open in the morning.  To help ease my concern I decided to write a program that would verify a teammate is clocked in so long as there is someone booked for an appointment that morning.  It is written in Node.js using Nightmare.js written on top of our booking software (FloatHelm) it sends text alerts to the managers and teammate who is supposed to be clocked in.  If they still don’t clock in after 10 minutes it will call all of us.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;img75&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/noShowSystem.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Helm member automation&lt;/h2&gt;
-&lt;p&gt;Adds tasks to FloatHelm when a member needs a free gift card float (part of our membership program).  This takes the manual process of going and checking every day to see which members have floated 10 times.  Eventually this will automatically generate the gift card and email it off to that member.&lt;/p&gt;
+&lt;p&gt;At Clarity Float Spa we like to reward our members who have a strong float practice by allowing them to bring a friend every 10 floats they do.  In the past this was a manual process that our manager would have to do.  It was taking up time each week that could be spent on more creative efforts.  So I created a Nightmare.js automation script that would login to the FloatHelm (booking software we use) check to see if a member has reached 10 floats and then adds a task for the manager to send a gift card to that member. Eventually this will automatically generate the gift card and email it off to that member however we like having this be a more personal process at this time by directly emailing them.&lt;/p&gt;
 
 &lt;h2&gt;Hue energy usage (&lt;a href=&quot;https://github.com/Connor-Knabe/hue-energy-usage&quot;&gt;Code on GitHub&lt;/a&gt;)&lt;/h2&gt;
-&lt;p&gt;Tracks energy usage for Philips Hue light bulbs around our house.  Reports total costs, yearly, and monthly.&lt;/p&gt;
+&lt;p&gt;I like to focus some energy on limiting my electrical usage around my home.  Not only does it add up on our monthly utility bills but there is an environmental cost too.  I decided that tracking as many appliances and switching for energy efficient ones (if the numbers make sense) would be worth my time.  One thing that was extremely difficult to track was what sort of electrical footprint my light bulbs were having.  I have many Philips Hue LED light bulbs already so I wanted to know if I had incandescent bulbs which consume close to 6 times more electricity how much am I saving.  This program the tracks energy usage for these bulbs around our house.  It then reports the total costs and yearly and monthly costs.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;img75&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/heu.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Nest energy usage&lt;/h2&gt;
-&lt;p&gt;Monitors energy usage and gives me an estimate on how much money will be spent on heating/cooling month to month.&lt;/p&gt;
+&lt;p&gt;Air conditioners are one of the most energy hungry appliances in a home or an apartment.  Along the same lines as why I track my light bulb energy usage I wanted to do the same for my AC and Furnace.  I previously had a Honeywell Smart thermostat which was great however it did not have a good API that I could use to pull data from it.  This is what prompted me to purchase a Nest Gen 3 thermostat was because the API and documentation were excellent and would allow me to gather the data I needed to solve this problem.  The program I wrote monitors energy usage and gives me an estimate on how much money will be spent on heating/cooling month to month.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;img75&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/nestEnergyUsage1.png&quot; /&gt;
 &lt;img class=&quot;img75&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/nestEnergyUsage2.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Holka-Proxy&lt;/h2&gt;
-&lt;p&gt;A reverse proxy server that handles incoming external requests and routes them securely over SSL to services running on a Ubuntu server.&lt;/p&gt;
+&lt;p&gt;I have many different programs and services hosted on my &lt;a href=&quot;https://m.do.co/c/cf0b0981d05d&quot;&gt;DigitalOcean&lt;/a&gt; box.  In order to help keep all of the programs secure using SSL I created a reverse proxy. This program handles incoming external requests and routes them securely over SSL to services running on my Ubuntu server.&lt;/p&gt;
 
 &lt;h2&gt;Clarity-Waiver&lt;/h2&gt;
-&lt;p&gt;A service that hooks into SmartWaiver’s API that syncs data to MailChimp and Google Sheets when a waiver is filled out. Written in Node.js&lt;/p&gt;
+&lt;p&gt;At Clarity Float Spa in the past we would send out hand written letters to customers after their first float.  This process was difficult to track what letters were written and by whom.  To make this easier I hooked into our waiver’s API (SmartWaiver) using Node.js that then would sync data over to a Google Sheet in order for us to keep track of which letters were written. This allowed us to make the process much easier and required much less manual work to accomplish.&lt;/p&gt;
 
 &lt;h2&gt;Coach.me Automation&lt;/h2&gt;
-&lt;p&gt;Auto completes habits that are routine using Nightmare.js&lt;/p&gt;
+&lt;p&gt;I’m a huge fan of the website &lt;a href=&quot;https://Coach.me&quot;&gt;https://Coach.me&lt;/a&gt; it has helped me accomplish many self improvement goals that I set for myself and ultimately I believe has made myself a better person.  There are many habits that I do daily (like meditation) that I would manually have to click every morning.  I do like to keep track of this in the event I do fall out of a meditation habit.  So instead of removing this habit from the app I wrote a little script using Nightmare.js that logs in every morning and checks off my daily habits automatically.&lt;/p&gt;
 
 &lt;h2&gt;Simple-bank-helper (&lt;a href=&quot;https://github.com/Connor-Knabe/simple-bank-helper&quot;&gt;Code on GitHub&lt;/a&gt;)&lt;/h2&gt;
-&lt;p&gt;Little Node.js program that helps me determine where my money has been spent month to month based on goals that I have setup with Simple Bank.  Simple does this but I custom made this script to give me more accurate numbers.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;img50&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/simpleBankHelper.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I was wondering how much money I was spending month to month based on my current budget that was set up with my bank &lt;a href=&quot;https://www.simple.com/&quot;&gt;https://simple.com/&lt;/a&gt;.  The way I had my budget setup make it difficult to calculate these numbers unless you went back manually and looked to see month to month what the expenses were in each of the &lt;a href=&quot;https://www.simple.com/features/goals&quot;&gt;goals&lt;/a&gt; I had created for that month’s budget.  One thing you might be wondering is why not use &lt;a href=&quot;https://www.simple.com/features/expenses&quot;&gt;expenses&lt;/a&gt;?  At the time expenses had not come out yet (they came out a few months after I wrote this program actually). The program was written in Node.js and would help me determine where my money has been spent month to month.&lt;br /&gt;
+&lt;img class=&quot;img50&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/simpleBankHelper.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Want to talk about what I’ve been working on drop me a line here: &lt;a href=&quot;mailto:&amp;#102;&amp;#108;&amp;#111;&amp;#97;&amp;#116;&amp;#103;&amp;#101;&amp;#101;&amp;#107;&amp;#51;&amp;#51;&amp;#43;&amp;#98;&amp;#108;&amp;#111;&amp;#103;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;floatgeek33+wibutl@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you want to talk or ask about what I’ve been working on drop me a line here: &lt;a href=&quot;mailto:&amp;#102;&amp;#108;&amp;#111;&amp;#97;&amp;#116;&amp;#103;&amp;#101;&amp;#101;&amp;#107;&amp;#51;&amp;#51;&amp;#43;&amp;#98;&amp;#108;&amp;#111;&amp;#103;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;floatgeek33+wibutl@gmail.com&lt;/a&gt;&lt;/p&gt;
 </description>
-				<pubDate>Thu, 14 Feb 2019 07:11:33 -0600</pubDate>
+				<pubDate>Fri, 15 Feb 2019 08:00:14 -0600</pubDate>
 				<link>http://localhost:4000/2019/02/What_I've_Been_Up_To_Lately</link>
 				<guid isPermaLink="true">http://localhost:4000/2019/02/What_I've_Been_Up_To_Lately</guid>
 			</item>

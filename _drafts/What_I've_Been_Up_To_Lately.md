@@ -7,7 +7,7 @@ comments: true
 It's been quite some time since I've last posted. I've been spending most of my free time working on side projects and the float business. I don't plan to start posting regularly again but I would like to share some of the projects I've been working on over the last few years.<br><br>
 
 <h2>Holka-Garage (<a href="https://github.com/Connor-Knabe/holka-garage">Code on GitHub</a>)</h2>
-This one was a lot of fun to implement!  It all started with a couple of problems that I was having. One problem that my wife and I both shared was a concern that we left the garage open while at work or over night.  Another was that my garage door opener signal was very weak and I would have to be in my driveway to even open the garage.  You might be thinking well why not just get a longer antenna but that'd only solve one problem and wouldn't be nearly as enjoyable,  the same goes for buying a smart garage door opener.  This annoyance led me to creating software/hardware that would allow me to open my garage from any distance from my home.
+This one was a lot of fun to implement!  It all started with a couple of problems that I was having. One problem that my wife and I both shared was a concern that we left the garage open while at work or overnight.  Another was that my garage door opener signal was very weak and I would have to be in my driveway to even open the garage.  You might be thinking well why not just get a longer antenna but that'd only solve one problem and wouldn't be nearly as enjoyable,  the same goes for buying a smart garage door opener.  This annoyance led me to creating software/hardware that would allow me to open my garage from any distance from my home.
 
 <h4>Open via GPS</h4>
 <div class = "flex-video">
@@ -27,7 +27,7 @@ Fireplace that turns on/off using a Particle Photon, Relay board, Alexa, and IFT
 </div>
 
 <h2>Clarity No Show Alert</h2>
-Application written in Node.js using Nightmare.js which will alert if there are float appointments booked but no one is clocked in.  This is written on top of the FloatHelm booking and scheduling software we use.
+One concern I've had when owning a business that is run by a team of people is what happens if someone forgets their shift and has to open in the morning.  To help ease my concern I decided to write a program that would verify a teammate is clocked in so long as there is someone booked for an appointment that morning.  It is written in Node.js using Nightmare.js written on top of our booking software (FloatHelm) it sends text alerts to the managers and teammate who is supposed to be clocked in.  If they still don't clock in after 10 minutes it will call all of us.
 
 <img class="img75" src="{{ site.baseurl }}/images/posts/what_ive_been_up_to_lately/noShowSystem.png" />
 
