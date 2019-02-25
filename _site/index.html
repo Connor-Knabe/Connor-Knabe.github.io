@@ -179,9 +179,10 @@
 </div>
 
 <h2>Clarity No Show Alert</h2>
-<p>One concern I’ve had when owning a business that is run by a team of people is what happens if someone forgets their shift and has to open in the morning.  To help ease my concern I decided to write a program that would verify a teammate is clocked in so long as there is someone booked for an appointment that morning.  It is written in Node.js using Nightmare.js written on top of our booking software (FloatHelm) it sends text alerts to the managers and teammate who is supposed to be clocked in.  If they still don’t clock in after 10 minutes it will call all of us.</p>
+<p>One concern I’ve had when owning a business that is run by a team of people is what happens if someone forgets their shift and has to open in the morning.  To help ease my concern I decided to write a program that would verify a teammate is clocked in so long as there is someone booked for an appointment that morning.  It is written in Node.js using Nightmare.js written on top of our booking software (FloatHelm) it sends text alerts to the managers and teammate who is supposed to be clocked in.  If they still don’t clock in after 10 minutes it will call all of us.  Below are photos of the system working and another one when I was working on the code outside in the warm Summer weather.</p>
 
-<p><img class="img75" src="/images/posts/what_ive_been_up_to_lately/noShowSystem.png" /></p>
+<p><img class="img75" src="/images/posts/what_ive_been_up_to_lately/noShowAlert.png" />
+<img class="img75" src="/images/posts/what_ive_been_up_to_lately/noShowAlertOutside.jpg" /></p>
 
 <h2>Helm member automation</h2>
 <p>At Clarity Float Spa we like to reward our members who have a strong float practice by allowing them to bring a friend every 10 floats they do.  In the past this was a manual process that our manager would have to do.  It was taking up time each week that could be spent on more creative efforts.  So I created a Nightmare.js automation script that would login to the FloatHelm (booking software we use) check to see if a member has reached 10 floats and then adds a task for the manager to send a gift card to that member. Eventually this will automatically generate the gift card and email it off to that member however we like having this be a more personal process at this time by directly emailing them.</p>
