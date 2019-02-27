@@ -43,8 +43,8 @@ I like to focus some energy on limiting my electrical usage around my home.  Not
 <h2>Nest energy usage</h2> 
 Air conditioners are one of the most energy hungry appliances in a home or an apartment.  Along the same lines as why I track my light bulb energy usage I wanted to do the same for my AC and Furnace.  I previously had a Honeywell Smart thermostat which was great however it did not have a good API that I could use to pull data from it.  This is what prompted me to purchase a Nest Gen 3 thermostat was because the API and documentation were excellent and would allow me to gather the data I needed to solve this problem.  The program I wrote monitors energy usage and gives me an estimate on how much money will be spent on heating/cooling month to month.
 
-<img class="img75" src="{{ site.baseurl }}/images/posts/what_ive_been_up_to_lately/nestEnergyUsage1.png" />
-<img class="img75" src="{{ site.baseurl }}/images/posts/what_ive_been_up_to_lately/nestEnergyUsage2.png" />
+<img class="img75" src="{{ site.baseurl }}/images/posts/what_ive_been_up_to_lately/nestEnergyUsage1.PNG" />
+<img class="img75" src="{{ site.baseurl }}/images/posts/what_ive_been_up_to_lately/nestEnergyUsage2.PNG" />
 
 <h2>Holka-Proxy</h2>
 I have many different programs and services hosted on my <a href="https://m.do.co/c/cf0b0981d05d">DigitalOcean</a> box.  In order to help keep all of the programs secure using SSL I created a reverse proxy. This program handles incoming external requests and routes them securely over SSL to services running on my Ubuntu server.

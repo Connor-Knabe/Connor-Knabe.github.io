@@ -31,7 +31,7 @@
 &lt;/div&gt;
 
 &lt;h2&gt;Clarity No Show Alert&lt;/h2&gt;
-&lt;p&gt;One concern I’ve had when owning a business that is run by a team of people is what happens if someone forgets their shift and has to open in the morning.  To help ease my concern I decided to write a program that would verify a teammate is clocked in so long as there is someone booked for an appointment that morning.  It is written in Node.js using Nightmare.js written on top of our booking software (FloatHelm) it sends text alerts to the managers and teammate who is supposed to be clocked in.  If they still don’t clock in after 10 minutes it will call all of us.  Below are photos of the system working and another one when I was working on the code outside in the warm Summer weather.&lt;/p&gt;
+&lt;p&gt;One concern I’ve had when owning a business that is run by a team of people is what happens if someone forgets their shift and has to open in the morning.  To help ease my concern I decided to write a program that would verify a teammate is clocked in so long as there is someone booked for an appointment that morning.  It is written in Node.js using Nightmare.js written on top of our booking software (FloatHelm) it sends text alerts to the managers and teammate who is supposed to be clocked in.  If they still don’t clock in after 10 minutes it will call all of us.  Below are photos of the system working and another one when I was working on the code outside in the warm summer weather.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;img75&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/noShowAlert.png&quot; /&gt;
 &lt;img class=&quot;img75&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/noShowAlertOutside.jpg&quot; /&gt;&lt;/p&gt;
@@ -47,8 +47,8 @@
 &lt;h2&gt;Nest energy usage&lt;/h2&gt;
 &lt;p&gt;Air conditioners are one of the most energy hungry appliances in a home or an apartment.  Along the same lines as why I track my light bulb energy usage I wanted to do the same for my AC and Furnace.  I previously had a Honeywell Smart thermostat which was great however it did not have a good API that I could use to pull data from it.  This is what prompted me to purchase a Nest Gen 3 thermostat was because the API and documentation were excellent and would allow me to gather the data I needed to solve this problem.  The program I wrote monitors energy usage and gives me an estimate on how much money will be spent on heating/cooling month to month.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;img75&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/nestEnergyUsage1.png&quot; /&gt;
-&lt;img class=&quot;img75&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/nestEnergyUsage2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;img75&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/nestEnergyUsage1.PNG&quot; /&gt;
+&lt;img class=&quot;img75&quot; src=&quot;/images/posts/what_ive_been_up_to_lately/nestEnergyUsage2.PNG&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Holka-Proxy&lt;/h2&gt;
 &lt;p&gt;I have many different programs and services hosted on my &lt;a href=&quot;https://m.do.co/c/cf0b0981d05d&quot;&gt;DigitalOcean&lt;/a&gt; box.  In order to help keep all of the programs secure using SSL I created a reverse proxy. This program handles incoming external requests and routes them securely over SSL to services running on my Ubuntu server.&lt;/p&gt;
