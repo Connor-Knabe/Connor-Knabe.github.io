@@ -21,9 +21,23 @@ I've come to love my gas fireplace.  I don't have a need for heating the whole h
 <a href="https://ifttt.com">IFTTT</a> (to hook up to Alexa)
 <a href="https://github.com/Connor-Knabe/fireplace-iot-particle/blob/master/fireplace.ino">The Code</a>
 
+<h4>Demo</h4>
 <div class = "flex-video">
     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TwfoPlLxzqA" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<h4>Setup</h4>
+) Create an IFTTT account if you don't already have one )
+
+) Setup your Particle photon using the Particle app (iOS/Android stores). You'll need to connect to the devices WiFi and enter your WiFi password to get it setup. ) Once it's connected with your account you'll need to flash the <a href="https://github.com/Connor-Knabe/fireplace-iot-particle/blob/master/fireplace.ino">code</a> to this device using Particles <a href="https://build.particle.io/build">Web IDE</a>.
+
+) After the code is flashed you'll want to setup <a href="https://console.particle.io/integrations">integrations</a> that will hook into IFTTT to alert when the fireplace is on or off.
+
+) Go to the <a href="https://ifttt.com/maker_webhooks">webhooks</a> page and click on documentation to get the proper link to use for these triggers. You'll want to replace the event with fireplace-on or fireplace-off. Your link should look something like https://maker.ifttt.com/trigger/fireplace-on/with/key/las1kjsdfja0sdfja0sdff20aaf.
+
+) Go back to the Particle integration page and select new integration put in the URL from above. Type should be POST, format will be Web Form, Device Any and event name fireplace-on or fireplace-off.
+
+) Now head back to IFTTT and create a new Applet IF Webhook with event name of fireplace-on then THAT notification (note you will need the IFTTT app on your phone for this to be effective). Send notification from IFTTT app. Then hit create action. It will alert you anytime the fireplace has turned on. Do the same for fireplace-off.
 
 <br><br>
 
