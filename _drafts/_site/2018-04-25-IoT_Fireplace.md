@@ -19,6 +19,7 @@ I've come to love my gas fireplace.  I don't have a need for heating the whole h
 <h4>Sofware</h4>
 <a href="http://build.particle.io/build">Particle Build</a> (for developing the software)
 <a href="https://ifttt.com">IFTTT</a> (to hook up to Alexa)
+<a href="https://github.com/Connor-Knabe/fireplace-iot-particle/blob/master/fireplace.ino">The Code</a>
 
 <div class = "flex-video">
     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TwfoPlLxzqA" frameborder="0" allowfullscreen></iframe>
