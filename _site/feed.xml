@@ -7,7 +7,7 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>What I've been up to lately</title>
+				<title>IoT Fireplace</title>
 				<description>&lt;h2&gt;IoT Fireplace&lt;/h2&gt;
 
 &lt;p&gt;I’ve been asked to share how my IoT fireplace was setup so I decided to turn that knowledge into a blog post. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -103,7 +103,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;If you want to talk or ask about what I’ve been working on drop me a line here: &lt;a href=&quot;mailto:&amp;#102;&amp;#108;&amp;#111;&amp;#97;&amp;#116;&amp;#103;&amp;#101;&amp;#101;&amp;#107;&amp;#51;&amp;#51;&amp;#43;&amp;#98;&amp;#108;&amp;#111;&amp;#103;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;floatgeek33+if@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you want to talk or ask about what I’ve been working on drop me a line here: &lt;a href=&quot;mailto:&amp;#102;&amp;#108;&amp;#111;&amp;#97;&amp;#116;&amp;#103;&amp;#101;&amp;#101;&amp;#107;&amp;#51;&amp;#51;&amp;#43;&amp;#98;&amp;#108;&amp;#111;&amp;#103;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;floatgeek33+ifg@gmail.com&lt;/a&gt;&lt;/p&gt;
 </description>
 				<pubDate>Wed, 25 Apr 2018 00:00:00 -0500</pubDate>
 				<link>http://localhost:4000/2018/04/IoT_Fireplace</link>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What I've been up to lately
+title: IoT Fireplace
 comments: true
 ---
 
@@ -71,4 +71,4 @@ I've come to love my gas fireplace.  I don't have a need for heating the whole h
 
 <br><br>
 
-If you want to talk or ask about what I've been working on drop me a line here: <a href="mailto:&#102;&#108;&#111;&#97;&#116;&#103;&#101;&#101;&#107;&#51;&#51;&#43;&#98;&#108;&#111;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">floatgeek33+if@gmail.com</a>
+If you want to talk or ask about what I've been working on drop me a line here: <a href="mailto:&#102;&#108;&#111;&#97;&#116;&#103;&#101;&#101;&#107;&#51;&#51;&#43;&#98;&#108;&#111;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">floatgeek33+ifg@gmail.com</a>
