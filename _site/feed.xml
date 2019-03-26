@@ -8,6 +8,110 @@
 		
 			<item>
 				<title>What I've been up to lately</title>
+				<description>&lt;h2&gt;IoT Fireplace&lt;/h2&gt;
+
+&lt;p&gt;I’ve been asked to share how my IoT fireplace was setup so I decided to turn that knowledge into a blog post. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Summary of why I created this&lt;/h4&gt;
+&lt;p&gt;I’ve come to love my gas fireplace.  I don’t have a need for heating the whole house as we spend a lot of our time in the living room.  One issue I was having was the need for getting the living room heated before I come home as I don’t want to heat up rooms I wouldn’t be using.  I decided to take matters into my own hands to make my fireplace connected to the cloud.  It uses a Particle Photon, Relay board, Alexa, and IFTTT.&lt;/p&gt;
+
+&lt;h4&gt;Required Hardware&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://store.particle.io/collections/photon&quot;&gt;Particle Photon&lt;/a&gt; (make sure to get the one with headers)
+&lt;br /&gt;
+&lt;a href=&quot;https://www.amazon.com/JBtek-Channel-Module-Arduino-Raspberry/dp/B00KTEN3TM/ref=sr_1_3?keywords=single+relay+arduino&amp;amp;qid=1552393042&amp;amp;s=gateway&amp;amp;sr=8-3&amp;amp;tag=duc0c-20&quot;&gt;Relay Module&lt;/a&gt;
+&lt;br /&gt;
+&lt;a href=&quot;https://www.amazon.com/Multicolored-Breadboard-Dupont-Jumper-Wires/dp/B073X7P6N2/ref=sr_1_1_sspa?crid=3HHNG5TDQCIR9&amp;amp;keywords=jumper+wire+arduino&amp;amp;qid=1552393086&amp;amp;s=gateway&amp;amp;sprefix=jumper+wire+ard%2Caps%2C184&amp;amp;sr=8-1-spons&amp;amp;psc=1&quot;&gt;Jumper wire&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Sofware&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://build.particle.io/build&quot;&gt;Particle Build&lt;/a&gt; (for developing the software)
+&lt;a href=&quot;https://ifttt.com&quot;&gt;IFTTT&lt;/a&gt; (to hook up to Alexa)
+&lt;a href=&quot;https://github.com/Connor-Knabe/fireplace-iot-particle/blob/master/fireplace.ino&quot;&gt;The Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Demo&lt;/h4&gt;
+&lt;div class=&quot;flex-video&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/TwfoPlLxzqA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Setup&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create an IFTTT account if you don’t already have one )&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Setup your Particle photon using the Particle app (iOS/Android stores). You’ll need to connect to the devices WiFi and enter your WiFi password to get it setup. ) Once it’s connected with your account you’ll need to flash the &lt;a href=&quot;https://github.com/Connor-Knabe/fireplace-iot-particle/blob/master/fireplace.ino&quot;&gt;code&lt;/a&gt; to this device using Particle’s &lt;a href=&quot;https://build.particle.io/build&quot;&gt;Web IDE&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Triggering fireplace on from IFTTT app button&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Setup a new &lt;a href=&quot;https://ifttt.com/my_applets&quot;&gt;Applet &lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Choose button widget (button press)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select Particle &amp;gt; call a function&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select rlySwitchOn “fireplace”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do the same for fireplace off. You can optionally set it to turn&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set name to Fireplace on for a set amount of time use the function (rlySwitch15, rlySwitch60, etc) for 15, 60, or 120 mins. It will turn off after this set time.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Triggering fireplace from Alexa&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Setup a new &lt;a href=&quot;https://ifttt.com/my_applets&quot;&gt;Applet &lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Choose Alexa widget (say a specific phrase)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set the phrase something like turn fireplace on&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select Particle &amp;gt; call a function&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select rlySwitchOn “fireplace”&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Setting up the hardware&lt;/h3&gt;
+
+&lt;h3&gt;Setting up alert when Fireplace turns on (optional)&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to the &lt;a href=&quot;https://ifttt.com/maker_webhooks&quot;&gt;webhooks&lt;/a&gt; page and click on documentation to get the proper link to use for these triggers. You’ll want to replace the event with fireplace-on or fireplace-off. Your link should look something like https://maker.ifttt.com/trigger/fireplace-on/with/key/las1kjsdfja0sdfja0sdff20aaf.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go back to the Particle &lt;a href=&quot;https://console.particle.io/integrations&quot;&gt;integration&lt;/a&gt; page and select new integration put in the URL from above. Type should be POST, format will be Web Form, Device Any and event name fireplace-on or fireplace-off.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now head back to IFTTT and create a new Applet IF Webhook with event name of fireplace-on then THAT notification (note you will need the IFTTT app on your phone for this to be effective). Send notification from IFTTT app. Then hit create action. It will alert you anytime the fireplace has turned on. Do the same for fireplace-off.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to talk or ask about what I’ve been working on drop me a line here: &lt;a href=&quot;mailto:&amp;#102;&amp;#108;&amp;#111;&amp;#97;&amp;#116;&amp;#103;&amp;#101;&amp;#101;&amp;#107;&amp;#51;&amp;#51;&amp;#43;&amp;#98;&amp;#108;&amp;#111;&amp;#103;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;floatgeek33+if@gmail.com&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Wed, 25 Apr 2018 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/2018/04/IoT_Fireplace</link>
+				<guid isPermaLink="true">http://localhost:4000/2018/04/IoT_Fireplace</guid>
+			</item>
+		
+			<item>
+				<title>What I've been up to lately</title>
 				<description>&lt;p&gt;It’s been quite some time since I’ve last posted. I’ve been spending most of my free time working on side projects and the float business. I don’t plan to start posting regularly again but I would like to share some of the projects I’ve been working on over the last few years.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Holka-Garage (&lt;a href=&quot;https://github.com/Connor-Knabe/holka-garage&quot;&gt;Code on GitHub&lt;/a&gt;)&lt;/h2&gt;
@@ -582,36 +686,6 @@ The reason for strict access is that we only want floaters who are permitted int
 				<pubDate>Sun, 15 Mar 2015 00:00:00 -0500</pubDate>
 				<link>http://localhost:4000/2015/03/How_To_Design_An_Automated_Float_Tank_Center</link>
 				<guid isPermaLink="true">http://localhost:4000/2015/03/How_To_Design_An_Automated_Float_Tank_Center</guid>
-			</item>
-		
-			<item>
-				<title>Automated Float Tank Center</title>
-				<description>&lt;p&gt;First off, you are probably wondering what I mean by a fully automated float tank center.  Let’s start by looking at what a typical flotation center looks like.  If you are unfamiliar with a float tank center imagine a tanning salon but instead of tanning beds there are float tanks in each room. If you are curious about what a float tank looks like check out the blog post &lt;a href=&quot;https://www.floatgeek.com/2014/12/Intro/&quot; target=&quot;blank&quot;&gt;here&lt;/a&gt;.  Most of the float centers I’ve been to consist of a front desk where a person will help sign you in and will explain the process of how to use the tank.  The process would go something like this:&lt;/p&gt;
-
-&lt;ol&gt;
-    &lt;li&gt;Walk into float center (usually after having made an appointment)&lt;/li&gt;
-    &lt;li&gt;Talk to the person at the front desk&lt;/li&gt;
-    &lt;li&gt;Typically they will explain how the process works (which might include taking a shower before/after, using ear plugs, and not getting water in your eye)&lt;/li&gt;
-    &lt;li&gt;Enter the room you are going to float in&lt;/li&gt;
-    &lt;li&gt;Then you shower/float/shower (the person will knock on the tank or you will hear music when float is over)&lt;/li&gt;
-    &lt;li&gt;You pay the person at the front desk&lt;/li&gt;
-    &lt;li&gt;After you've paid, you can relax in the waiting room or leave and enjoy the post float glow&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Having a fully automated float center could substantially cut back on the overhead expenses of paying a person to run the front desk.  The process would essentially be the same, except for speaking with a person you would go to the room you booked online.  Keep in mind, this system is designed for people who have experience floating so they won’t need someone to explain details.  This process might go something like this:&lt;/p&gt;
-&lt;ol&gt;
-    &lt;li&gt;Book a float online and pay with a credit card&lt;/li&gt;
-    &lt;li&gt;Visit the float center with an access card or a 4 digit PIN that will allow you to get into the building&lt;/li&gt;
-    &lt;li&gt;You can use the same access card/PIN to access the float room you booked&lt;/li&gt;
-    &lt;li&gt;Then you shower/float/shower (music will play in your tank when the time is up)&lt;/li&gt;
-    &lt;li&gt;After the float your free to leave and enjoy the post float glow&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Now the major difference between these two types of float tank centers is that one has a person present during floats.  Having an automated float center eliminates this extra cost which results in giving the customer access to cheaper floats.  For this automated float tank center I believe the best pricing model would be subscription based. I could see this being extremely useful for a floating cooperative business so that after each person floats they might add a bit more salt into the tank, wipe the tank down, and put their dirty towel into a laundry basket. This could be a very sustainable business since a majority of the cost for running a float tank center comes from paying a staff to be there to check people in.  Something to keep in mind is that this is a very high level overview of what I see in my ideal float center.  In future posts I will break it down into exactly how the system will be setup.&lt;/p&gt;
-</description>
-				<pubDate>Fri, 20 Feb 2015 00:00:00 -0600</pubDate>
-				<link>http://localhost:4000/2015/02/Automated_Float_Tank_Center</link>
-				<guid isPermaLink="true">http://localhost:4000/2015/02/Automated_Float_Tank_Center</guid>
 			</item>
 		
 	</channel>

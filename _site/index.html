@@ -120,6 +120,8 @@
     <h1>Recent Posts</h1>
     <ul>
         
+          <li><a href="/2018/04/IoT_Fireplace">What I've been up to lately</a></li>
+        
           <li><a href="/2018/02/What_I've_Been_Up_To_Lately">What I've been up to lately</a></li>
         
           <li><a href="/2016/06/Auto_Zen_Float_Tent">Auto Zen Float Tent</a></li>
@@ -127,8 +129,6 @@
           <li><a href="/2016/02/Favorite_Companies_of_2015">Favorite Companies of 2015</a></li>
         
           <li><a href="/2015/11/FloatGeeks_Podcast">Float Geeks Podcast</a></li>
-        
-          <li><a href="/2015/10/Custom_Filtration_System_For_The_Zen_Float_tent">Custom Filtration System For The Zen Float tent</a></li>
         
     </ul>
 </div>
@@ -149,6 +149,122 @@
         </div>
         <div class="col-md-9">
             
+<div class="article">
+    <div class="well">
+        <h1><a href="/2018/04/IoT_Fireplace">Apr 25, 2018 - What I've been up to lately</a></h1>
+        
+          <p class="author"><a href="/2018/04/IoT_Fireplace/#disqus_thread">Comments</a></p>
+        
+        <div class="content">
+            <h2>IoT Fireplace</h2>
+
+<p>I’ve been asked to share how my IoT fireplace was setup so I decided to turn that knowledge into a blog post. <br /><br /></p>
+
+<h4>Summary of why I created this</h4>
+<p>I’ve come to love my gas fireplace.  I don’t have a need for heating the whole house as we spend a lot of our time in the living room.  One issue I was having was the need for getting the living room heated before I come home as I don’t want to heat up rooms I wouldn’t be using.  I decided to take matters into my own hands to make my fireplace connected to the cloud.  It uses a Particle Photon, Relay board, Alexa, and IFTTT.</p>
+
+<h4>Required Hardware</h4>
+<p><a href="https://store.particle.io/collections/photon">Particle Photon</a> (make sure to get the one with headers)
+<br />
+<a href="https://www.amazon.com/JBtek-Channel-Module-Arduino-Raspberry/dp/B00KTEN3TM/ref=sr_1_3?keywords=single+relay+arduino&amp;qid=1552393042&amp;s=gateway&amp;sr=8-3&amp;tag=duc0c-20">Relay Module</a>
+<br />
+<a href="https://www.amazon.com/Multicolored-Breadboard-Dupont-Jumper-Wires/dp/B073X7P6N2/ref=sr_1_1_sspa?crid=3HHNG5TDQCIR9&amp;keywords=jumper+wire+arduino&amp;qid=1552393086&amp;s=gateway&amp;sprefix=jumper+wire+ard%2Caps%2C184&amp;sr=8-1-spons&amp;psc=1">Jumper wire</a></p>
+
+<h4>Sofware</h4>
+<p><a href="http://build.particle.io/build">Particle Build</a> (for developing the software)
+<a href="https://ifttt.com">IFTTT</a> (to hook up to Alexa)
+<a href="https://github.com/Connor-Knabe/fireplace-iot-particle/blob/master/fireplace.ino">The Code</a></p>
+
+<h4>Demo</h4>
+<div class="flex-video">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TwfoPlLxzqA" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<h2>Setup</h2>
+<ol>
+  <li>
+    <p>Create an IFTTT account if you don’t already have one )</p>
+  </li>
+  <li>
+    <p>Setup your Particle photon using the Particle app (iOS/Android stores). You’ll need to connect to the devices WiFi and enter your WiFi password to get it setup. ) Once it’s connected with your account you’ll need to flash the <a href="https://github.com/Connor-Knabe/fireplace-iot-particle/blob/master/fireplace.ino">code</a> to this device using Particle’s <a href="https://build.particle.io/build">Web IDE</a>.</p>
+  </li>
+</ol>
+
+<h3>Triggering fireplace on from IFTTT app button</h3>
+
+<ol>
+  <li>
+    <p>Setup a new <a href="https://ifttt.com/my_applets">Applet </a></p>
+  </li>
+  <li>
+    <p>Choose button widget (button press)</p>
+  </li>
+  <li>
+    <p>Select Particle &gt; call a function</p>
+  </li>
+  <li>
+    <p>Select rlySwitchOn “fireplace”</p>
+  </li>
+  <li>
+    <p>Do the same for fireplace off. You can optionally set it to turn</p>
+  </li>
+  <li>
+    <p>Set name to Fireplace on for a set amount of time use the function (rlySwitch15, rlySwitch60, etc) for 15, 60, or 120 mins. It will turn off after this set time.</p>
+  </li>
+</ol>
+
+<h3>Triggering fireplace from Alexa</h3>
+
+<ol>
+  <li>
+    <p>Setup a new <a href="https://ifttt.com/my_applets">Applet </a></p>
+  </li>
+  <li>
+    <p>Choose Alexa widget (say a specific phrase)</p>
+  </li>
+  <li>
+    <p>Set the phrase something like turn fireplace on</p>
+  </li>
+  <li>
+    <p>Select Particle &gt; call a function</p>
+  </li>
+  <li>
+    <p>Select rlySwitchOn “fireplace”</p>
+  </li>
+</ol>
+
+<h3>Setting up the hardware</h3>
+
+<h3>Setting up alert when Fireplace turns on (optional)</h3>
+
+<ol>
+  <li>
+    <p>Go to the <a href="https://ifttt.com/maker_webhooks">webhooks</a> page and click on documentation to get the proper link to use for these triggers. You’ll want to replace the event with fireplace-on or fireplace-off. Your link should look something like https://maker.ifttt.com/trigger/fireplace-on/with/key/las1kjsdfja0sdfja0sdff20aaf.</p>
+  </li>
+  <li>
+    <p>Go back to the Particle <a href="https://console.particle.io/integrations">integration</a> page and select new integration put in the URL from above. Type should be POST, format will be Web Form, Device Any and event name fireplace-on or fireplace-off.</p>
+  </li>
+  <li>
+    <p>Now head back to IFTTT and create a new Applet IF Webhook with event name of fireplace-on then THAT notification (note you will need the IFTTT app on your phone for this to be effective). Send notification from IFTTT app. Then hit create action. It will alert you anytime the fireplace has turned on. Do the same for fireplace-off.</p>
+  </li>
+</ol>
+
+<p><br /><br /></p>
+
+<p>If you want to talk or ask about what I’ve been working on drop me a line here: <a href="mailto:&#102;&#108;&#111;&#97;&#116;&#103;&#101;&#101;&#107;&#51;&#51;&#43;&#98;&#108;&#111;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">floatgeek33+if@gmail.com</a></p>
+
+        </div>
+    </div>
+</div>
+
+
+<center>
+    <div class="sidebar well">
+        <a href="https://www.zenfloatco.com?tap_a=5195-1d77bb&tap_s=10751-455ee4&tm_banner=sidebar" target="_BLANK" rel="nofollow"><img src="https://static.tapfiliate.com/56391821ec220.png?a=5195-1d77bb&s=10751-455ee4" border=0></a>
+    </div>
+</center>
+
+
 <div class="article">
     <div class="well">
         <h1><a href="/2018/02/What_I've_Been_Up_To_Lately">Feb 25, 2018 - What I've been up to lately</a></h1>
@@ -308,63 +424,6 @@ The software and hardware I’m creating is designed to make the process of runn
 <p>I see a bright future for the internet of things in the float community.  I think it will allow more quality customer interaction and less things to have to maintain manually.  At the end of the day it is the customers who really matter and taking some of the work away from the tanks and dedicating that time to more positive customer interactions seems to make sense.  I think software like this will make float centers even more of an enjoyable place to work and be.</p>
 
 <p>Want to talk about this further drop me a line here: <a href="mailto:&#102;&#108;&#111;&#97;&#116;&#103;&#101;&#101;&#107;&#51;&#51;&#43;&#98;&#108;&#111;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">floatgeek33@gmail.com</a></p>
-
-        </div>
-    </div>
-</div>
-
-
-<center>
-    <div class="sidebar well">
-        <a href="https://www.zenfloatco.com?tap_a=5195-1d77bb&tap_s=10751-455ee4&tm_banner=sidebar" target="_BLANK" rel="nofollow"><img src="https://static.tapfiliate.com/56391821ec220.png?a=5195-1d77bb&s=10751-455ee4" border=0></a>
-    </div>
-</center>
-
-
-<div class="article">
-    <div class="well">
-        <h1><a href="/2016/02/Favorite_Companies_of_2015">Feb 15, 2016 - Favorite Companies of 2015</a></h1>
-        
-          <p class="author"><a href="/2016/02/Favorite_Companies_of_2015/#disqus_thread">Comments</a></p>
-        
-        <div class="content">
-            <p><br /><br /></p>
-
-<h2></h2>
-
-<h5>This is a list of my favorite companies from 2015 that I really appreciate.</h5>
-
-<p><br /><br /><br />
-<a href="https://www.zenfloatco.com?tap_a=5195-1d77bb&amp;tap_s=10751-455ee4&amp;tm_banner=sidebar" target="blank"><img class="logo logo2" src="https://static.tapfiliate.com/56391821ec220.png?a=5195-1d77bb&amp;s=10751-455ee4" /></a>
-<br />
-    Zen Float Company is the amazing company that created the Zen Float Tent.  They raised $295,000 on
-    <a href="https://www.kickstarter.com/projects/1070936311/zen-float-tent-first-affordable-isolation-tank-for" target="blank">Kickstarter</a> to get production going for their first version of the tent.  The Zen Float Tent has been an extremely useful tool for myself and my roommates for relaxation, recovery from workouts, introspection, clarity, etc. The best part about having one of these is that we can float anytime in the comfort of our own home. I like this company so much that I’ve even started sponsoring them.  <br /><b>Note</b>: clicking the image above will take you to their site and I get a portion of the sale :)</p>
-
-<p><br /><br /></p>
-
-<p><a href="https://www.raspberrypi.org/" target="blank"><img class="logo logo2" src="/images/logos/Raspberry_Pi_Logo.png" /></a>
-<br />
-    The Raspberry Pi Foundation is the awesome company that created the Raspberry Pi.  If you haven’t heard of a Raspberry Pi it is basically a small computer about the size of a credit card.  It costs less than $50 and you can interface with all sorts of sensors (motion, temperature, etc).  Recently they released the Pi Zero which is a $5 version of the Pi.  This is going to make it very easy for anyone even with a small budget to learn about software development and servers.  I’m so grateful for this company for opening the doors to the masses to get involved in cool projects without spending a fortune on hardware.<br />
-<br /><br /></p>
-
-<p><a href="https://trello.com" target="blank"><img class="logo logo2" src="/images/logos/trello.png" /></a>
-<br />
-Trello is an amazing software tool that can help you utilize <a href="https://en.wikipedia.org/wiki/Kanban" target="blank">kanban</a> which is a scheduling system for lean production.  This can be applied to software development, home improvement projects, starting a business, etc.  I’ve been using Trello for over a year now and it has been extremely useful especially for side coding projects I work on.  If you are a person who loves todo lists and checking things off Trello would be worth a shot.  It can really help you stay on top of your work and collaborate with others on projects.
-<br /><br /></p>
-
-<p><a href="https://slack.com" target="blank"><img class="logo logo2" src="/images/logos/slack.png" /></a>
-<br />
-    Slack is a communication tool which is designed for businesses and other organizations which can replace email.  I started using slack Summer of 2014 and it really made me see how communication could be done differently.  The value of having more real time communication seems to cut back drastically on how long it takes to get to the point of a conversation. Also the formality of email seems to go out the window when using Slack.  It also seems to encourage group conversations better than emails.  These are just a few of the many reasons why you should consider using Slack over email.
-<br /><br /></p>
-
-<p><a href="https://twilio.com" target="blank"><img class="logo logo2" src="/images/logos/twilio.png" /></a>
-<br />
-    Twilio is a developers best friend if they need to send affordable text messages or voice calls over the internet.  Twilio is an API used by developers at companies including: Uber, Box, Intuit, Hulu, Ebay, and more!  Twilio is also used for two-factor authentication, appointment reminders, sales leads, and more.  If you’re ever needing to send out texts or do any sort of communication involving software and phones I would highly recommend choosing Twilio.
-<br /><br /><br /></p>
-
-<p><b>Summary:</b>
-<br />
-I’m very passionate about companies doing the right thing and that are making the world a better place.  If you have any favorite companies that you really love leave a comment below :)</p>
 
         </div>
     </div>
