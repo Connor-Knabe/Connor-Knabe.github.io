@@ -35,10 +35,13 @@
 &lt;h2&gt;Setup&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Create an IFTTT account if you don’t already have one )&lt;/p&gt;
+    &lt;p&gt;Create an IFTTT account if you don’t already have one.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Setup your Particle photon using the Particle app (iOS/Android stores). You’ll need to connect to the devices WiFi and enter your WiFi password to get it setup. ) Once it’s connected with your account you’ll need to flash the &lt;a href=&quot;https://github.com/Connor-Knabe/fireplace-iot-particle/blob/master/fireplace.ino&quot;&gt;code&lt;/a&gt; to this device using Particle’s &lt;a href=&quot;https://build.particle.io/build&quot;&gt;Web IDE&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;Setup your Particle photon using the Particle app (iOS/Android stores). You’ll need to connect to the devices WiFi and enter your WiFi password to get it setup.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once it’s connected with your account you’ll need to flash the &lt;a href=&quot;https://github.com/Connor-Knabe/fireplace-iot-particle/blob/master/fireplace.ino&quot;&gt;code&lt;/a&gt; to this device using Particle’s &lt;a href=&quot;https://build.particle.io/build&quot;&gt;Web IDE&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 

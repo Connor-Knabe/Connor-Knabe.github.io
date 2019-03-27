@@ -29,9 +29,11 @@ I've come to love my gas fireplace.  I don't have a need for heating the whole h
 </div>
 
 <h2>Setup</h2>
-1. Create an IFTTT account if you don't already have one )
+1. Create an IFTTT account if you don't already have one.
 
-2. Setup your Particle photon using the Particle app (iOS/Android stores). You'll need to connect to the devices WiFi and enter your WiFi password to get it setup. ) Once it's connected with your account you'll need to flash the <a href="https://github.com/Connor-Knabe/fireplace-iot-particle/blob/master/fireplace.ino">code</a> to this device using Particle's <a href="https://build.particle.io/build">Web IDE</a>.
+2. Setup your Particle photon using the Particle app (iOS/Android stores). You'll need to connect to the devices WiFi and enter your WiFi password to get it setup.
+
+3. Once it's connected with your account you'll need to flash the <a href="https://github.com/Connor-Knabe/fireplace-iot-particle/blob/master/fireplace.ino">code</a> to this device using Particle's <a href="https://build.particle.io/build">Web IDE</a>.
 
 <h3>Triggering fireplace on from IFTTT app button</h3>
 
