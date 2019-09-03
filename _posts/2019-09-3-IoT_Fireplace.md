@@ -80,9 +80,7 @@ This setup may vary depending on what you're fireplace looks like.
 
 3. Now head back to IFTTT and create a new Applet IF Webhook with event name of fireplace-on then THAT notification (note you will need the IFTTT app on your phone for this to be effective). Send notification from IFTTT app. Then hit create action. It will alert you anytime the fireplace has turned on. Do the same for fireplace-off.
 
-<br><br> That's it you should be good to go!
-
-<br><br>
+<br>That's it you should be good to go!
 
 If you have any questions or I missed anything that you think could be helpful to others please shoot me an email: <a href="mailto:&#102;&#108;&#111;&#97;&#116;&#103;&#101;&#101;&#107;&#51;&#51;&#43;&#98;&#108;&#111;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">floatgeek33+ifg@gmail.com</a>
 
