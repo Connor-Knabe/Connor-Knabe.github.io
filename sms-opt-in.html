@@ -29,11 +29,12 @@ title: SMS Opt-In Workflow
       <li>The owner verifies that the number belongs to them.</li>
       <li>The owner reviews the SMS consent disclosure shown below.</li>
       <li>The owner actively enables SMS notifications by checking the consent checkbox.</li>
+      <li>The owner submits the opt-in request, which opens an email containing the phone number and consent instructions.</li>
       <li>The notifier sends SMS alerts only after SMS notifications are enabled.</li>
     </ol>
 
     <h2>SMS Consent Disclosure Shown During Opt-In</h2>
-    <div style="border:1px solid #ccc; padding:16px; border-radius:6px; background:#f9f9f9; margin:16px 0;">
+    <form id="sms-opt-in-form" style="border:1px solid #ccc; padding:16px; border-radius:6px; background:#f9f9f9; margin:16px 0;">
       <p><strong>Enable SMS Notifications</strong></p>
 
       <p>
@@ -44,6 +45,7 @@ title: SMS Opt-In Workflow
           type="tel"
           placeholder="[Mobile phone number]"
           autocomplete="tel"
+          required
           style="max-width:320px; width:100%; padding:8px; margin-top:4px;"
         >
       </p>
@@ -61,11 +63,57 @@ title: SMS Opt-In Workflow
       </p>
       <p>
         <label>
-          <input type="checkbox" name="sms-consent">
+          <input id="sms-consent" type="checkbox" name="sms-consent" required>
           I agree to receive SMS notifications from Connor Knabe RuneLite Notifier.
         </label>
       </p>
-    </div>
+
+      <p>
+        <button type="submit" style="padding:8px 14px; cursor:pointer;">
+          Submit SMS Opt-In Request
+        </button>
+      </p>
+
+      <p style="font-size:0.95em; color:#555;">
+        Submitting this form opens an email draft with the phone number and consent request. No information is stored by this page.
+      </p>
+    </form>
+
+    <script>
+      document.getElementById('sms-opt-in-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        var phone = document.getElementById('sms-phone').value.trim();
+        var consent = document.getElementById('sms-consent').checked;
+
+        if (!phone) {
+          alert('Please enter a mobile phone number.');
+          return;
+        }
+
+        if (!consent) {
+          alert('Please check the consent box before submitting.');
+          return;
+        }
+
+        var subject = 'SMS Opt-In Request - Connor Knabe RuneLite Notifier';
+        var body = [
+          'SMS Opt-In Request',
+          '',
+          'Phone number: ' + phone,
+          '',
+          'I agree to receive SMS notifications from Connor Knabe RuneLite Notifier at the phone number listed above.',
+          '',
+          'Messages may include RuneLite/OSRS gameplay notifier alerts, including low Hitpoints, low Prayer, XP rate updates, valuable loot drops, idle status, and other configured notifier events.',
+          '',
+          'Message frequency varies based on gameplay activity and notifier settings. Message and data rates may apply. Reply STOP to opt out. Reply HELP for help.',
+          '',
+          'I understand that SMS consent is not shared with third parties or affiliates for marketing purposes.'
+        ].join('\n');
+
+        window.location.href = 'mailto:accrual-lunged-7g@icloud.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+      });
+    </script>
 
     <h2>Opt-Out and Help</h2>
     <p>
@@ -81,7 +129,7 @@ title: SMS Opt-In Workflow
 
     <h2>Contact</h2>
     <p>
-      For questions, contact the project owner through GitHub.
+      For questions, contact <a href="mailto:accrual-lunged-7g@icloud.com">accrual-lunged-7g@icloud.com</a>.
     </p>
   </div>
 </div>
