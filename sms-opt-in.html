@@ -35,6 +35,19 @@ title: SMS Opt-In Workflow
     <h2>SMS Consent Disclosure Shown During Opt-In</h2>
     <div style="border:1px solid #ccc; padding:16px; border-radius:6px; background:#f9f9f9; margin:16px 0;">
       <p><strong>Enable SMS Notifications</strong></p>
+
+      <p>
+        <label for="sms-phone"><strong>Mobile phone number</strong></label><br>
+        <input
+          id="sms-phone"
+          name="sms-phone"
+          type="tel"
+          placeholder="[Mobile phone number]"
+          autocomplete="tel"
+          style="max-width:320px; width:100%; padding:8px; margin-top:4px;"
+        >
+      </p>
+
       <p>
         By checking this box, I agree to receive SMS notifications from Connor Knabe RuneLite Notifier
         at the phone number I provided. Messages may include RuneLite/OSRS gameplay notifier alerts,
@@ -48,7 +61,7 @@ title: SMS Opt-In Workflow
       </p>
       <p>
         <label>
-          <input type="checkbox" disabled>
+          <input type="checkbox" name="sms-consent">
           I agree to receive SMS notifications from Connor Knabe RuneLite Notifier.
         </label>
       </p>
@@ -68,7 +81,7 @@ title: SMS Opt-In Workflow
 
     <h2>Contact</h2>
     <p>
-      For questions, contact <a href="mailto:connorknabe@gmail.com">connorknabe@gmail.com</a>.
+      For questions, contact the project owner through GitHub.
     </p>
   </div>
 </div>
