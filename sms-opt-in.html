@@ -26,22 +26,26 @@ title: SMS Opt-In Workflow
     <ol>
       <li>The owner opens the notifier application's SMS notification settings.</li>
       <li>The owner enters their own mobile phone number.</li>
-      <li>The owner verifies that the number belongs to them.</li>
       <li>The owner reviews the SMS consent disclosure shown below.</li>
       <li>The owner actively enables SMS notifications by checking the consent checkbox.</li>
-      <li>The owner submits the opt-in request, which opens an email containing the phone number and consent instructions.</li>
+      <li>The owner submits the opt-in request by email.</li>
       <li>The notifier sends SMS alerts only after SMS notifications are enabled.</li>
     </ol>
 
     <h2>SMS Consent Disclosure Shown During Opt-In</h2>
-    <form id="sms-opt-in-form" style="border:1px solid #bbb; padding:18px; border-radius:8px; background:#f9f9f9; margin:18px 0;">
+    <form
+      action="mailto:accrual-lunged-7g@icloud.com?subject=SMS%20Opt-In%20Request%20-%20Connor%20Knabe%20RuneLite%20Notifier"
+      method="post"
+      enctype="text/plain"
+      style="border:1px solid #bbb; padding:18px; border-radius:8px; background:#f9f9f9; margin:18px 0;"
+    >
       <p><strong>Enable SMS Notifications</strong></p>
 
       <p>
         <label for="sms-phone"><strong>Mobile phone number</strong></label><br>
         <input
           id="sms-phone"
-          name="sms-phone"
+          name="Mobile phone number"
           type="tel"
           placeholder="[Mobile phone number]"
           autocomplete="tel"
@@ -63,7 +67,12 @@ title: SMS Opt-In Workflow
       </p>
       <p>
         <label>
-          <input id="sms-consent" type="checkbox" name="sms-consent" required>
+          <input
+            type="checkbox"
+            name="Consent statement"
+            value="I agree to receive SMS notifications from Connor Knabe RuneLite Notifier."
+            required
+          >
           I agree to receive SMS notifications from Connor Knabe RuneLite Notifier.
         </label>
       </p>
@@ -79,49 +88,16 @@ title: SMS Opt-In Workflow
       <p style="font-size:0.95em; color:#555;">
         Submitting this form opens an email draft with the phone number and consent request. No information is stored by this page.
       </p>
-
-      <p>
-        If the submit button does not open your email client, email
-        <a href="mailto:accrual-lunged-7g@icloud.com?subject=SMS%20Opt-In%20Request%20-%20Connor%20Knabe%20RuneLite%20Notifier">accrual-lunged-7g@icloud.com</a>
-        with your phone number and the consent statement shown above.
-      </p>
     </form>
 
-    <script>
-      document.getElementById('sms-opt-in-form').addEventListener('submit', function (event) {
-        event.preventDefault();
-
-        var phone = document.getElementById('sms-phone').value.trim();
-        var consent = document.getElementById('sms-consent').checked;
-
-        if (!phone) {
-          alert('Please enter a mobile phone number.');
-          return;
-        }
-
-        if (!consent) {
-          alert('Please check the consent box before submitting.');
-          return;
-        }
-
-        var subject = 'SMS Opt-In Request - Connor Knabe RuneLite Notifier';
-        var body = [
-          'SMS Opt-In Request',
-          '',
-          'Phone number: ' + phone,
-          '',
-          'I agree to receive SMS notifications from Connor Knabe RuneLite Notifier at the phone number listed above.',
-          '',
-          'Messages may include RuneLite/OSRS gameplay notifier alerts, including low Hitpoints, low Prayer, XP rate updates, valuable loot drops, idle status, and other configured notifier events.',
-          '',
-          'Message frequency varies based on gameplay activity and notifier settings. Message and data rates may apply. Reply STOP to opt out. Reply HELP for help.',
-          '',
-          'I understand that SMS consent is not shared with third parties or affiliates for marketing purposes.'
-        ].join('\n');
-
-        window.location.href = 'mailto:accrual-lunged-7g@icloud.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-      });
-    </script>
+    <p>
+      <a
+        href="mailto:accrual-lunged-7g@icloud.com?subject=SMS%20Opt-In%20Request%20-%20Connor%20Knabe%20RuneLite%20Notifier&body=SMS%20Opt-In%20Request%0A%0APhone%20number%3A%20%5Benter%20mobile%20phone%20number%5D%0A%0AI%20agree%20to%20receive%20SMS%20notifications%20from%20Connor%20Knabe%20RuneLite%20Notifier%20at%20the%20phone%20number%20listed%20above.%0A%0AMessages%20may%20include%20RuneLite%2FOSRS%20gameplay%20notifier%20alerts%2C%20including%20low%20Hitpoints%2C%20low%20Prayer%2C%20XP%20rate%20updates%2C%20valuable%20loot%20drops%2C%20idle%20status%2C%20and%20other%20configured%20notifier%20events.%0A%0AMessage%20frequency%20varies%20based%20on%20gameplay%20activity%20and%20notifier%20settings.%20Message%20and%20data%20rates%20may%20apply.%20Reply%20STOP%20to%20opt%20out.%20Reply%20HELP%20for%20help.%0A%0AI%20understand%20that%20SMS%20consent%20is%20not%20shared%20with%20third%20parties%20or%20affiliates%20for%20marketing%20purposes."
+        style="display:inline-block; padding:12px 16px; background:#444; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;"
+      >
+        Open Opt-In Email Directly
+      </a>
+    </p>
 
     <h2>Opt-Out and Help</h2>
     <p>
