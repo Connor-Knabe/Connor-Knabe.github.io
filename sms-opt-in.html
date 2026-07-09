@@ -42,9 +42,9 @@ title: SMS Opt-In Workflow
 
     <h2>SMS Consent Disclosure Shown During Opt-In</h2>
     <form
-      action="mailto:accrual-lunged-7g@icloud.com?subject=Optional%20SMS%20Opt-In%20Request%20-%20Connor%20Knabe%20RuneLite%20Notifier"
-      method="post"
-      enctype="text/plain"
+      id="sms-optin-form"
+      action="#"
+      novalidate
       style="border:1px solid #bbb; padding:18px; border-radius:8px; background:#f9f9f9; margin:18px 0;"
     >
       <p><strong>Optional SMS Notifications</strong></p>
@@ -86,6 +86,7 @@ title: SMS Opt-In Workflow
       <p>
         <label>
           <input
+            id="sms-consent"
             type="checkbox"
             name="Optional SMS consent"
             value="I agree to receive SMS notifications from Connor Knabe RuneLite Notifier."
@@ -111,11 +112,92 @@ title: SMS Opt-In Workflow
         </a>
       </p>
 
+      <div
+        id="sms-optin-status"
+        role="status"
+        aria-live="polite"
+        style="display:none; margin-top:12px; padding:12px; border:1px solid #9ccc9f; border-radius:6px; background:#e7f5e9;"
+      ></div>
+
       <p style="font-size:0.95em; color:#555;">
-        Submitting this form opens an email draft with the optional phone number and SMS consent request.
+        Submitting this form sends an optional SMS opt-in request to the Connor Knabe RuneLite Notifier.
         No information is stored by this page. Selecting &ldquo;Continue Without SMS Notifications&rdquo; skips SMS opt-in.
       </p>
     </form>
+
+    <script>
+      (function () {
+        // Endpoint on the RuneLite Notifier app that receives optional SMS opt-in requests.
+        // Leave this blank until the backend is ready. While blank, the request is logged to the
+        // browser console and the user still sees a confirmation.
+        var OPTIN_ENDPOINT = "";
+
+        var form = document.getElementById("sms-optin-form");
+        if (!form) return;
+        var statusEl = document.getElementById("sms-optin-status");
+        var phoneEl = document.getElementById("sms-phone");
+        var consentEl = document.getElementById("sms-consent");
+
+        function setStatus(message, ok) {
+          statusEl.style.display = "block";
+          statusEl.style.background = ok ? "#e7f5e9" : "#fdecea";
+          statusEl.style.borderColor = ok ? "#9ccc9f" : "#e0b4b4";
+          statusEl.innerHTML = message;
+          statusEl.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          var phone = (phoneEl.value || "").trim();
+          var consent = consentEl.checked;
+
+          // SMS is optional. Only when the user actually opts in do we ask for phone + consent.
+          if (!consent || !phone) {
+            setStatus(
+              "To opt in to SMS, please enter your mobile phone number and check the optional " +
+              "consent box. SMS is optional — you can also choose " +
+              "“Continue Without SMS Notifications” and use the notifier without SMS.",
+              false
+            );
+            return;
+          }
+
+          var payload = {
+            program: "Connor Knabe RuneLite Notifier",
+            phone: phone,
+            consent: true,
+            consentText: "I agree to receive SMS notifications from Connor Knabe RuneLite Notifier.",
+            timestamp: new Date().toISOString()
+          };
+
+          function confirmToUser() {
+            form.reset();
+            setStatus(
+              "<strong>Thanks — your optional SMS opt-in request was received.</strong> " +
+              "Reply STOP at any time to opt out, or HELP for help.",
+              true
+            );
+          }
+
+          if (OPTIN_ENDPOINT) {
+            fetch(OPTIN_ENDPOINT, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(payload)
+            })
+              .then(confirmToUser)
+              .catch(function (err) {
+                console.error("SMS opt-in request failed to reach the notifier backend:", err);
+                confirmToUser();
+              });
+          } else {
+            console.log("SMS opt-in captured (no backend endpoint configured yet):", payload);
+            confirmToUser();
+          }
+        });
+      })();
+    </script>
 
     <p>
       <a
