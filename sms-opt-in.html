@@ -6,7 +6,7 @@ title: SMS Opt-In Workflow
 <div class="article">
   <div class="well">
     <h1>SMS Opt-In Workflow</h1>
-    <p><strong>Last updated:</strong> June 30, 2026</p>
+    <p><strong>Last updated:</strong> July 9, 2026</p>
 
     <p>
       This page documents the SMS opt-in workflow for Connor Knabe's personal RuneLite/OSRS notifier
@@ -15,41 +15,54 @@ title: SMS Opt-In Workflow
       subscribers, or public users.
     </p>
 
+    <p style="padding:12px; background:#fff7db; border:1px solid #e2c35a; border-radius:6px;">
+      <strong>SMS notifications are optional.</strong>
+      The notifier can be used without opting in to SMS messages. Providing a phone number and
+      checking the SMS consent box are not required to use the notifier, and consent to receive SMS
+      messages is not a condition of using the service or completing any action.
+    </p>
+
     <h2>Who Receives Messages</h2>
     <p>
       The only intended SMS recipient is the project owner. No third-party end users are enrolled.
-      Messages are sent only after the owner manually configures and enables SMS notifications for
+      Messages are sent only if the owner voluntarily configures and enables SMS notifications for
       the owner's own phone number.
     </p>
 
     <h2>Opt-In Path</h2>
     <ol>
-      <li>The owner opens the notifier application's SMS notification settings.</li>
-      <li>The owner enters their own mobile phone number.</li>
+      <li>The owner may use the notifier without SMS notifications.</li>
+      <li>If the owner wants SMS notifications, the owner may optionally enter their mobile phone number.</li>
       <li>The owner reviews the SMS consent disclosure shown below.</li>
-      <li>The owner actively enables SMS notifications by checking the consent checkbox.</li>
-      <li>The owner submits the opt-in request by email.</li>
-      <li>The notifier sends SMS alerts only after SMS notifications are enabled.</li>
+      <li>The owner may optionally check the SMS consent checkbox.</li>
+      <li>The owner may submit the optional SMS opt-in request.</li>
+      <li>The owner may also choose &ldquo;Continue Without SMS Notifications&rdquo; and still use the notifier without SMS messages.</li>
+      <li>SMS alerts are sent only if the owner voluntarily opts in to SMS notifications.</li>
     </ol>
 
     <h2>SMS Consent Disclosure Shown During Opt-In</h2>
     <form
-      action="mailto:accrual-lunged-7g@icloud.com?subject=SMS%20Opt-In%20Request%20-%20Connor%20Knabe%20RuneLite%20Notifier"
+      action="mailto:accrual-lunged-7g@icloud.com?subject=Optional%20SMS%20Opt-In%20Request%20-%20Connor%20Knabe%20RuneLite%20Notifier"
       method="post"
       enctype="text/plain"
       style="border:1px solid #bbb; padding:18px; border-radius:8px; background:#f9f9f9; margin:18px 0;"
     >
-      <p><strong>Enable SMS Notifications</strong></p>
+      <p><strong>Optional SMS Notifications</strong></p>
+
+      <p style="padding:12px; background:#fff7db; border:1px solid #e2c35a; border-radius:6px;">
+        <strong>SMS notifications are optional.</strong>
+        You can use Connor Knabe RuneLite Notifier without opting in to SMS messages.
+        Providing a phone number and checking the SMS consent box is not required to use the notifier.
+      </p>
 
       <p>
-        <label for="sms-phone"><strong>Mobile phone number</strong></label><br>
+        <label for="sms-phone"><strong>Mobile phone number, optional</strong></label><br>
         <input
           id="sms-phone"
           name="Mobile phone number"
           type="tel"
           placeholder="[Mobile phone number]"
           autocomplete="tel"
-          required
           style="max-width:360px; width:100%; padding:10px; margin-top:4px; border:1px solid #999; border-radius:4px;"
         >
       </p>
@@ -66,36 +79,50 @@ title: SMS Opt-In Workflow
         purposes. I can review the Privacy Policy and Terms and Conditions at the links below.
       </p>
       <p>
+        <strong>Consent to receive SMS messages is not a condition of using Connor Knabe RuneLite
+        Notifier.</strong> This checkbox is optional and unchecked by default. Leaving it unchecked
+        has no effect on your ability to use the notifier.
+      </p>
+      <p>
         <label>
           <input
             type="checkbox"
-            name="Consent statement"
+            name="Optional SMS consent"
             value="I agree to receive SMS notifications from Connor Knabe RuneLite Notifier."
-            required
           >
-          I agree to receive SMS notifications from Connor Knabe RuneLite Notifier.
+          I agree to receive SMS notifications from Connor Knabe RuneLite Notifier. (Optional)
         </label>
       </p>
 
       <p>
         <input
           type="submit"
-          value="Submit SMS Opt-In Request"
+          value="Submit Optional SMS Opt-In Request"
           style="display:block; width:100%; max-width:360px; padding:12px 16px; background:#2f7d32; color:#fff; border:0; border-radius:6px; font-weight:bold; cursor:pointer; text-align:center;"
         >
       </p>
 
+      <p>
+        <a
+          href="/"
+          style="display:inline-block; padding:12px 16px; background:#666; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;"
+        >
+          Continue Without SMS Notifications
+        </a>
+      </p>
+
       <p style="font-size:0.95em; color:#555;">
-        Submitting this form opens an email draft with the phone number and consent request. No information is stored by this page.
+        Submitting this form opens an email draft with the optional phone number and SMS consent request.
+        No information is stored by this page. Selecting &ldquo;Continue Without SMS Notifications&rdquo; skips SMS opt-in.
       </p>
     </form>
 
     <p>
       <a
-        href="mailto:accrual-lunged-7g@icloud.com?subject=SMS%20Opt-In%20Request%20-%20Connor%20Knabe%20RuneLite%20Notifier&body=SMS%20Opt-In%20Request%0A%0APhone%20number%3A%20%5Benter%20mobile%20phone%20number%5D%0A%0AI%20agree%20to%20receive%20SMS%20notifications%20from%20Connor%20Knabe%20RuneLite%20Notifier%20at%20the%20phone%20number%20listed%20above.%0A%0AMessages%20may%20include%20RuneLite%2FOSRS%20gameplay%20notifier%20alerts%2C%20including%20low%20Hitpoints%2C%20low%20Prayer%2C%20XP%20rate%20updates%2C%20valuable%20loot%20drops%2C%20idle%20status%2C%20and%20other%20configured%20notifier%20events.%0A%0AMessage%20frequency%20varies%20based%20on%20gameplay%20activity%20and%20notifier%20settings.%20Message%20and%20data%20rates%20may%20apply.%20Reply%20STOP%20to%20opt%20out.%20Reply%20HELP%20for%20help.%0A%0AI%20understand%20that%20SMS%20consent%20is%20not%20shared%20with%20third%20parties%20or%20affiliates%20for%20marketing%20purposes."
+        href="mailto:accrual-lunged-7g@icloud.com?subject=Optional%20SMS%20Opt-In%20Request%20-%20Connor%20Knabe%20RuneLite%20Notifier&body=Optional%20SMS%20Opt-In%20Request%0A%0APhone%20number%3A%20%5Benter%20mobile%20phone%20number%5D%0A%0AI%20agree%20to%20receive%20SMS%20notifications%20from%20Connor%20Knabe%20RuneLite%20Notifier%20at%20the%20phone%20number%20listed%20above.%0A%0AMessages%20may%20include%20RuneLite%2FOSRS%20gameplay%20notifier%20alerts%2C%20including%20low%20Hitpoints%2C%20low%20Prayer%2C%20XP%20rate%20updates%2C%20valuable%20loot%20drops%2C%20idle%20status%2C%20and%20other%20configured%20notifier%20events.%0A%0AMessage%20frequency%20varies%20based%20on%20gameplay%20activity%20and%20notifier%20settings.%20Message%20and%20data%20rates%20may%20apply.%20Reply%20STOP%20to%20opt%20out.%20Reply%20HELP%20for%20help.%0A%0AI%20understand%20that%20SMS%20consent%20is%20not%20shared%20with%20third%20parties%20or%20affiliates%20for%20marketing%20purposes."
         style="display:inline-block; padding:12px 16px; background:#444; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;"
       >
-        Open Opt-In Email Directly
+        Open Optional Opt-In Email Directly
       </a>
     </p>
 
